@@ -1,0 +1,1764 @@
+{
+  "version": "1.0",
+  "description": "Drug synonym groups. All values lowercase. Reload via POST /api/v1/admin/synonyms/reload",
+  "synonyms": [
+    {
+      "id": "syn_paracetamol",
+      "synonyms": [
+        "paracetamol",
+        "acetaminophen",
+        "apap"
+      ]
+    },
+    {
+      "id": "syn_aspirin",
+      "synonyms": [
+        "aspirin",
+        "acetylsalicylic acid",
+        "asa",
+        "disprin"
+      ]
+    },
+    {
+      "id": "syn_morphine",
+      "synonyms": [
+        "morphine",
+        "morphine sulfate"
+      ]
+    },
+    {
+      "id": "syn_tramadol",
+      "synonyms": [
+        "tramadol",
+        "ultram",
+        "contramal"
+      ]
+    },
+    {
+      "id": "syn_fentanyl",
+      "synonyms": [
+        "fentanyl",
+        "fentanyl citrate"
+      ]
+    },
+    {
+      "id": "syn_pethidine",
+      "synonyms": [
+        "pethidine",
+        "meperidine"
+      ]
+    },
+    {
+      "id": "syn_ibuprofen",
+      "synonyms": [
+        "ibuprofen",
+        "advil",
+        "brufen"
+      ]
+    },
+    {
+      "id": "syn_diclofenac",
+      "synonyms": [
+        "diclofenac",
+        "voltaren",
+        "voveran",
+        "aceclofenac"
+      ]
+    },
+    {
+      "id": "syn_indomethacin",
+      "synonyms": [
+        "indomethacin",
+        "indometacin"
+      ]
+    },
+    {
+      "id": "syn_naproxen",
+      "synonyms": [
+        "naproxen",
+        "naprosyn"
+      ]
+    },
+    {
+      "id": "syn_nimesulide",
+      "synonyms": [
+        "nimesulide",
+        "nimesulin"
+      ]
+    },
+    {
+      "id": "syn_piroxicam",
+      "synonyms": [
+        "piroxicam",
+        "feldene"
+      ]
+    },
+    {
+      "id": "syn_meloxicam",
+      "synonyms": [
+        "meloxicam",
+        "mobic"
+      ]
+    },
+    {
+      "id": "syn_amoxicillin",
+      "synonyms": [
+        "amoxicillin",
+        "amoxycillin",
+        "amoxil"
+      ]
+    },
+    {
+      "id": "syn_augmentin",
+      "synonyms": [
+        "augmentin",
+        "amoxicillin clavulanate",
+        "amoxycillin clavulanic acid",
+        "co-amoxiclav"
+      ]
+    },
+    {
+      "id": "syn_ampicillin",
+      "synonyms": [
+        "ampicillin",
+        "penbritin"
+      ]
+    },
+    {
+      "id": "syn_cephalexin",
+      "synonyms": [
+        "cephalexin",
+        "cefalexin",
+        "keflex"
+      ]
+    },
+    {
+      "id": "syn_cefixime",
+      "synonyms": [
+        "cefixime",
+        "suprax",
+        "taxim"
+      ]
+    },
+    {
+      "id": "syn_ceftriaxone",
+      "synonyms": [
+        "ceftriaxone",
+        "rocephin",
+        "monocef"
+      ]
+    },
+    {
+      "id": "syn_cefuroxime",
+      "synonyms": [
+        "cefuroxime",
+        "zinnat",
+        "ceftin"
+      ]
+    },
+    {
+      "id": "syn_cefpodoxime",
+      "synonyms": [
+        "cefpodoxime",
+        "orelox"
+      ]
+    },
+    {
+      "id": "syn_ciprofloxacin",
+      "synonyms": [
+        "ciprofloxacin",
+        "cipro",
+        "ciplox",
+        "cifran"
+      ]
+    },
+    {
+      "id": "syn_ofloxacin",
+      "synonyms": [
+        "ofloxacin",
+        "oflox",
+        "zanocin"
+      ]
+    },
+    {
+      "id": "syn_levofloxacin",
+      "synonyms": [
+        "levofloxacin",
+        "levaquin",
+        "levoflox",
+        "tavanic"
+      ]
+    },
+    {
+      "id": "syn_norfloxacin",
+      "synonyms": [
+        "norfloxacin",
+        "noroxin",
+        "norflox"
+      ]
+    },
+    {
+      "id": "syn_moxifloxacin",
+      "synonyms": [
+        "moxifloxacin",
+        "avelox",
+        "moxiget"
+      ]
+    },
+    {
+      "id": "syn_azithromycin",
+      "synonyms": [
+        "azithromycin",
+        "zithromax",
+        "azee",
+        "azithral",
+        "z-pack"
+      ]
+    },
+    {
+      "id": "syn_clarithromycin",
+      "synonyms": [
+        "clarithromycin",
+        "biaxin",
+        "claribid"
+      ]
+    },
+    {
+      "id": "syn_erythromycin",
+      "synonyms": [
+        "erythromycin",
+        "erythrocin",
+        "eryc"
+      ]
+    },
+    {
+      "id": "syn_doxycycline",
+      "synonyms": [
+        "doxycycline",
+        "vibramycin",
+        "doxt"
+      ]
+    },
+    {
+      "id": "syn_tetracycline",
+      "synonyms": [
+        "tetracycline",
+        "achromycin",
+        "resteclin"
+      ]
+    },
+    {
+      "id": "syn_metronidazole",
+      "synonyms": [
+        "metronidazole",
+        "flagyl",
+        "metrogyl",
+        "metrogel"
+      ]
+    },
+    {
+      "id": "syn_tinidazole",
+      "synonyms": [
+        "tinidazole",
+        "fasigyn",
+        "tiniba"
+      ]
+    },
+    {
+      "id": "syn_vancomycin",
+      "synonyms": [
+        "vancomycin",
+        "vancocin"
+      ]
+    },
+    {
+      "id": "syn_linezolid",
+      "synonyms": [
+        "linezolid",
+        "zyvox",
+        "linospan"
+      ]
+    },
+    {
+      "id": "syn_clindamycin",
+      "synonyms": [
+        "clindamycin",
+        "dalacin",
+        "cleocin"
+      ]
+    },
+    {
+      "id": "syn_trimethoprim",
+      "synonyms": [
+        "trimethoprim",
+        "tmp"
+      ]
+    },
+    {
+      "id": "syn_cotrimoxazole",
+      "synonyms": [
+        "co-trimoxazole",
+        "cotrimoxazole",
+        "sulfamethoxazole trimethoprim",
+        "smx tmp",
+        "bactrim",
+        "septran"
+      ]
+    },
+    {
+      "id": "syn_acyclovir",
+      "synonyms": [
+        "acyclovir",
+        "aciclovir",
+        "zovirax",
+        "acivir"
+      ]
+    },
+    {
+      "id": "syn_valacyclovir",
+      "synonyms": [
+        "valacyclovir",
+        "valaciclovir",
+        "valtrex",
+        "valcivir"
+      ]
+    },
+    {
+      "id": "syn_oseltamivir",
+      "synonyms": [
+        "oseltamivir",
+        "tamiflu"
+      ]
+    },
+    {
+      "id": "syn_tenofovir",
+      "synonyms": [
+        "tenofovir",
+        "tdf",
+        "viread"
+      ]
+    },
+    {
+      "id": "syn_lamivudine",
+      "synonyms": [
+        "lamivudine",
+        "3tc",
+        "epivir",
+        "lamivir"
+      ]
+    },
+    {
+      "id": "syn_zidovudine",
+      "synonyms": [
+        "zidovudine",
+        "azt",
+        "retrovir",
+        "zidovir"
+      ]
+    },
+    {
+      "id": "syn_fluconazole",
+      "synonyms": [
+        "fluconazole",
+        "diflucan",
+        "forcan",
+        "zocon"
+      ]
+    },
+    {
+      "id": "syn_itraconazole",
+      "synonyms": [
+        "itraconazole",
+        "sporanox",
+        "canditral"
+      ]
+    },
+    {
+      "id": "syn_clotrimazole",
+      "synonyms": [
+        "clotrimazole",
+        "canesten",
+        "candid"
+      ]
+    },
+    {
+      "id": "syn_ketoconazole",
+      "synonyms": [
+        "ketoconazole",
+        "nizoral"
+      ]
+    },
+    {
+      "id": "syn_voriconazole",
+      "synonyms": [
+        "voriconazole",
+        "vfend"
+      ]
+    },
+    {
+      "id": "syn_terbinafine",
+      "synonyms": [
+        "terbinafine",
+        "lamisil",
+        "sebifin"
+      ]
+    },
+    {
+      "id": "syn_albendazole",
+      "synonyms": [
+        "albendazole",
+        "albenza",
+        "zentel",
+        "noworm"
+      ]
+    },
+    {
+      "id": "syn_mebendazole",
+      "synonyms": [
+        "mebendazole",
+        "vermox",
+        "mebex"
+      ]
+    },
+    {
+      "id": "syn_ivermectin",
+      "synonyms": [
+        "ivermectin",
+        "stromectol",
+        "mectizan",
+        "ivecop"
+      ]
+    },
+    {
+      "id": "syn_hydroxychloroquine",
+      "synonyms": [
+        "hydroxychloroquine",
+        "hcq",
+        "plaquenil",
+        "hcqs"
+      ]
+    },
+    {
+      "id": "syn_chloroquine",
+      "synonyms": [
+        "chloroquine",
+        "aralen",
+        "lariago"
+      ]
+    },
+    {
+      "id": "syn_primaquine",
+      "synonyms": [
+        "primaquine",
+        "malirid"
+      ]
+    },
+    {
+      "id": "syn_isoniazid",
+      "synonyms": [
+        "isoniazid",
+        "inh",
+        "isokin"
+      ]
+    },
+    {
+      "id": "syn_rifampicin",
+      "synonyms": [
+        "rifampicin",
+        "rifampin",
+        "rif",
+        "rifacin",
+        "rimactane"
+      ]
+    },
+    {
+      "id": "syn_pyrazinamide",
+      "synonyms": [
+        "pyrazinamide",
+        "pza",
+        "pyralin"
+      ]
+    },
+    {
+      "id": "syn_ethambutol",
+      "synonyms": [
+        "ethambutol",
+        "emb",
+        "myambutol",
+        "combutol"
+      ]
+    },
+    {
+      "id": "syn_streptomycin",
+      "synonyms": [
+        "streptomycin",
+        "sm"
+      ]
+    },
+    {
+      "id": "syn_amlodipine",
+      "synonyms": [
+        "amlodipine",
+        "norvasc",
+        "amlopin",
+        "amcard"
+      ]
+    },
+    {
+      "id": "syn_losartan",
+      "synonyms": [
+        "losartan",
+        "cozaar",
+        "losar",
+        "repace"
+      ]
+    },
+    {
+      "id": "syn_telmisartan",
+      "synonyms": [
+        "telmisartan",
+        "micardis",
+        "telma",
+        "telsartan"
+      ]
+    },
+    {
+      "id": "syn_olmesartan",
+      "synonyms": [
+        "olmesartan",
+        "benicar",
+        "olsar"
+      ]
+    },
+    {
+      "id": "syn_valsartan",
+      "synonyms": [
+        "valsartan",
+        "diovan",
+        "valtan"
+      ]
+    },
+    {
+      "id": "syn_enalapril",
+      "synonyms": [
+        "enalapril",
+        "vasotec",
+        "enam",
+        "envas"
+      ]
+    },
+    {
+      "id": "syn_ramipril",
+      "synonyms": [
+        "ramipril",
+        "altace",
+        "cardace",
+        "ramace"
+      ]
+    },
+    {
+      "id": "syn_lisinopril",
+      "synonyms": [
+        "lisinopril",
+        "zestril",
+        "listril",
+        "cipril"
+      ]
+    },
+    {
+      "id": "syn_perindopril",
+      "synonyms": [
+        "perindopril",
+        "coversyl",
+        "perindo"
+      ]
+    },
+    {
+      "id": "syn_metoprolol",
+      "synonyms": [
+        "metoprolol",
+        "lopressor",
+        "metolar",
+        "betaloc"
+      ]
+    },
+    {
+      "id": "syn_atenolol",
+      "synonyms": [
+        "atenolol",
+        "tenormin",
+        "aten",
+        "betacard"
+      ]
+    },
+    {
+      "id": "syn_bisoprolol",
+      "synonyms": [
+        "bisoprolol",
+        "zebeta",
+        "concor",
+        "biselect"
+      ]
+    },
+    {
+      "id": "syn_carvedilol",
+      "synonyms": [
+        "carvedilol",
+        "coreg",
+        "cardivas",
+        "carca"
+      ]
+    },
+    {
+      "id": "syn_propranolol",
+      "synonyms": [
+        "propranolol",
+        "inderal",
+        "ciplar",
+        "betacap"
+      ]
+    },
+    {
+      "id": "syn_atorvastatin",
+      "synonyms": [
+        "atorvastatin",
+        "lipitor",
+        "atorlip",
+        "storvas"
+      ]
+    },
+    {
+      "id": "syn_rosuvastatin",
+      "synonyms": [
+        "rosuvastatin",
+        "crestor",
+        "rozavel",
+        "rosuvas"
+      ]
+    },
+    {
+      "id": "syn_simvastatin",
+      "synonyms": [
+        "simvastatin",
+        "zocor",
+        "simcard"
+      ]
+    },
+    {
+      "id": "syn_pitavastatin",
+      "synonyms": [
+        "pitavastatin",
+        "livalo",
+        "picasso"
+      ]
+    },
+    {
+      "id": "syn_fenofibrate",
+      "synonyms": [
+        "fenofibrate",
+        "tricor",
+        "lipanthyl",
+        "fenolip"
+      ]
+    },
+    {
+      "id": "syn_gemfibrozil",
+      "synonyms": [
+        "gemfibrozil",
+        "lopid",
+        "lopigem"
+      ]
+    },
+    {
+      "id": "syn_warfarin",
+      "synonyms": [
+        "warfarin",
+        "coumadin",
+        "warf"
+      ]
+    },
+    {
+      "id": "syn_clopidogrel",
+      "synonyms": [
+        "clopidogrel",
+        "plavix",
+        "clopilet",
+        "deplatt"
+      ]
+    },
+    {
+      "id": "syn_dabigatran",
+      "synonyms": [
+        "dabigatran",
+        "pradaxa"
+      ]
+    },
+    {
+      "id": "syn_rivaroxaban",
+      "synonyms": [
+        "rivaroxaban",
+        "xarelto"
+      ]
+    },
+    {
+      "id": "syn_apixaban",
+      "synonyms": [
+        "apixaban",
+        "eliquis"
+      ]
+    },
+    {
+      "id": "syn_heparin",
+      "synonyms": [
+        "heparin",
+        "heparin sodium"
+      ]
+    },
+    {
+      "id": "syn_enoxaparin",
+      "synonyms": [
+        "enoxaparin",
+        "clexane",
+        "lovenox",
+        "enclex"
+      ]
+    },
+    {
+      "id": "syn_metformin",
+      "synonyms": [
+        "metformin",
+        "glucophage",
+        "glycomet",
+        "obimet"
+      ]
+    },
+    {
+      "id": "syn_glibenclamide",
+      "synonyms": [
+        "glibenclamide",
+        "glyburide",
+        "daonil",
+        "euglucon"
+      ]
+    },
+    {
+      "id": "syn_glimepiride",
+      "synonyms": [
+        "glimepiride",
+        "amaryl",
+        "glimpid",
+        "glimer"
+      ]
+    },
+    {
+      "id": "syn_glipizide",
+      "synonyms": [
+        "glipizide",
+        "minidiab",
+        "glucotrol"
+      ]
+    },
+    {
+      "id": "syn_sitagliptin",
+      "synonyms": [
+        "sitagliptin",
+        "januvia",
+        "istavel"
+      ]
+    },
+    {
+      "id": "syn_vildagliptin",
+      "synonyms": [
+        "vildagliptin",
+        "galvus",
+        "zomelis"
+      ]
+    },
+    {
+      "id": "syn_dapagliflozin",
+      "synonyms": [
+        "dapagliflozin",
+        "farxiga",
+        "forxiga",
+        "dapavel"
+      ]
+    },
+    {
+      "id": "syn_empagliflozin",
+      "synonyms": [
+        "empagliflozin",
+        "jardiance",
+        "empa"
+      ]
+    },
+    {
+      "id": "syn_canagliflozin",
+      "synonyms": [
+        "canagliflozin",
+        "invokana"
+      ]
+    },
+    {
+      "id": "syn_pioglitazone",
+      "synonyms": [
+        "pioglitazone",
+        "actos",
+        "pioglit",
+        "piozone"
+      ]
+    },
+    {
+      "id": "syn_insulin_glargine",
+      "synonyms": [
+        "insulin glargine",
+        "lantus",
+        "basalog",
+        "glaritus"
+      ]
+    },
+    {
+      "id": "syn_insulin_aspart",
+      "synonyms": [
+        "insulin aspart",
+        "novorapid",
+        "novolog"
+      ]
+    },
+    {
+      "id": "syn_insulin_human",
+      "synonyms": [
+        "human insulin",
+        "actrapid",
+        "huminsulin",
+        "insuman"
+      ]
+    },
+    {
+      "id": "syn_omeprazole",
+      "synonyms": [
+        "omeprazole",
+        "prilosec",
+        "losec",
+        "omez",
+        "ocid"
+      ]
+    },
+    {
+      "id": "syn_esomeprazole",
+      "synonyms": [
+        "esomeprazole",
+        "nexium",
+        "nexpro",
+        "sompraz"
+      ]
+    },
+    {
+      "id": "syn_pantoprazole",
+      "synonyms": [
+        "pantoprazole",
+        "protonix",
+        "pantocid",
+        "pan",
+        "pantop"
+      ]
+    },
+    {
+      "id": "syn_rabeprazole",
+      "synonyms": [
+        "rabeprazole",
+        "aciphex",
+        "razo",
+        "rablet",
+        "rabeloc"
+      ]
+    },
+    {
+      "id": "syn_lansoprazole",
+      "synonyms": [
+        "lansoprazole",
+        "prevacid",
+        "lanzol",
+        "lancid"
+      ]
+    },
+    {
+      "id": "syn_ranitidine",
+      "synonyms": [
+        "ranitidine",
+        "zantac",
+        "rantac",
+        "aciloc"
+      ]
+    },
+    {
+      "id": "syn_famotidine",
+      "synonyms": [
+        "famotidine",
+        "pepcid",
+        "famocid"
+      ]
+    },
+    {
+      "id": "syn_domperidone",
+      "synonyms": [
+        "domperidone",
+        "domperidona",
+        "domperidonum",
+        "motilium",
+        "domstal",
+        "vomistop"
+      ]
+    },
+    {
+      "id": "syn_ondansetron",
+      "synonyms": [
+        "ondansetron",
+        "zofran",
+        "emeset",
+        "ondem"
+      ]
+    },
+    {
+      "id": "syn_metoclopramide",
+      "synonyms": [
+        "metoclopramide",
+        "reglan",
+        "perinorm"
+      ]
+    },
+    {
+      "id": "syn_loperamide",
+      "synonyms": [
+        "loperamide",
+        "imodium",
+        "eldoper"
+      ]
+    },
+    {
+      "id": "syn_bisacodyl",
+      "synonyms": [
+        "bisacodyl",
+        "dulcolax",
+        "conlax"
+      ]
+    },
+    {
+      "id": "syn_salbutamol",
+      "synonyms": [
+        "salbutamol",
+        "albuterol",
+        "ventolin",
+        "asthalin",
+        "salbair"
+      ]
+    },
+    {
+      "id": "syn_terbutaline",
+      "synonyms": [
+        "terbutaline",
+        "bricanyl",
+        "brethine"
+      ]
+    },
+    {
+      "id": "syn_formoterol",
+      "synonyms": [
+        "formoterol",
+        "foradil",
+        "foratec",
+        "oxis"
+      ]
+    },
+    {
+      "id": "syn_salmeterol",
+      "synonyms": [
+        "salmeterol",
+        "serevent"
+      ]
+    },
+    {
+      "id": "syn_ipratropium",
+      "synonyms": [
+        "ipratropium",
+        "atrovent",
+        "ipravent"
+      ]
+    },
+    {
+      "id": "syn_tiotropium",
+      "synonyms": [
+        "tiotropium",
+        "spiriva",
+        "tiova"
+      ]
+    },
+    {
+      "id": "syn_montelukast",
+      "synonyms": [
+        "montelukast",
+        "singulair",
+        "montair",
+        "montek"
+      ]
+    },
+    {
+      "id": "syn_fexofenadine",
+      "synonyms": [
+        "fexofenadine",
+        "allegra",
+        "fexova",
+        "altiva"
+      ]
+    },
+    {
+      "id": "syn_cetirizine",
+      "synonyms": [
+        "cetirizine",
+        "cetrizine",
+        "zyrtec",
+        "cetzine",
+        "alerid"
+      ]
+    },
+    {
+      "id": "syn_levocetirizine",
+      "synonyms": [
+        "levocetirizine",
+        "xyzal",
+        "lezyncet",
+        "lcz"
+      ]
+    },
+    {
+      "id": "syn_loratadine",
+      "synonyms": [
+        "loratadine",
+        "claritin",
+        "lorfast"
+      ]
+    },
+    {
+      "id": "syn_desloratadine",
+      "synonyms": [
+        "desloratadine",
+        "clarinex",
+        "deslor"
+      ]
+    },
+    {
+      "id": "syn_chlorpheniramine",
+      "synonyms": [
+        "chlorpheniramine",
+        "chlorphenamine",
+        "piriton",
+        "cpm"
+      ]
+    },
+    {
+      "id": "syn_dextromethorphan",
+      "synonyms": [
+        "dextromethorphan",
+        "dxm",
+        "benylin",
+        "delsym"
+      ]
+    },
+    {
+      "id": "syn_ambroxol",
+      "synonyms": [
+        "ambroxol",
+        "mucosolvan",
+        "ambrodil"
+      ]
+    },
+    {
+      "id": "syn_bromhexine",
+      "synonyms": [
+        "bromhexine",
+        "bisolvon",
+        "brophen"
+      ]
+    },
+    {
+      "id": "syn_prednisolone",
+      "synonyms": [
+        "prednisolone",
+        "wysolone",
+        "omnacortil"
+      ]
+    },
+    {
+      "id": "syn_prednisone",
+      "synonyms": [
+        "prednisone",
+        "deltasone",
+        "predone"
+      ]
+    },
+    {
+      "id": "syn_dexamethasone",
+      "synonyms": [
+        "dexamethasone",
+        "decadron",
+        "dexona",
+        "wymesone"
+      ]
+    },
+    {
+      "id": "syn_betamethasone",
+      "synonyms": [
+        "betamethasone",
+        "betnesol",
+        "celestone"
+      ]
+    },
+    {
+      "id": "syn_hydrocortisone",
+      "synonyms": [
+        "hydrocortisone",
+        "cortisol",
+        "efcortesol"
+      ]
+    },
+    {
+      "id": "syn_methylprednisolone",
+      "synonyms": [
+        "methylprednisolone",
+        "solu-medrol",
+        "medrol",
+        "solumedrol"
+      ]
+    },
+    {
+      "id": "syn_triamcinolone",
+      "synonyms": [
+        "triamcinolone",
+        "kenacort",
+        "tricort"
+      ]
+    },
+    {
+      "id": "syn_fluticasone",
+      "synonyms": [
+        "fluticasone",
+        "flixotide",
+        "flixonase",
+        "flovent"
+      ]
+    },
+    {
+      "id": "syn_budesonide",
+      "synonyms": [
+        "budesonide",
+        "pulmicort",
+        "budecort",
+        "rhinocort"
+      ]
+    },
+    {
+      "id": "syn_beclomethasone",
+      "synonyms": [
+        "beclomethasone",
+        "beclometasone",
+        "becotide",
+        "beclate"
+      ]
+    },
+    {
+      "id": "syn_phenytoin",
+      "synonyms": [
+        "phenytoin",
+        "dilantin",
+        "eptoin",
+        "diphenylhydantoin"
+      ]
+    },
+    {
+      "id": "syn_carbamazepine",
+      "synonyms": [
+        "carbamazepine",
+        "tegretol",
+        "mazetol",
+        "tegrital"
+      ]
+    },
+    {
+      "id": "syn_valproate",
+      "synonyms": [
+        "valproate",
+        "valproic acid",
+        "sodium valproate",
+        "divalproex",
+        "valparin",
+        "encorate",
+        "depakote"
+      ]
+    },
+    {
+      "id": "syn_levetiracetam",
+      "synonyms": [
+        "levetiracetam",
+        "keppra",
+        "levroxa",
+        "levipil"
+      ]
+    },
+    {
+      "id": "syn_gabapentin",
+      "synonyms": [
+        "gabapentin",
+        "neurontin",
+        "gabantin",
+        "gabapin"
+      ]
+    },
+    {
+      "id": "syn_pregabalin",
+      "synonyms": [
+        "pregabalin",
+        "lyrica",
+        "pregalin",
+        "pregeb"
+      ]
+    },
+    {
+      "id": "syn_lamotrigine",
+      "synonyms": [
+        "lamotrigine",
+        "lamictal",
+        "lamitor"
+      ]
+    },
+    {
+      "id": "syn_topiramate",
+      "synonyms": [
+        "topiramate",
+        "topamax",
+        "topamac"
+      ]
+    },
+    {
+      "id": "syn_sertraline",
+      "synonyms": [
+        "sertraline",
+        "zoloft",
+        "serlift",
+        "daxid"
+      ]
+    },
+    {
+      "id": "syn_fluoxetine",
+      "synonyms": [
+        "fluoxetine",
+        "prozac",
+        "fludac"
+      ]
+    },
+    {
+      "id": "syn_paroxetine",
+      "synonyms": [
+        "paroxetine",
+        "paxil",
+        "pexep",
+        "serlox"
+      ]
+    },
+    {
+      "id": "syn_escitalopram",
+      "synonyms": [
+        "escitalopram",
+        "lexapro",
+        "nexito",
+        "stalopam"
+      ]
+    },
+    {
+      "id": "syn_citalopram",
+      "synonyms": [
+        "citalopram",
+        "celexa",
+        "citadep"
+      ]
+    },
+    {
+      "id": "syn_duloxetine",
+      "synonyms": [
+        "duloxetine",
+        "cymbalta",
+        "duzela"
+      ]
+    },
+    {
+      "id": "syn_venlafaxine",
+      "synonyms": [
+        "venlafaxine",
+        "effexor",
+        "venfax",
+        "veniz"
+      ]
+    },
+    {
+      "id": "syn_amitriptyline",
+      "synonyms": [
+        "amitriptyline",
+        "elavil",
+        "tryptomer",
+        "amitone"
+      ]
+    },
+    {
+      "id": "syn_quetiapine",
+      "synonyms": [
+        "quetiapine",
+        "seroquel",
+        "qutipin",
+        "quepin"
+      ]
+    },
+    {
+      "id": "syn_olanzapine",
+      "synonyms": [
+        "olanzapine",
+        "zyprexa",
+        "oleanz",
+        "olanex"
+      ]
+    },
+    {
+      "id": "syn_risperidone",
+      "synonyms": [
+        "risperidone",
+        "risperdal",
+        "sizodon",
+        "risnia"
+      ]
+    },
+    {
+      "id": "syn_haloperidol",
+      "synonyms": [
+        "haloperidol",
+        "haldol",
+        "serenace"
+      ]
+    },
+    {
+      "id": "syn_clozapine",
+      "synonyms": [
+        "clozapine",
+        "clozaril",
+        "sizopin"
+      ]
+    },
+    {
+      "id": "syn_diazepam",
+      "synonyms": [
+        "diazepam",
+        "valium",
+        "calmpose",
+        "anxit"
+      ]
+    },
+    {
+      "id": "syn_alprazolam",
+      "synonyms": [
+        "alprazolam",
+        "xanax",
+        "restyl",
+        "alprax"
+      ]
+    },
+    {
+      "id": "syn_clonazepam",
+      "synonyms": [
+        "clonazepam",
+        "klonopin",
+        "rivotril",
+        "epitril"
+      ]
+    },
+    {
+      "id": "syn_lorazepam",
+      "synonyms": [
+        "lorazepam",
+        "ativan",
+        "trapex",
+        "larpose"
+      ]
+    },
+    {
+      "id": "syn_zolpidem",
+      "synonyms": [
+        "zolpidem",
+        "ambien",
+        "stilnoct",
+        "nitrest"
+      ]
+    },
+    {
+      "id": "syn_levothyroxine",
+      "synonyms": [
+        "levothyroxine",
+        "synthroid",
+        "eltroxin",
+        "thyrox",
+        "thyronorm"
+      ]
+    },
+    {
+      "id": "syn_methimazole",
+      "synonyms": [
+        "methimazole",
+        "carbimazole",
+        "neomercazole"
+      ]
+    },
+    {
+      "id": "syn_propylthiouracil",
+      "synonyms": [
+        "propylthiouracil",
+        "ptu",
+        "propycil"
+      ]
+    },
+    {
+      "id": "syn_testosterone",
+      "synonyms": [
+        "testosterone",
+        "androgel",
+        "testovid"
+      ]
+    },
+    {
+      "id": "syn_progesterone",
+      "synonyms": [
+        "progesterone",
+        "utrogestan",
+        "susten",
+        "gestone"
+      ]
+    },
+    {
+      "id": "syn_estradiol",
+      "synonyms": [
+        "estradiol",
+        "oestradiol",
+        "progynova"
+      ]
+    },
+    {
+      "id": "syn_medroxyprogesterone",
+      "synonyms": [
+        "medroxyprogesterone",
+        "provera",
+        "mpa",
+        "meprate"
+      ]
+    },
+    {
+      "id": "syn_vitamin_c",
+      "synonyms": [
+        "vitamin c",
+        "ascorbic acid",
+        "ascorbate"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b1",
+      "synonyms": [
+        "vitamin b1",
+        "thiamine",
+        "thiamin",
+        "aneurine"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b2",
+      "synonyms": [
+        "vitamin b2",
+        "riboflavin",
+        "lactoflavin"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b3",
+      "synonyms": [
+        "vitamin b3",
+        "niacin",
+        "nicotinic acid",
+        "nicotinamide",
+        "niacinamide"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b5",
+      "synonyms": [
+        "vitamin b5",
+        "pantothenic acid",
+        "calcium pantothenate",
+        "panthenol"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b6",
+      "synonyms": [
+        "vitamin b6",
+        "pyridoxine",
+        "pyridoxal",
+        "pyridoxamine"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b7",
+      "synonyms": [
+        "vitamin b7",
+        "biotin",
+        "d-biotin"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b9",
+      "synonyms": [
+        "vitamin b9",
+        "folic acid",
+        "folate",
+        "folacin"
+      ]
+    },
+    {
+      "id": "syn_vitamin_b12",
+      "synonyms": [
+        "vitamin b12",
+        "cyanocobalamin",
+        "methylcobalamin",
+        "hydroxocobalamin",
+        "cobalamin",
+        "mecobalamin"
+      ]
+    },
+    {
+      "id": "syn_vitamin_d",
+      "synonyms": [
+        "vitamin d",
+        "cholecalciferol",
+        "vitamin d3",
+        "colecalciferol",
+        "calciferol",
+        "ergocalciferol",
+        "vitamin d2"
+      ]
+    },
+    {
+      "id": "syn_vitamin_e",
+      "synonyms": [
+        "vitamin e",
+        "tocopherol",
+        "alpha tocopherol"
+      ]
+    },
+    {
+      "id": "syn_vitamin_k",
+      "synonyms": [
+        "vitamin k",
+        "phytomenadione",
+        "phytonadione",
+        "menadione",
+        "vitamin k1",
+        "vitamin k2",
+        "menaquinone"
+      ]
+    },
+    {
+      "id": "syn_vitamin_a",
+      "synonyms": [
+        "vitamin a",
+        "retinol",
+        "retinyl palmitate",
+        "beta carotene"
+      ]
+    },
+    {
+      "id": "syn_iron",
+      "synonyms": [
+        "iron",
+        "ferrous",
+        "ferric",
+        "haematinics"
+      ]
+    },
+    {
+      "id": "syn_omega3",
+      "synonyms": [
+        "omega 3",
+        "omega-3",
+        "fish oil",
+        "epa",
+        "dha",
+        "eicosapentaenoic acid",
+        "docosahexaenoic acid"
+      ]
+    },
+    {
+      "id": "syn_coq10",
+      "synonyms": [
+        "coenzyme q10",
+        "coq10",
+        "ubiquinone",
+        "ubiquinol"
+      ]
+    },
+    {
+      "id": "syn_alendronate",
+      "synonyms": [
+        "alendronate",
+        "fosamax",
+        "alenost",
+        "osteofos"
+      ]
+    },
+    {
+      "id": "syn_risedronate",
+      "synonyms": [
+        "risedronate",
+        "actonel",
+        "risofos"
+      ]
+    },
+    {
+      "id": "syn_ibandronate",
+      "synonyms": [
+        "ibandronate",
+        "boniva",
+        "bondronate"
+      ]
+    },
+    {
+      "id": "syn_zoledronate",
+      "synonyms": [
+        "zoledronate",
+        "zoledronic acid",
+        "zometa",
+        "aclasta"
+      ]
+    },
+    {
+      "id": "syn_tamsulosin",
+      "synonyms": [
+        "tamsulosin",
+        "flomax",
+        "urimax",
+        "veltam"
+      ]
+    },
+    {
+      "id": "syn_finasteride",
+      "synonyms": [
+        "finasteride",
+        "proscar",
+        "propecia",
+        "finpecia"
+      ]
+    },
+    {
+      "id": "syn_dutasteride",
+      "synonyms": [
+        "dutasteride",
+        "avodart",
+        "duprost",
+        "dutas"
+      ]
+    },
+    {
+      "id": "syn_sildenafil",
+      "synonyms": [
+        "sildenafil",
+        "viagra",
+        "revatio",
+        "penegra",
+        "caverta"
+      ]
+    },
+    {
+      "id": "syn_tadalafil",
+      "synonyms": [
+        "tadalafil",
+        "cialis",
+        "adcirca",
+        "tadalis",
+        "forzest"
+      ]
+    },
+    {
+      "id": "syn_lignocaine",
+      "synonyms": [
+        "lignocaine",
+        "lidocaine",
+        "xylocaine",
+        "lignox"
+      ]
+    },
+    {
+      "id": "syn_bupivacaine",
+      "synonyms": [
+        "bupivacaine",
+        "marcaine",
+        "sensorcaine"
+      ]
+    },
+    {
+      "id": "syn_ropivacaine",
+      "synonyms": [
+        "ropivacaine",
+        "naropin"
+      ]
+    },
+    {
+      "id": "syn_ketamine",
+      "synonyms": [
+        "ketamine",
+        "ketalar",
+        "ketamax"
+      ]
+    },
+    {
+      "id": "syn_donepezil",
+      "synonyms": [
+        "donepezil",
+        "aricept",
+        "donep",
+        "alzil"
+      ]
+    },
+    {
+      "id": "syn_rivastigmine",
+      "synonyms": [
+        "rivastigmine",
+        "exelon",
+        "rivamer"
+      ]
+    },
+    {
+      "id": "syn_memantine",
+      "synonyms": [
+        "memantine",
+        "namenda",
+        "admenta",
+        "axura"
+      ]
+    },
+    {
+      "id": "syn_drotaverine",
+      "synonyms": [
+        "drotaverine",
+        "drotaverin",
+        "no-spa",
+        "no spa",
+        "drotin",
+        "doverin",
+        "baralgan-d",
+        "averine-r",
+        "drovera",
+        "papaverine analog"
+      ]
+    }
+  ]
+}

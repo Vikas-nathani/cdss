@@ -1,0 +1,130 @@
+{
+  "1359": [
+    "DB13913",
+    "Belladonna",
+    "GREEN",
+    "EXACT",
+    "https://go.drugbank.com/drugs/DB13913",
+    "Belladonna (Atropa belladonna) confirmed at go.drugbank.com/drugs/DB13913"
+  ],
+  "3272": [
+    "DB11122",
+    "Dextran 40",
+    "GREEN",
+    "EXACT",
+    "https://go.drugbank.com/drugs/DB11122",
+    "Dextran 40 confirmed at go.drugbank.com/drugs/DB11122"
+  ],
+  "56512": [
+    "DB01344",
+    "Polystyrene sulfonate",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB01344",
+    "Sodium polystyrene sulfonate; DrugBank name is Polystyrene sulfonate; confirmed via bio2rdf"
+  ],
+  "10572": [
+    "DB09100",
+    "Thyroid, porcine",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB09100",
+    "Thyroid USP = desiccated porcine thyroid; confirmed at go.drugbank.com/drugs/DB09100"
+  ],
+  "2682678": [
+    "DB16479",
+    "Inbakicept (Nogapendekin alfa inbakicept)",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB16479",
+    "Nogapendekin alfa inbakicept; DrugBank name is Inbakicept; confirmed at go.drugbank.com/drugs/DB16479"
+  ],
+  "1369590": [
+    "DB14007",
+    "Pentetic acid",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB14007",
+    "Pentetate calcium = pentetate calcium trisodium = Ca-DTPA; salt DBSALT002670; parent DB14007"
+  ],
+  "105669": [
+    "DB11688",
+    "Iron",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB11688",
+    "Polysaccharide iron complex; DrugBank has iron polymaltose (DB15763) and elemental Iron (DB11688); closest match"
+  ],
+  "851870": [
+    "DB10442",
+    "Agrostis grass pollen",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB10442",
+    "Redtop grass (Agrostis) pollen extract; related entry DB10442 Agrostis grass pollen in DrugBank"
+  ],
+  "476786": [
+    "DB14236",
+    "Aloe vera leaf polysaccharides",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB14236",
+    "Aloe polysaccharide confirmed in DrugBank as DB14236 Aloe vera leaf polysaccharides"
+  ],
+  "8310": [
+    "DB01458",
+    "Beta-Sitosterol",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB01458",
+    "Phytosterols \u2014 main active component is beta-sitosterol DB01458; phytosterols as a class are in DrugBank"
+  ],
+  "56476": [
+    "DB14398",
+    "Sodium gluconate",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB14398",
+    "Sodium gluconate is listed in DrugBank as DB14398"
+  ],
+  "6459": [
+    "DB13195",
+    "Liver extract",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB13195",
+    "Liver extract listed in DrugBank as DB13195"
+  ],
+  "802755": [
+    "DB13195",
+    "Liver extract",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB13195",
+    "Liver stomach concentrate; closest DrugBank match is Liver extract DB13195"
+  ],
+  "748794": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Inert ingredients \u2014 not a drug substance; no DrugBank entry"
+  ],
+  "1316105": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Herpesvirus 1, human \u2014 viral pathogen, not a pharmaceutical; no DrugBank entry"
+  ],
+  "236718": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Sulfonated phenol \u2014 antiseptic excipient; no standalone DrugBank drug entry"
+  ]
+}

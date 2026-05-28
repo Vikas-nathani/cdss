@@ -1,0 +1,32 @@
+{
+  "name": null,
+  "unii": null,
+  "synonyms": [
+    null
+  ],
+  "reactions": [
+    {
+      "sequence": null,
+      "left_element": null,
+      "right_element": null,
+      "enzymes": null
+    }
+  ],
+  "indication": null,
+  "drugbank_id": null,
+  "general_function": null,
+  "pharmacodynamics": null,
+  "drug_interactions": [
+    {
+      "name": null,
+      "description": null,
+      "drugbank_id": null
+    }
+  ],
+  "food_interactions": [
+    {
+      "text": null
+    }
+  ],
+  "classification_description": null
+}

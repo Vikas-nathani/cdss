@@ -1,0 +1,2212 @@
+[
+  {
+    "original_path": "products",
+    "normalized_path": "drug_info.products",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.ndc_code",
+    "normalized_path": "drug_info.products.ndc_code",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.packaging",
+    "normalized_path": "drug_info.products.packaging",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.packaging.type",
+    "normalized_path": "drug_info.products.packaging.type",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.packaging.quantity",
+    "normalized_path": "drug_info.products.packaging.quantity",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.brand_name",
+    "normalized_path": "drug_info.products.brand_name",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.approval_id",
+    "normalized_path": "drug_info.products.approval_id",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.dosage_form",
+    "normalized_path": "drug_info.products.dosage_form",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.generic_name",
+    "normalized_path": "drug_info.products.generic_name",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.active_ingredients",
+    "normalized_path": "drug_info.products.active_ingredients",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.active_ingredients.name",
+    "normalized_path": "drug_info.products.active_ingredients.name",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.active_ingredients.strength",
+    "normalized_path": "drug_info.products.active_ingredients.strength",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.inactive_ingredients",
+    "normalized_path": "drug_info.products.inactive_ingredients",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.route_of_administration",
+    "normalized_path": "drug_info.products.route_of_administration",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics",
+    "normalized_path": "drug_info.products.physical_characteristics",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics.color",
+    "normalized_path": "drug_info.products.physical_characteristics.color",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics.score",
+    "normalized_path": "drug_info.products.physical_characteristics.score",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics.shape",
+    "normalized_path": "drug_info.products.physical_characteristics.shape",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics.imprint",
+    "normalized_path": "drug_info.products.physical_characteristics.imprint",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "products.physical_characteristics.size_mm",
+    "normalized_path": "drug_info.products.physical_characteristics.size_mm",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "drug_label",
+    "normalized_path": "identification.drug_label",
+    "category": "identification"
+  },
+  {
+    "original_path": "drug_label.version",
+    "normalized_path": "identification.drug_label.version",
+    "category": "identification"
+  },
+  {
+    "original_path": "drug_label.label_type",
+    "normalized_path": "identification.drug_label.label_type",
+    "category": "identification"
+  },
+  {
+    "original_path": "drug_label.document_id",
+    "normalized_path": "identification.drug_label.document_id",
+    "category": "identification"
+  },
+  {
+    "original_path": "drug_label.effective_date",
+    "normalized_path": "identification.drug_label.effective_date",
+    "category": "identification"
+  },
+  {
+    "original_path": "manufacturer",
+    "normalized_path": "drug_info.manufacturer",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "manufacturer.name",
+    "normalized_path": "drug_info.manufacturer.name",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "label_sections",
+    "normalized_path": "DISTRIBUTED_ACROSS_CATEGORIES",
+    "category": "multiple"
+  },
+  {
+    "original_path": "label_sections.warnings",
+    "normalized_path": "safety.warnings",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.content",
+    "normalized_path": "safety.warnings.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.section_title",
+    "normalized_path": "safety.warnings.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections",
+    "normalized_path": "safety.warnings.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.content",
+    "normalized_path": "safety.warnings.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions",
+    "normalized_path": "safety.precautions",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.content",
+    "normalized_path": "safety.precautions.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.section_title",
+    "normalized_path": "safety.precautions.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections",
+    "normalized_path": "safety.precautions.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.content",
+    "normalized_path": "safety.precautions.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.precautions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.precautions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.how_supplied",
+    "normalized_path": "supply_storage.how_supplied",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.content",
+    "normalized_path": "supply_storage.how_supplied.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.section_title",
+    "normalized_path": "supply_storage.how_supplied.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections",
+    "normalized_path": "supply_storage.how_supplied.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.content",
+    "normalized_path": "supply_storage.how_supplied.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.section_title",
+    "normalized_path": "supply_storage.how_supplied.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections.content",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections.subsections",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections.subsections.content",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.how_supplied.subsections.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.how_supplied.subsections.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label",
+    "normalized_path": "supply_storage.package_label",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.content",
+    "normalized_path": "supply_storage.package_label.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.section_title",
+    "normalized_path": "supply_storage.package_label.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections",
+    "normalized_path": "supply_storage.package_label.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.content",
+    "normalized_path": "supply_storage.package_label.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.section_title",
+    "normalized_path": "supply_storage.package_label.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections",
+    "normalized_path": "supply_storage.package_label.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.content",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.content",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.package_label.subsections.subsections.subsections.section_title",
+    "normalized_path": "supply_storage.package_label.subsections.subsections.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.other_sections",
+    "normalized_path": "labeling_content.other_sections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.content",
+    "normalized_path": "labeling_content.other_sections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.other_sections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.other_sections.section_title",
+    "normalized_path": "labeling_content.other_sections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions",
+    "normalized_path": "adverse_events.adverse_reactions",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.content",
+    "normalized_path": "adverse_events.adverse_reactions.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "adverse_events.adverse_reactions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.contraindications",
+    "normalized_path": "safety.contraindications",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.content",
+    "normalized_path": "safety.contraindications.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.section_title",
+    "normalized_path": "safety.contraindications.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections",
+    "normalized_path": "safety.contraindications.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.content",
+    "normalized_path": "safety.contraindications.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.section_title",
+    "normalized_path": "safety.contraindications.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections",
+    "normalized_path": "safety.contraindications.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections.content",
+    "normalized_path": "safety.contraindications.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections.section_title",
+    "normalized_path": "safety.contraindications.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections.subsections",
+    "normalized_path": "safety.contraindications.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections.subsections.content",
+    "normalized_path": "safety.contraindications.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.contraindications.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.contraindications.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology",
+    "normalized_path": "clinical.clinical_pharmacology",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.content",
+    "normalized_path": "clinical.clinical_pharmacology.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_pharmacology.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_pharmacology.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage",
+    "normalized_path": "labeling_content.indications_and_usage",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.content",
+    "normalized_path": "labeling_content.indications_and_usage.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.section_title",
+    "normalized_path": "labeling_content.indications_and_usage.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections",
+    "normalized_path": "labeling_content.indications_and_usage.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.content",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.section_title",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.content",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.indications_and_usage.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.indications_and_usage.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration",
+    "normalized_path": "labeling_content.dosage_and_administration",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.content",
+    "normalized_path": "labeling_content.dosage_and_administration.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.content",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.content",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.dosage_and_administration.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.dosage_and_administration.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.references",
+    "normalized_path": "clinical.references",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.content",
+    "normalized_path": "clinical.references.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.section_title",
+    "normalized_path": "clinical.references.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections",
+    "normalized_path": "clinical.references.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.content",
+    "normalized_path": "clinical.references.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.section_title",
+    "normalized_path": "clinical.references.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections",
+    "normalized_path": "clinical.references.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections.content",
+    "normalized_path": "clinical.references.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections.section_title",
+    "normalized_path": "clinical.references.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections.subsections",
+    "normalized_path": "clinical.references.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.references.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.references.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.references.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.unclassified",
+    "normalized_path": "labeling_content.unclassified",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.content",
+    "normalized_path": "labeling_content.unclassified.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.section_title",
+    "normalized_path": "labeling_content.unclassified.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections",
+    "normalized_path": "labeling_content.unclassified.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.content",
+    "normalized_path": "labeling_content.unclassified.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.content",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections.subsections",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "labeling_content.unclassified.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.unclassified.subsections.section_title",
+    "normalized_path": "labeling_content.unclassified.subsections.section_title",
+    "category": "labeling_content"
+  },
+  {
+    "original_path": "label_sections.boxed_warning",
+    "normalized_path": "safety.boxed_warning",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.content",
+    "normalized_path": "safety.boxed_warning.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.section_title",
+    "normalized_path": "safety.boxed_warning.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections",
+    "normalized_path": "safety.boxed_warning.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections.content",
+    "normalized_path": "safety.boxed_warning.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections.section_title",
+    "normalized_path": "safety.boxed_warning.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections.subsections",
+    "normalized_path": "safety.boxed_warning.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections.subsections.content",
+    "normalized_path": "safety.boxed_warning.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.boxed_warning.subsections.subsections.section_title",
+    "normalized_path": "safety.boxed_warning.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.clinical_studies",
+    "normalized_path": "clinical.clinical_studies",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.content",
+    "normalized_path": "clinical.clinical_studies.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections",
+    "normalized_path": "clinical.clinical_studies.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.content",
+    "normalized_path": "clinical.clinical_studies.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.section_title",
+    "normalized_path": "clinical.clinical_studies.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.clinical_studies.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.clinical_studies.section_title",
+    "normalized_path": "clinical.clinical_studies.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics",
+    "normalized_path": "clinical.pharmacokinetics",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.content",
+    "normalized_path": "clinical.pharmacokinetics.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections",
+    "normalized_path": "clinical.pharmacokinetics.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.content",
+    "normalized_path": "clinical.pharmacokinetics.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.section_title",
+    "normalized_path": "clinical.pharmacokinetics.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.content",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.section_title",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections.subsections",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "clinical.pharmacokinetics.subsections.subsections.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.pharmacokinetics.section_title",
+    "normalized_path": "clinical.pharmacokinetics.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.drug_interactions",
+    "normalized_path": "drug_interactions.drug_interactions",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.content",
+    "normalized_path": "drug_interactions.drug_interactions.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections",
+    "normalized_path": "drug_interactions.drug_interactions.subsections",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.content",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.section_title",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.content",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.section_title",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections.content",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections.section_title",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections.subsections",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections.subsections",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections.subsections.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "drug_interactions.drug_interactions.subsections.subsections.subsections.subsections.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.drug_interactions.section_title",
+    "normalized_path": "drug_interactions.drug_interactions.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.information_for_patients",
+    "normalized_path": "patient_info.information_for_patients",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.content",
+    "normalized_path": "patient_info.information_for_patients.content",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections",
+    "normalized_path": "patient_info.information_for_patients.subsections",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.content",
+    "normalized_path": "patient_info.information_for_patients.subsections.content",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.section_title",
+    "normalized_path": "patient_info.information_for_patients.subsections.section_title",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.content",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.content",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.section_title",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.section_title",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections.content",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections.content",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections.section_title",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections.section_title",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections.subsections",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections.subsections",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections.subsections.content",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "patient_info.information_for_patients.subsections.subsections.subsections.subsections.section_title",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.information_for_patients.section_title",
+    "normalized_path": "patient_info.information_for_patients.section_title",
+    "category": "patient_info"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions",
+    "normalized_path": "safety.warnings_and_precautions",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.content",
+    "normalized_path": "safety.warnings_and_precautions.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.subsections.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.warnings_and_precautions.subsections.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.warnings_and_precautions.section_title",
+    "normalized_path": "safety.warnings_and_precautions.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling",
+    "normalized_path": "supply_storage.storage_and_handling",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling.content",
+    "normalized_path": "supply_storage.storage_and_handling.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling.section_title",
+    "normalized_path": "supply_storage.storage_and_handling.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling.subsections",
+    "normalized_path": "supply_storage.storage_and_handling.subsections",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling.subsections.content",
+    "normalized_path": "supply_storage.storage_and_handling.subsections.content",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.storage_and_handling.subsections.section_title",
+    "normalized_path": "supply_storage.storage_and_handling.subsections.section_title",
+    "category": "supply_storage"
+  },
+  {
+    "original_path": "label_sections.geriatric_use",
+    "normalized_path": "population_specific.geriatric_use",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.geriatric_use.content",
+    "normalized_path": "population_specific.geriatric_use.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.geriatric_use.section_title",
+    "normalized_path": "population_specific.geriatric_use.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.geriatric_use.subsections",
+    "normalized_path": "population_specific.geriatric_use.subsections",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.geriatric_use.subsections.content",
+    "normalized_path": "population_specific.geriatric_use.subsections.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.geriatric_use.subsections.section_title",
+    "normalized_path": "population_specific.geriatric_use.subsections.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use",
+    "normalized_path": "population_specific.pediatric_use",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use.content",
+    "normalized_path": "population_specific.pediatric_use.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use.section_title",
+    "normalized_path": "population_specific.pediatric_use.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use.subsections",
+    "normalized_path": "population_specific.pediatric_use.subsections",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use.subsections.content",
+    "normalized_path": "population_specific.pediatric_use.subsections.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.pediatric_use.subsections.section_title",
+    "normalized_path": "population_specific.pediatric_use.subsections.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.overdosage",
+    "normalized_path": "adverse_events.overdosage",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.overdosage.content",
+    "normalized_path": "adverse_events.overdosage.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.overdosage.section_title",
+    "normalized_path": "adverse_events.overdosage.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.overdosage.subsections",
+    "normalized_path": "adverse_events.overdosage.subsections",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.overdosage.subsections.content",
+    "normalized_path": "adverse_events.overdosage.subsections.content",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.overdosage.subsections.section_title",
+    "normalized_path": "adverse_events.overdosage.subsections.section_title",
+    "category": "adverse_events"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis",
+    "normalized_path": "clinical.carcinogenesis",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.content",
+    "normalized_path": "clinical.carcinogenesis.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.section_title",
+    "normalized_path": "clinical.carcinogenesis.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections",
+    "normalized_path": "clinical.carcinogenesis.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections.content",
+    "normalized_path": "clinical.carcinogenesis.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections.section_title",
+    "normalized_path": "clinical.carcinogenesis.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections.subsections",
+    "normalized_path": "clinical.carcinogenesis.subsections.subsections",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections.subsections.content",
+    "normalized_path": "clinical.carcinogenesis.subsections.subsections.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.carcinogenesis.subsections.subsections.section_title",
+    "normalized_path": "clinical.carcinogenesis.subsections.subsections.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers",
+    "normalized_path": "population_specific.nursing_mothers",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers.content",
+    "normalized_path": "population_specific.nursing_mothers.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers.section_title",
+    "normalized_path": "population_specific.nursing_mothers.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers.subsections",
+    "normalized_path": "population_specific.nursing_mothers.subsections",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers.subsections.content",
+    "normalized_path": "population_specific.nursing_mothers.subsections.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nursing_mothers.subsections.section_title",
+    "normalized_path": "population_specific.nursing_mothers.subsections.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests",
+    "normalized_path": "drug_interactions.laboratory_tests",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests.content",
+    "normalized_path": "drug_interactions.laboratory_tests.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests.section_title",
+    "normalized_path": "drug_interactions.laboratory_tests.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests.subsections",
+    "normalized_path": "drug_interactions.laboratory_tests.subsections",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests.subsections.content",
+    "normalized_path": "drug_interactions.laboratory_tests.subsections.content",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.laboratory_tests.subsections.section_title",
+    "normalized_path": "drug_interactions.laboratory_tests.subsections.section_title",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "label_sections.labor_and_delivery",
+    "normalized_path": "population_specific.labor_and_delivery",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.labor_and_delivery.content",
+    "normalized_path": "population_specific.labor_and_delivery.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.labor_and_delivery.section_title",
+    "normalized_path": "population_specific.labor_and_delivery.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.teratogenic_effects",
+    "normalized_path": "population_specific.teratogenic_effects",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.teratogenic_effects.content",
+    "normalized_path": "population_specific.teratogenic_effects.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.teratogenic_effects.section_title",
+    "normalized_path": "population_specific.teratogenic_effects.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nonteratogenic_effects",
+    "normalized_path": "population_specific.nonteratogenic_effects",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nonteratogenic_effects.content",
+    "normalized_path": "population_specific.nonteratogenic_effects.content",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.nonteratogenic_effects.section_title",
+    "normalized_path": "population_specific.nonteratogenic_effects.section_title",
+    "category": "population_specific"
+  },
+  {
+    "original_path": "label_sections.mechanism_of_action",
+    "normalized_path": "clinical.mechanism_of_action",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.mechanism_of_action.content",
+    "normalized_path": "clinical.mechanism_of_action.content",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.mechanism_of_action.section_title",
+    "normalized_path": "clinical.mechanism_of_action.section_title",
+    "category": "clinical"
+  },
+  {
+    "original_path": "label_sections.general_precautions",
+    "normalized_path": "safety.general_precautions",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.content",
+    "normalized_path": "safety.general_precautions.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.section_title",
+    "normalized_path": "safety.general_precautions.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections",
+    "normalized_path": "safety.general_precautions.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.content",
+    "normalized_path": "safety.general_precautions.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.section_title",
+    "normalized_path": "safety.general_precautions.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections",
+    "normalized_path": "safety.general_precautions.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections.content",
+    "normalized_path": "safety.general_precautions.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections.section_title",
+    "normalized_path": "safety.general_precautions.subsections.subsections.section_title",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections.subsections",
+    "normalized_path": "safety.general_precautions.subsections.subsections.subsections",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections.subsections.content",
+    "normalized_path": "safety.general_precautions.subsections.subsections.subsections.content",
+    "category": "safety"
+  },
+  {
+    "original_path": "label_sections.general_precautions.subsections.subsections.subsections.section_title",
+    "normalized_path": "safety.general_precautions.subsections.subsections.subsections.section_title",
+    "category": "safety"
+  }
+]

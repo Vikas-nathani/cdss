@@ -1,0 +1,27 @@
+{
+  "total_records_processed": 19842,
+  "total_unique_fields": 19,
+  "top_level_fields": 11,
+  "nested_fields": 8,
+  "max_nesting_depth": 3,
+  "parse_errors": 0,
+  "extraction_time_seconds": 15.01,
+  "field_type_distribution": {
+    "object": 4,
+    "array": 4,
+    "null_placeholder": 16
+  },
+  "common_top_level_fields": [
+    "name",
+    "unii",
+    "synonyms",
+    "reactions",
+    "indication",
+    "drugbank_id",
+    "general_function",
+    "pharmacodynamics",
+    "drug_interactions",
+    "food_interactions",
+    "classification_description"
+  ]
+}

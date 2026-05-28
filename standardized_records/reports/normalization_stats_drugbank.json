@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-04-29T12:54:28.446165",
+  "before": {
+    "top_level_fields": 11,
+    "total_fields": 19,
+    "max_depth": 3
+  },
+  "after": {
+    "top_level_categories": 4,
+    "total_fields": 19,
+    "max_depth": 4
+  },
+  "verification": {
+    "all_fields_mapped": true,
+    "missing_fields": [],
+    "extra_fields": [],
+    "field_count_match": true
+  },
+  "semantic_categories": [
+    {
+      "name": "drug_info",
+      "field_count": 5
+    },
+    {
+      "name": "clinical",
+      "field_count": 3
+    },
+    {
+      "name": "drug_interactions",
+      "field_count": 6
+    },
+    {
+      "name": "chemistry",
+      "field_count": 5
+    }
+  ]
+}

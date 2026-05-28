@@ -1,0 +1,9 @@
+{
+  "total_records_processed": 51731,
+  "total_unique_fields": 442,
+  "top_level_fields": 4,
+  "nested_fields": 438,
+  "max_nesting_depth": 18,
+  "parse_errors": 0,
+  "extraction_time_seconds": 70.22
+}

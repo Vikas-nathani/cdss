@@ -1,0 +1,389 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdss.local/schemas/drug_formulation.v1.json",
+  "title": "CDSS Unified Drug Formulation Record",
+  "description": "Unified structure consolidating openFDA SPL, DailyMed, RxNorm, and DrugBank into a single record per formulation. Designed for hybrid retrieval: document store for full record, vector store for chunked narrative sections, graph store for interactions/substances, relational store for structured facts.",
+  "type": "object",
+  "required": ["formulation_id", "identifiers", "drug", "product", "sources"],
+  "properties": {
+
+    "formulation_id": {
+      "type": "string",
+      "description": "Stable internal primary key. Recommended: spl_set_id when present, else sha1(ndc+generic_name). One record per SPL set (drug label)."
+    },
+
+    "record_version": { "type": "string" },
+    "last_ingested_at": { "type": "string", "format": "date-time" },
+
+    "identifiers": {
+      "type": "object",
+      "description": "All cross-reference IDs from all sources. The union of these is what joins a prescription, a clinical question, or a chart entry to this record.",
+      "properties": {
+        "spl_set_id":        { "type": "string" },
+        "spl_document_id":   { "type": "string" },
+        "ndc_product":       { "type": "array", "items": { "type": "string" } },
+        "ndc_package":       { "type": "array", "items": { "type": "string" } },
+        "upc":               { "type": "array", "items": { "type": "string" } },
+        "rxcui":             { "type": "array", "items": { "type": "string" },
+                               "description": "All RxNorm concept IDs (SCD, SBD, GPCK, BPCK) tied to this formulation." },
+        "unii":              { "type": "array", "items": { "type": "string" } },
+        "drugbank_ids":      { "type": "array", "items": { "type": "string" } },
+        "application_numbers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "drug": {
+      "type": "object",
+      "description": "The pharmaceutical substance(s), independent of how they are packaged.",
+      "properties": {
+        "generic_name":   { "type": "string" },
+        "brand_names":    { "type": "array", "items": { "type": "string" } },
+        "product_type":   { "type": "string", "enum": ["HUMAN PRESCRIPTION DRUG","HUMAN OTC DRUG","ANIMAL DRUG","BIOLOGICAL","OTHER"] },
+        "active_ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "substance_name": { "type": "string" },
+              "unii":           { "type": "string" },
+              "drugbank_id":    { "type": "string" },
+              "strength":       { "type": "string", "description": "Per-unit strength, e.g. '250 mg'." },
+              "strength_value": { "type": "number" },
+              "strength_unit":  { "type": "string" }
+            }
+          }
+        },
+        "inactive_ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name":        { "type": "string" },
+              "unii":        { "type": "string" },
+              "drugbank_id": { "type": "string" },
+              "role":        { "type": "string", "description": "e.g. excipient, colorant, preservative. Optional." }
+            }
+          }
+        },
+        "drug_class":  { "type": "array", "items": { "type": "string" },
+                         "description": "Therapeutic/pharmacologic class (e.g. 'HIV-1 Protease Inhibitor'). Extracted from indications + mechanism + DrugBank classification." },
+        "atc_codes":   { "type": "array", "items": { "type": "string" } },
+        "mechanism_of_action": { "type": "string" }
+      }
+    },
+
+    "product": {
+      "type": "object",
+      "description": "Packaging and physical form. One record can hold multiple SKUs that share the same SPL label.",
+      "properties": {
+        "manufacturer":   { "type": "string" },
+        "routes":         { "type": "array", "items": { "type": "string" } },
+        "dosage_forms":   { "type": "array", "items": { "type": "string" }, "description": "e.g. 'Oral Tablet', 'Film-coated Tablet'." },
+        "skus": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ndc_product":   { "type": "string" },
+              "ndc_package":   { "type": "string" },
+              "upc":            { "type": "string" },
+              "package_type":   { "type": "string" },
+              "package_qty":    { "type": "string" },
+              "strength_label": { "type": "string" },
+              "physical": {
+                "type": "object",
+                "properties": {
+                  "color":   { "type": "string" },
+                  "shape":   { "type": "string" },
+                  "score":   { "type": "string" },
+                  "imprint": { "type": "string" },
+                  "size_mm": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "storage": { "type": "string" },
+        "how_supplied": { "type": "string" }
+      }
+    },
+
+    "rxnorm": {
+      "type": "object",
+      "description": "RxNorm clinical/branded formulation strings. Used to map to e-prescribing and EHR orders.",
+      "properties": {
+        "clinical_formulations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "rxcui":      { "type": "string" },
+              "tty":        { "type": "string", "description": "Term Type: SCD, SBD, SCDC, SBDC, GPCK, BPCK, IN, PIN, BN, DF." },
+              "name":       { "type": "string" },
+              "kind":       { "type": "string", "enum": ["generic", "brand"] },
+              "dose_form":  { "type": "string" },
+              "synonyms":   { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+
+    "clinical": {
+      "type": "object",
+      "description": "The core text the LLM will reason over. Every narrative field is paired with its provenance and a stable subsection id, so chunks can cite precisely.",
+      "properties": {
+        "indications_and_usage":        { "$ref": "#/definitions/narrative" },
+        "dosage_and_administration":    { "$ref": "#/definitions/narrative" },
+        "contraindications":            { "$ref": "#/definitions/narrative" },
+        "warnings_and_precautions":     { "$ref": "#/definitions/narrative" },
+        "adverse_reactions":            { "$ref": "#/definitions/narrative" },
+        "drug_interactions":            { "$ref": "#/definitions/narrative" },
+        "use_in_specific_populations":  { "$ref": "#/definitions/narrative" },
+        "pediatric_use":                { "$ref": "#/definitions/narrative" },
+        "geriatric_use":                { "$ref": "#/definitions/narrative" },
+        "use_in_pregnancy":             { "$ref": "#/definitions/narrative" },
+        "clinical_pharmacology":        { "$ref": "#/definitions/narrative" },
+        "pharmacokinetics":             { "$ref": "#/definitions/narrative" },
+        "pharmacodynamics":             { "$ref": "#/definitions/narrative" },
+        "mechanism_of_action":          { "$ref": "#/definitions/narrative" },
+        "microbiology":                 { "$ref": "#/definitions/narrative" },
+        "overdosage":                   { "$ref": "#/definitions/narrative" },
+        "nonclinical_toxicology":       { "$ref": "#/definitions/narrative" },
+        "clinical_studies":             { "$ref": "#/definitions/narrative" },
+        "information_for_patients":     { "$ref": "#/definitions/narrative" },
+        "spl_patient_package_insert":   { "$ref": "#/definitions/narrative" }
+      }
+    },
+
+    "structured_facts": {
+      "type": "object",
+      "description": "Machine-usable facts extracted from narrative + tables. These are the fields the CDSS actually filters and reasons on. Text-only extraction happens at ingest via regex + LLM; each fact carries a confidence and source_span.",
+      "properties": {
+
+        "indications": {
+          "type": "array",
+          "description": "Normalized disorders this drug is indicated for. Drives the disorder -> drug recommendation query.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "term":       { "type": "string", "description": "As written in the label." },
+              "snomed_ct":  { "type": "string" },
+              "icd10":      { "type": "string" },
+              "mesh":       { "type": "string" },
+              "population": { "type": "string", "description": "e.g. 'adults', 'pediatric 2-13y', 'treatment-naive'." },
+              "line_of_therapy": { "type": "string", "enum": ["first-line","second-line","adjunct","salvage","unspecified"] },
+              "source_span": { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "contraindications": {
+          "type": "array",
+          "description": "Conditions or co-prescriptions where this drug must not be used.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "kind": { "type": "string", "enum": ["condition","coadministered_drug","population","allergy"] },
+              "term": { "type": "string" },
+              "rxcui": { "type": "string" },
+              "drugbank_id": { "type": "string" },
+              "drug_class": { "type": "string" },
+              "reason": { "type": "string" },
+              "severity": { "type": "string", "enum": ["absolute","relative"] },
+              "source_span": { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "interactions": {
+          "type": "array",
+          "description": "Drug-drug, drug-food, drug-disease, drug-lab interactions. This is the central table for the 'check my patient's current meds' workflow.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "interaction_id": { "type": "string" },
+              "partner": {
+                "type": "object",
+                "properties": {
+                  "kind":        { "type": "string", "enum": ["drug","drug_class","food","lab","condition","herbal"] },
+                  "name":        { "type": "string" },
+                  "rxcui":       { "type": "string" },
+                  "drugbank_id": { "type": "string" },
+                  "atc":         { "type": "string" }
+                }
+              },
+              "effect_direction": { "type": "string", "enum": ["increase","decrease","no_change","unclear"] },
+              "effect_on":        { "type": "string", "description": "What changes: 'AUC of partner', 'Cmax of this drug', 'QTc', 'INR', etc." },
+              "magnitude":        { "type": "string", "description": "e.g. '↑AUC 505% (393–643)'. Preserved verbatim from label tables." },
+              "mechanism":        { "type": "string", "description": "e.g. 'CYP3A4 inhibition', 'P-gp induction'." },
+              "severity":         { "type": "string", "enum": ["contraindicated","major","moderate","minor","unknown"] },
+              "clinical_management": { "type": "string", "description": "Recommended action: avoid, reduce dose, monitor, separate dosing." },
+              "evidence_level":   { "type": "string", "enum": ["established","probable","suspected","theoretical"] },
+              "source": { "type": "string", "enum": ["openfda","dailymed","drugbank","merged"] },
+              "source_span":      { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "dosing_regimens": {
+          "type": "array",
+          "description": "One entry per distinct dosing scenario. Scenarios are keyed on population + indication + route; the CDSS selects the matching entry given patient context (age, weight, renal/hepatic status, pregnancy, comedication).",
+          "items": {
+            "type": "object",
+            "properties": {
+              "regimen_id":   { "type": "string" },
+              "indication":   { "type": "string", "description": "Which indication this regimen applies to." },
+              "population": {
+                "type": "object",
+                "properties": {
+                  "age_group":       { "type": "string", "enum": ["neonate","infant","pediatric","adolescent","adult","geriatric","any"] },
+                  "age_min_years":   { "type": "number" },
+                  "age_max_years":   { "type": "number" },
+                  "weight_min_kg":   { "type": "number" },
+                  "weight_max_kg":   { "type": "number" },
+                  "sex":             { "type": "string", "enum": ["any","male","female"] },
+                  "pregnancy_status":{ "type": "string", "enum": ["any","pregnant","not_pregnant","lactating"] },
+                  "renal_function":  { "type": "string", "enum": ["any","normal","mild_impairment","moderate_impairment","severe_impairment","esrd"] },
+                  "hepatic_function":{ "type": "string", "enum": ["any","normal","mild_impairment","moderate_impairment","severe_impairment"] }
+                }
+              },
+              "route":         { "type": "string" },
+              "dose_amount":   { "type": "string", "description": "e.g. '1250 mg', '45-55 mg/kg'." },
+              "dose_value":    { "type": "number" },
+              "dose_unit":     { "type": "string" },
+              "dose_basis":    { "type": "string", "enum": ["fixed","per_kg","per_m2","titrated"] },
+              "frequency":     { "type": "string", "description": "BID, TID, QD, q8h, etc." },
+              "duration":      { "type": "string" },
+              "max_daily_dose":{ "type": "string" },
+              "administration_notes": { "type": "string", "description": "e.g. 'with food', 'on empty stomach', 'avoid antacids within 2 hr'." },
+              "adjustment_required_for": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "e.g. 'coadministration with rifabutin', 'moderate hepatic impairment'."
+              },
+              "source_span":   { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "adverse_events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "term":          { "type": "string" },
+              "meddra_pt":     { "type": "string" },
+              "system_organ_class": { "type": "string" },
+              "frequency":     { "type": "string", "enum": ["very_common","common","uncommon","rare","very_rare","unknown"] },
+              "incidence_pct": { "type": "number" },
+              "population":    { "type": "string" },
+              "seriousness":   { "type": "string", "enum": ["serious","non_serious"] },
+              "source_span":   { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type":    { "type": "string", "enum": ["boxed_warning","warning","precaution"] },
+              "topic":   { "type": "string" },
+              "text":    { "type": "string" },
+              "source_span": { "$ref": "#/definitions/source_span" }
+            }
+          }
+        },
+
+        "pharmacology": {
+          "type": "object",
+          "properties": {
+            "targets":      { "type": "array", "items": { "type": "string" },
+                              "description": "Enzyme/receptor targets from DrugBank + label (e.g. 'HIV-1 protease')." },
+            "metabolism":   { "type": "array", "items": { "type": "string" },
+                              "description": "Enzymes responsible for metabolism, e.g. 'CYP3A4', 'CYP2C19'." },
+            "transporters": { "type": "array", "items": { "type": "string" } },
+            "half_life":    { "type": "string" },
+            "bioavailability": { "type": "string" },
+            "protein_binding": { "type": "string" },
+            "excretion":    { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "label_tables": {
+      "type": "array",
+      "description": "Structured label tables preserved verbatim. Dosing, PK, and interaction tables are preserved because the CDSS needs to render them and cite them.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "table_id":    { "type": "string" },
+          "caption":     { "type": "string" },
+          "semantic_type": { "type": "string", "enum": ["dosing","interaction","adverse_event","pharmacokinetics","clinical_study","contraindication","other"] },
+          "section":     { "type": "string" },
+          "headers":     { "type": "array", "items": { "type": "string" } },
+          "rows":        { "type": "array", "items": {} }
+        }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "description": "Record-level provenance. Each narrative and fact also carries its own source_span.",
+      "properties": {
+        "openfda":  { "type": "object", "properties": { "set_id": {"type":"string"}, "version": {"type":"string"}, "effective_date": {"type":"string"} } },
+        "dailymed": { "type": "object", "properties": { "document_id": {"type":"string"}, "effective_date": {"type":"string"} } },
+        "rxnorm":   { "type": "object", "properties": { "fetched_at": {"type":"string"} } },
+        "drugbank": { "type": "object", "properties": { "version": {"type":"string"}, "fetched_at": {"type":"string"} } }
+      }
+    },
+
+    "sources": {
+      "type": "object",
+      "description": "Which source systems contributed to this record. Used to disclose to clinicians the evidence chain.",
+      "properties": {
+        "has_openfda":  { "type": "boolean" },
+        "has_dailymed": { "type": "boolean" },
+        "has_rxnorm":   { "type": "boolean" },
+        "has_drugbank": { "type": "boolean" }
+      }
+    }
+  },
+
+  "definitions": {
+    "narrative": {
+      "type": "object",
+      "description": "A clinical section holding the authoritative free text plus optional per-subsection breakdown. Chunking for vector search uses subsections when present.",
+      "properties": {
+        "text":         { "type": "string" },
+        "subsections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "subsection_id": { "type": "string" },
+              "title":         { "type": "string" },
+              "text":          { "type": "string" }
+            }
+          }
+        },
+        "source":       { "type": "string", "enum": ["openfda","dailymed","merged"] },
+        "source_span":  { "$ref": "#/definitions/source_span" }
+      }
+    },
+    "source_span": {
+      "type": "object",
+      "description": "A pointer back to the originating document so the LLM can cite evidence.",
+      "properties": {
+        "source":        { "type": "string", "enum": ["openfda","dailymed","rxnorm","drugbank"] },
+        "document_id":   { "type": "string" },
+        "section_code":  { "type": "string", "description": "e.g. 'dosage_and_administration.2.1'" },
+        "label_section_loinc": { "type": "string", "description": "Optional LOINC code for the SPL section." },
+        "excerpt":       { "type": "string", "description": "Small verbatim excerpt, bounded; used for on-screen citation." }
+      }
+    }
+  }
+}

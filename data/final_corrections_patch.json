@@ -1,0 +1,154 @@
+{
+  "44": [
+    "DB09110",
+    "Coenzyme M (Mesna)",
+    "GREEN",
+    "EXACT",
+    "https://go.drugbank.com/drugs/DB09110",
+    "Mesna listed as 'Coenzyme M' in DrugBank; brands Mesnex, Uromitexan"
+  ],
+  "33747": [
+    "DB00655",
+    "Estrone sulfate",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/salts/DBSALT001878",
+    "Estropipate = piperazine estrone sulfate; parent drug DB00655; salt DBSALT001878"
+  ],
+  "4024": [
+    "DB16602",
+    "Dihydroergotoxine",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB16602",
+    "Ergoloid mesylates USP = Dihydroergotoxine (mixture of 4 ergot derivatives)"
+  ],
+  "36387": [
+    "DB11365",
+    "Sennosides",
+    "GREEN",
+    "EXACT",
+    "https://go.drugbank.com/drugs/DB11365",
+    "Sennosides USP; brands Ex-Lax, Senokot"
+  ],
+  "9894": [
+    "DB12529",
+    "Nitrite",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB12529",
+    "Sodium nitrite is a salt (DBSALT002657) of parent drug DB12529 Nitrite; used for cyanide poisoning"
+  ],
+  "1546411": [
+    "DB09499",
+    "Thiosulfuric acid",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB09499",
+    "Thiosulfate/sodium thiosulfate; parent DB09499; used sequentially with sodium nitrite for cyanide poisoning"
+  ],
+  "11431": [
+    "DB09158",
+    "Pentetate zinc trisodium",
+    "GREEN",
+    "CLOSE",
+    "https://go.drugbank.com/drugs/DB09158",
+    "Zinc-DTPA = pentetate zinc trisodium; used for decorporation of radioactive Pu/Am/Cm; DB09158"
+  ],
+  "29261": [
+    "DB06757",
+    "Manganese cation",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB06757",
+    "Manganese chloride is salt DBSALT001361; parent drug = DB06757 (Manganese cation)"
+  ],
+  "29268": [
+    "DB06757",
+    "Manganese cation",
+    "GREEN",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB06757",
+    "Manganese sulfate is salt DBSALT001360; parent drug = DB06757 (Manganese cation)"
+  ],
+  "36709": [
+    "DB14503",
+    "Sodium phosphate, monobasic, unspecified form",
+    "GREEN",
+    "CLOSE",
+    "https://go.drugbank.com/drugs/DB14503",
+    "Sodium phosphate: monobasic=DB14503, dibasic=DB14504; primary mapping to DB14503"
+  ],
+  "21842": [
+    "DB11588",
+    "Copper",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB11588",
+    "Cuprous oxide (Cu2O); copper compound; parent element Copper=DB11588; no specific cuprous oxide DB entry"
+  ],
+  "618278": [
+    "DB07918",
+    "Azelaic acid",
+    "YELLOW",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB07918",
+    "Azelate is the anion of azelaic acid (DB07918); used in rosacea/acne treatment"
+  ],
+  "70619": [
+    "DB00559",
+    "Sodium phenylacetate",
+    "YELLOW",
+    "SYNONYM",
+    "https://go.drugbank.com/drugs/DB00559",
+    "Phenylacetate is the anion; pharmaceutical form is sodium phenylacetate DB00559; used for urea cycle disorders"
+  ],
+  "1423803": [
+    "DB09412",
+    "Glycerophosphocholine",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB09412",
+    "Glyceryl phosphate; closest DrugBank match is glycerophosphocholine DB09412; no exact entry for glyceryl phosphate"
+  ],
+  "1291425": [
+    "DB11132",
+    "Omega-3 fatty acids",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB11132",
+    "Docosaenoic acid (C22 fatty acid); not in DrugBank as standalone; closest is omega-3 fatty acids DB11132"
+  ],
+  "262150": [
+    "DB11688",
+    "Iron",
+    "YELLOW",
+    "PARTIAL",
+    "https://go.drugbank.com/drugs/DB11688",
+    "Iron carbonyl; iron compound; parent element Iron=DB11688; no specific iron carbonyl DB entry"
+  ],
+  "748794": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Inert ingredients \u2014 not a specific drug substance; no DrugBank entry exists"
+  ],
+  "236718": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Sulfonated phenol \u2014 antiseptic compound; no standalone DrugBank drug entry"
+  ],
+  "1316105": [
+    null,
+    null,
+    "RED",
+    "NOT_FOUND",
+    "",
+    "Herpesvirus 1, human \u2014 viral pathogen, not a pharmaceutical drug; no DB entry"
+  ]
+}

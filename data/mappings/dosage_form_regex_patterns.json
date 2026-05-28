@@ -1,0 +1,252 @@
+[
+  {
+    "dosage_form": "TABLET, EXTENDED RELEASE",
+    "suffix": "Extended Release Oral Tablet",
+    "regex_pattern": "\\s+Extended\\s+Release\\s+Oral\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "TABLET, DELAYED RELEASE (OBS 06-25-01)",
+    "suffix": "Delayed Release Oral Tablet",
+    "regex_pattern": "\\s+Delayed\\s+Release\\s+Oral\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "GASTRO-RESISTANT TABLET",
+    "suffix": "Delayed Release Oral Tablet",
+    "regex_pattern": "\\s+Delayed\\s+Release\\s+Oral\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "CAPSULE, EXTENDED RELEASE",
+    "suffix": "Extended Release Oral Capsule",
+    "regex_pattern": "\\s+Extended\\s+Release\\s+Oral\\s+Capsule\\s*$"
+  },
+  {
+    "dosage_form": "TABLET,DISINTEGRATING",
+    "suffix": "Disintegrating Oral Tablet",
+    "regex_pattern": "\\s+Disintegrating\\s+Oral\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "TABLET, SUBLINGUAL",
+    "suffix": "Sublingual Tablet",
+    "regex_pattern": "\\s+Sublingual\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "TABLET,CHEWABLE",
+    "suffix": "Chewable Tablet",
+    "regex_pattern": "\\s+Chewable\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "TABLET, BUCCAL",
+    "suffix": "Buccal Tablet",
+    "regex_pattern": "\\s+Buccal\\s+Tablet\\s*$"
+  },
+  {
+    "dosage_form": "INHALATION GAS",
+    "suffix": "Gas for Inhalation",
+    "regex_pattern": "\\s+Gas\\s+for\\s+Inhalation\\s*$"
+  },
+  {
+    "dosage_form": "INHALATION SOLUTION",
+    "suffix": "Inhalation Solution",
+    "regex_pattern": "\\s+Inhalation\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "INHALATION SUSPENSION",
+    "suffix": "Inhalation Suspension",
+    "regex_pattern": "\\s+Inhalation\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "INHALATION POWDER",
+    "suffix": "Inhalation Powder",
+    "regex_pattern": "\\s+Inhalation\\s+Powder\\s*$"
+  },
+  {
+    "dosage_form": "SOLUTION FOR INJECTION",
+    "suffix": "Injectable Solution",
+    "regex_pattern": "\\s+Injectable\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "SUSPENSION FOR INJECTION",
+    "suffix": "Injectable Suspension",
+    "regex_pattern": "\\s+Injectable\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "SUSPENSION, ORAL (FINAL DOSE FORM)",
+    "suffix": "Oral Suspension",
+    "regex_pattern": "\\s+Oral\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "SOLUTION, ORAL",
+    "suffix": "Oral Solution",
+    "regex_pattern": "\\s+Oral\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "GRANULES FOR ORAL SUSPENSION",
+    "suffix": "Granules for Oral Suspension",
+    "regex_pattern": "\\s+Granules\\s+for\\s+Oral\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "GRANULES FOR ORAL SOLUTION",
+    "suffix": "Granules for Oral Solution",
+    "regex_pattern": "\\s+Granules\\s+for\\s+Oral\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "POWDER FOR ORAL SUSPENSION",
+    "suffix": "Powder for Oral Suspension",
+    "regex_pattern": "\\s+Powder\\s+for\\s+Oral\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "POWDER FOR ORAL SOLUTION",
+    "suffix": "Powder for Oral Solution",
+    "regex_pattern": "\\s+Powder\\s+for\\s+Oral\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "SUSPENSION,EXTENDED RELEASE VIAL (ML)",
+    "suffix": "Extended Release Suspension",
+    "regex_pattern": "\\s+Extended\\s+Release\\s+Suspension\\s*$"
+  },
+  {
+    "dosage_form": "ORAL POWDER",
+    "suffix": "Oral Powder",
+    "regex_pattern": "\\s+Oral\\s+Powder\\s*$"
+  },
+  {
+    "dosage_form": "ORAL GEL",
+    "suffix": "Oral Gel",
+    "regex_pattern": "\\s+Oral\\s+Gel\\s*$"
+  },
+  {
+    "dosage_form": "CUTANEOUS SOLUTION",
+    "suffix": "Topical Solution",
+    "regex_pattern": "\\s+Topical\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "CUTANEOUS FOAM",
+    "suffix": "Topical Foam",
+    "regex_pattern": "\\s+Topical\\s+Foam\\s*$"
+  },
+  {
+    "dosage_form": "CUTANEOUS POWDER",
+    "suffix": "Topical Powder",
+    "regex_pattern": "\\s+Topical\\s+Powder\\s*$"
+  },
+  {
+    "dosage_form": "EYE OINTMENT",
+    "suffix": "Ophthalmic Ointment",
+    "regex_pattern": "\\s+Ophthalmic\\s+Ointment\\s*$"
+  },
+  {
+    "dosage_form": "EYE GEL",
+    "suffix": "Ophthalmic Gel",
+    "regex_pattern": "\\s+Ophthalmic\\s+Gel\\s*$"
+  },
+  {
+    "dosage_form": "SUPPOSITORY, RECTAL",
+    "suffix": "Rectal Suppository",
+    "regex_pattern": "\\s+Rectal\\s+Suppository\\s*$"
+  },
+  {
+    "dosage_form": "RECTAL CREAM",
+    "suffix": "Rectal Cream",
+    "regex_pattern": "\\s+Rectal\\s+Cream\\s*$"
+  },
+  {
+    "dosage_form": "RECTAL GEL",
+    "suffix": "Rectal Gel",
+    "regex_pattern": "\\s+Rectal\\s+Gel\\s*$"
+  },
+  {
+    "dosage_form": "RECTAL FOAM",
+    "suffix": "Rectal Foam",
+    "regex_pattern": "\\s+Rectal\\s+Foam\\s*$"
+  },
+  {
+    "dosage_form": "RECTAL OINTMENT",
+    "suffix": "Rectal Ointment",
+    "regex_pattern": "\\s+Rectal\\s+Ointment\\s*$"
+  },
+  {
+    "dosage_form": "VAGINAL CREAM",
+    "suffix": "Vaginal Cream",
+    "regex_pattern": "\\s+Vaginal\\s+Cream\\s*$"
+  },
+  {
+    "dosage_form": "VAGINAL GEL",
+    "suffix": "Vaginal Gel",
+    "regex_pattern": "\\s+Vaginal\\s+Gel\\s*$"
+  },
+  {
+    "dosage_form": "RING, VAGINAL",
+    "suffix": "Vaginal System",
+    "regex_pattern": "\\s+Vaginal\\s+System\\s*$"
+  },
+  {
+    "dosage_form": "MOUTHWASH",
+    "suffix": "Mouthwash",
+    "regex_pattern": "\\s+Mouthwash\\s*$"
+  },
+  {
+    "dosage_form": "GARGLE",
+    "suffix": "Mouthwash",
+    "regex_pattern": "\\s+Mouthwash\\s*$"
+  },
+  {
+    "dosage_form": "LOZENGE",
+    "suffix": "Oral Lozenge",
+    "regex_pattern": "\\s+Oral\\s+Lozenge\\s*$"
+  },
+  {
+    "dosage_form": "TROCHE",
+    "suffix": "Oral Lozenge",
+    "regex_pattern": "\\s+Oral\\s+Lozenge\\s*$"
+  },
+  {
+    "dosage_form": "SOLUTION, IRRIGATION",
+    "suffix": "Irrigation Solution",
+    "regex_pattern": "\\s+Irrigation\\s+Solution\\s*$"
+  },
+  {
+    "dosage_form": "TRANSDERMAL PATCH",
+    "suffix": "Transdermal System",
+    "regex_pattern": "\\s+Transdermal\\s+System\\s*$"
+  },
+  {
+    "dosage_form": "AUTO-INJECTOR (EA)",
+    "suffix": "Auto-Injector",
+    "regex_pattern": "\\s+Auto\\-Injector\\s*$"
+  },
+  {
+    "dosage_form": "PELLET (EA)",
+    "suffix": "Oral Pellet",
+    "regex_pattern": "\\s+Oral\\s+Pellet\\s*$"
+  },
+  {
+    "dosage_form": "ENEMA (EA)",
+    "suffix": "Enema",
+    "regex_pattern": "\\s+Enema\\s*$"
+  },
+  {
+    "dosage_form": "ENEMA (ML)",
+    "suffix": "Enema",
+    "regex_pattern": "\\s+Enema\\s*$"
+  },
+  {
+    "dosage_form": "NASAL GEL",
+    "suffix": "Nasal Gel",
+    "regex_pattern": "\\s+Nasal\\s+Gel\\s*$"
+  },
+  {
+    "dosage_form": "NASAL POWDER",
+    "suffix": "Nasal Powder",
+    "regex_pattern": "\\s+Nasal\\s+Powder\\s*$"
+  },
+  {
+    "dosage_form": "TAPE, MEDICATED",
+    "suffix": "Medicated Tape",
+    "regex_pattern": "\\s+Medicated\\s+Tape\\s*$"
+  },
+  {
+    "dosage_form": "TOOTHPASTE",
+    "suffix": "Toothpaste",
+    "regex_pattern": "\\s+Toothpaste\\s*$"
+  }
+]

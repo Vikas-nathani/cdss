@@ -1,0 +1,40 @@
+{
+  "drug_info": {
+    "drugbank_id": null,
+    "name": null,
+    "unii": null,
+    "synonyms": [
+      null
+    ],
+    "classification_description": null
+  },
+  "clinical": {
+    "indication": null,
+    "pharmacodynamics": null,
+    "general_function": null
+  },
+  "drug_interactions": {
+    "drug_interactions": [
+      {
+        "name": null,
+        "description": null,
+        "drugbank_id": null
+      }
+    ],
+    "food_interactions": [
+      {
+        "text": null
+      }
+    ]
+  },
+  "chemistry": {
+    "reactions": [
+      {
+        "sequence": null,
+        "left_element": null,
+        "right_element": null,
+        "enzymes": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "original_path": "drugbank_id",
+    "normalized_path": "drug_info.drugbank_id",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "name",
+    "normalized_path": "drug_info.name",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "unii",
+    "normalized_path": "drug_info.unii",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "synonyms",
+    "normalized_path": "drug_info.synonyms",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "classification_description",
+    "normalized_path": "drug_info.classification_description",
+    "category": "drug_info"
+  },
+  {
+    "original_path": "indication",
+    "normalized_path": "clinical.indication",
+    "category": "clinical"
+  },
+  {
+    "original_path": "pharmacodynamics",
+    "normalized_path": "clinical.pharmacodynamics",
+    "category": "clinical"
+  },
+  {
+    "original_path": "general_function",
+    "normalized_path": "clinical.general_function",
+    "category": "clinical"
+  },
+  {
+    "original_path": "drug_interactions",
+    "normalized_path": "drug_interactions.drug_interactions",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "drug_interactions.name",
+    "normalized_path": "drug_interactions.drug_interactions.name",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "drug_interactions.description",
+    "normalized_path": "drug_interactions.drug_interactions.description",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "drug_interactions.drugbank_id",
+    "normalized_path": "drug_interactions.drug_interactions.drugbank_id",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "food_interactions",
+    "normalized_path": "drug_interactions.food_interactions",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "food_interactions.text",
+    "normalized_path": "drug_interactions.food_interactions.text",
+    "category": "drug_interactions"
+  },
+  {
+    "original_path": "reactions",
+    "normalized_path": "chemistry.reactions",
+    "category": "chemistry"
+  },
+  {
+    "original_path": "reactions.sequence",
+    "normalized_path": "chemistry.reactions.sequence",
+    "category": "chemistry"
+  },
+  {
+    "original_path": "reactions.left_element",
+    "normalized_path": "chemistry.reactions.left_element",
+    "category": "chemistry"
+  },
+  {
+    "original_path": "reactions.right_element",
+    "normalized_path": "chemistry.reactions.right_element",
+    "category": "chemistry"
+  },
+  {
+    "original_path": "reactions.enzymes",
+    "normalized_path": "chemistry.reactions.enzymes",
+    "category": "chemistry"
+  }
+]

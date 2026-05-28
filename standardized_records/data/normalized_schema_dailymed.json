@@ -1,0 +1,607 @@
+{
+  "drug_info": {
+    "products": {
+      "ndc_code": null,
+      "packaging": {
+        "type": null,
+        "quantity": null
+      },
+      "brand_name": null,
+      "approval_id": null,
+      "dosage_form": null,
+      "generic_name": null,
+      "active_ingredients": {
+        "name": null,
+        "strength": null
+      },
+      "inactive_ingredients": {},
+      "route_of_administration": null,
+      "physical_characteristics": {
+        "color": null,
+        "score": null,
+        "shape": null,
+        "imprint": null,
+        "size_mm": null
+      }
+    },
+    "manufacturer": {
+      "name": null
+    }
+  },
+  "identification": {
+    "drug_label": {
+      "version": null,
+      "label_type": null,
+      "document_id": null,
+      "effective_date": null
+    }
+  },
+  "labeling_content": {
+    "other_sections": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null,
+                "subsections": {
+                  "content": null,
+                  "subsections": {
+                    "content": null,
+                    "section_title": null
+                  },
+                  "section_title": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "section_title": null
+    },
+    "indications_and_usage": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null
+            }
+          }
+        }
+      }
+    },
+    "dosage_and_administration": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "unclassified": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null
+              }
+            }
+          }
+        },
+        "section_title": null
+      }
+    }
+  },
+  "safety": {
+    "warnings": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "subsections": {
+                  "content": null,
+                  "subsections": {
+                    "content": null,
+                    "subsections": {
+                      "content": null,
+                      "subsections": {
+                        "content": null,
+                        "section_title": null,
+                        "subsections": {
+                          "content": null,
+                          "subsections": {
+                            "content": null,
+                            "subsections": {
+                              "content": null,
+                              "subsections": {
+                                "content": null,
+                                "subsections": {
+                                  "content": null,
+                                  "subsections": {
+                                    "content": null,
+                                    "section_title": null
+                                  },
+                                  "section_title": null
+                                },
+                                "section_title": null
+                              },
+                              "section_title": null
+                            },
+                            "section_title": null
+                          },
+                          "section_title": null
+                        }
+                      },
+                      "section_title": null
+                    },
+                    "section_title": null
+                  },
+                  "section_title": null
+                },
+                "section_title": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "precautions": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "subsections": {
+                  "content": null,
+                  "subsections": {
+                    "content": null,
+                    "subsections": {
+                      "content": null,
+                      "subsections": {
+                        "content": null,
+                        "section_title": null
+                      },
+                      "section_title": null
+                    },
+                    "section_title": null
+                  },
+                  "section_title": null
+                },
+                "section_title": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "contraindications": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null
+          }
+        }
+      }
+    },
+    "boxed_warning": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null
+        }
+      }
+    },
+    "warnings_and_precautions": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "subsections": {
+                "content": null,
+                "subsections": {
+                  "content": null,
+                  "section_title": null
+                },
+                "section_title": null
+              },
+              "section_title": null
+            }
+          }
+        }
+      },
+      "section_title": null
+    },
+    "general_precautions": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null
+          }
+        }
+      }
+    }
+  },
+  "adverse_events": {
+    "adverse_reactions": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null,
+                "subsections": {
+                  "content": null,
+                  "section_title": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "overdosage": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    }
+  },
+  "clinical": {
+    "clinical_pharmacology": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null,
+                "subsections": {
+                  "content": null,
+                  "section_title": null,
+                  "subsections": {
+                    "content": null,
+                    "section_title": null
+                  }
+                }
+              }
+            }
+          },
+          "section_title": null
+        }
+      }
+    },
+    "references": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null
+          }
+        }
+      }
+    },
+    "clinical_studies": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null,
+              "subsections": {
+                "content": null,
+                "section_title": null
+              }
+            }
+          }
+        }
+      },
+      "section_title": null
+    },
+    "pharmacokinetics": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null
+            }
+          }
+        }
+      },
+      "section_title": null
+    },
+    "carcinogenesis": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null
+        }
+      }
+    },
+    "mechanism_of_action": {
+      "content": null,
+      "section_title": null
+    }
+  },
+  "patient_info": {
+    "information_for_patients": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null
+            }
+          }
+        }
+      },
+      "section_title": null
+    }
+  },
+  "population_specific": {
+    "geriatric_use": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    },
+    "pediatric_use": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    },
+    "nursing_mothers": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    },
+    "labor_and_delivery": {
+      "content": null,
+      "section_title": null
+    },
+    "teratogenic_effects": {
+      "content": null,
+      "section_title": null
+    },
+    "nonteratogenic_effects": {
+      "content": null,
+      "section_title": null
+    }
+  },
+  "drug_interactions": {
+    "drug_interactions": {
+      "content": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null,
+            "subsections": {
+              "content": null,
+              "section_title": null
+            }
+          }
+        }
+      },
+      "section_title": null
+    },
+    "laboratory_tests": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    }
+  },
+  "supply_storage": {
+    "how_supplied": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "section_title": null
+          }
+        }
+      }
+    },
+    "package_label": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null,
+        "subsections": {
+          "content": null,
+          "section_title": null,
+          "subsections": {
+            "content": null,
+            "subsections": {
+              "content": null,
+              "subsections": {
+                "content": null,
+                "section_title": null
+              },
+              "section_title": null
+            },
+            "section_title": null
+          }
+        }
+      }
+    },
+    "storage_and_handling": {
+      "content": null,
+      "section_title": null,
+      "subsections": {
+        "content": null,
+        "section_title": null
+      }
+    }
+  }
+}

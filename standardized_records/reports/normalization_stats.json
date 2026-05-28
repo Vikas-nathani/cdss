@@ -1,0 +1,64 @@
+{
+  "before": {
+    "top_level_fields": 4,
+    "total_fields": 442,
+    "max_depth": 18
+  },
+  "after": {
+    "top_level_categories": 10,
+    "total_fields": 451,
+    "original_content_fields_preserved": 441,
+    "new_structural_category_keys": 9,
+    "max_depth": 19,
+    "note": "Max depth is 19 because drug_info.products / identification.drug_label add one wrapping level. The internal label_sections depth is unchanged (safety.warnings.subsections... remains at the same absolute depth as before)."
+  },
+  "verification": {
+    "all_content_fields_mapped": true,
+    "missing_fields": [],
+    "extra_fields": [],
+    "field_count_match": true,
+    "label_sections_distributed": true
+  },
+  "semantic_categories": [
+    {
+      "name": "drug_info",
+      "field_count": 22
+    },
+    {
+      "name": "identification",
+      "field_count": 5
+    },
+    {
+      "name": "labeling_content",
+      "field_count": 75
+    },
+    {
+      "name": "safety",
+      "field_count": 132
+    },
+    {
+      "name": "adverse_events",
+      "field_count": 27
+    },
+    {
+      "name": "clinical",
+      "field_count": 81
+    },
+    {
+      "name": "patient_info",
+      "field_count": 15
+    },
+    {
+      "name": "population_specific",
+      "field_count": 27
+    },
+    {
+      "name": "drug_interactions",
+      "field_count": 21
+    },
+    {
+      "name": "supply_storage",
+      "field_count": 36
+    }
+  ]
+}

@@ -1,0 +1,2324 @@
+{
+  "schemas": [
+    {
+      "schema_name": "drugdb"
+    },
+    {
+      "schema_name": "information_schema"
+    },
+    {
+      "schema_name": "pg_catalog"
+    },
+    {
+      "schema_name": "pg_temp_10"
+    },
+    {
+      "schema_name": "pg_temp_12"
+    },
+    {
+      "schema_name": "pg_temp_21"
+    },
+    {
+      "schema_name": "pg_temp_3"
+    },
+    {
+      "schema_name": "pg_temp_4"
+    },
+    {
+      "schema_name": "pg_temp_5"
+    },
+    {
+      "schema_name": "pg_temp_7"
+    },
+    {
+      "schema_name": "pg_temp_8"
+    },
+    {
+      "schema_name": "pg_temp_9"
+    },
+    {
+      "schema_name": "pg_toast"
+    },
+    {
+      "schema_name": "pg_toast_temp_10"
+    },
+    {
+      "schema_name": "pg_toast_temp_12"
+    },
+    {
+      "schema_name": "pg_toast_temp_21"
+    },
+    {
+      "schema_name": "pg_toast_temp_3"
+    },
+    {
+      "schema_name": "pg_toast_temp_4"
+    },
+    {
+      "schema_name": "pg_toast_temp_5"
+    },
+    {
+      "schema_name": "pg_toast_temp_7"
+    },
+    {
+      "schema_name": "pg_toast_temp_8"
+    },
+    {
+      "schema_name": "pg_toast_temp_9"
+    },
+    {
+      "schema_name": "public"
+    }
+  ],
+  "ing_schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": "gen_random_uuid()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "drugbank_id",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 50,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "unii",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 50,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "rxcui",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 50,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "name",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "indications",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "general_function",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "type",
+        "data_type": "USER-DEFINED",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "pharmacodynamics",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "classification_description",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "food_interactions",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "created_by",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "id"
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "indexname": "ingredients_pkey",
+        "indexdef": "CREATE UNIQUE INDEX ingredients_pkey ON drugdb.ingredients USING btree (id)"
+      },
+      {
+        "indexname": "idx_ingredients_drugbank",
+        "indexdef": "CREATE INDEX idx_ingredients_drugbank ON drugdb.ingredients USING btree (drugbank_id)"
+      },
+      {
+        "indexname": "idx_ingredients_unii",
+        "indexdef": "CREATE INDEX idx_ingredients_unii ON drugdb.ingredients USING btree (unii)"
+      },
+      {
+        "indexname": "idx_ingredients_rxcui",
+        "indexdef": "CREATE INDEX idx_ingredients_rxcui ON drugdb.ingredients USING btree (rxcui)"
+      },
+      {
+        "indexname": "idx_ingredients_name",
+        "indexdef": "CREATE INDEX idx_ingredients_name ON drugdb.ingredients USING btree (name)"
+      },
+      {
+        "indexname": "idx_ingredients_updated_at",
+        "indexdef": "CREATE INDEX idx_ingredients_updated_at ON drugdb.ingredients USING btree (updated_at)"
+      }
+    ]
+  },
+  "ing_stats": {
+    "total_rows": 20037,
+    "with_id": 20037,
+    "with_drugbank_id": 19847,
+    "with_rxcui": 2137,
+    "with_unii": 19842,
+    "with_name": 20037,
+    "with_indications": 19842,
+    "with_general_function": 19842,
+    "with_pharmacodynamics": 19842,
+    "with_classification_description": 19842,
+    "with_food_interactions": 1453,
+    "with_created_at": 20037,
+    "with_updated_at": 20037,
+    "with_created_by": 19842,
+    "skeleton_rows": 190,
+    "fully_mapped": 1947,
+    "drugbank_only": 17900,
+    "neither": 0
+  },
+  "ing_name_len": {
+    "min_len": 3,
+    "max_len": 226,
+    "avg_len": "22.73"
+  },
+  "ing_samples": [
+    {
+      "id": "c79436d0-5acb-4b94-b55b-107da2f208dd",
+      "name": "17-alpha-hydroxyprogesterone",
+      "drugbank_id": null,
+      "rxcui": "5542",
+      "unii": null,
+      "created_by": null
+    },
+    {
+      "id": "fd548b68-dc2b-5fc1-97f5-29657f9aa552",
+      "name": "Aminocaproic acid",
+      "drugbank_id": "DB00513",
+      "rxcui": "99",
+      "unii": "U6F3787206",
+      "created_by": "admin"
+    },
+    {
+      "id": "bc4c1289-12d7-56f5-a45c-3457c18c9ed5",
+      "name": "Abacavir",
+      "drugbank_id": "DB01048",
+      "rxcui": "190521",
+      "unii": "WR2TIP26VS",
+      "created_by": "admin"
+    },
+    {
+      "id": "2c4bcbd3-63d6-52dd-bd79-3f302ccb39eb",
+      "name": "Abaloparatide",
+      "drugbank_id": "DB05084",
+      "rxcui": "1921069",
+      "unii": "AVK0I6HY2U",
+      "created_by": "admin"
+    },
+    {
+      "id": "b7963f00-a1f6-57a6-85a4-2523693e42c4",
+      "name": "Abametapir",
+      "drugbank_id": "DB11932",
+      "rxcui": "2475532",
+      "unii": "6UO390AMFB",
+      "created_by": "admin"
+    }
+  ],
+  "ing_skeleton_samples": [
+    {
+      "id": "c79436d0-5acb-4b94-b55b-107da2f208dd",
+      "name": "17-alpha-hydroxyprogesterone",
+      "rxcui": "5542",
+      "drugbank_id": null
+    },
+    {
+      "id": "f64bcfe9-6b8a-4ef5-bc18-aa998dde71c7",
+      "name": "Acacia pollen extract",
+      "rxcui": "851732",
+      "drugbank_id": null
+    },
+    {
+      "id": "1588fbf4-5c3a-4400-a994-fc9b1ef1dded",
+      "name": "albumin human, USP",
+      "rxcui": "828529",
+      "drugbank_id": null
+    },
+    {
+      "id": "b3e9b019-ef6d-4365-823f-2874b8ee2025",
+      "name": "almond allergenic extract",
+      "rxcui": "892507",
+      "drugbank_id": null
+    },
+    {
+      "id": "812777d2-c410-4f7b-b279-59c441b427f2",
+      "name": "aloe polysaccharide",
+      "rxcui": "476786",
+      "drugbank_id": null
+    }
+  ],
+  "ing_drugbank_only_samples": [
+    {
+      "id": "8cf9124e-ba5c-5b46-b232-3ef6d14179f7",
+      "name": "PYX-201",
+      "rxcui": null,
+      "drugbank_id": "DB18382"
+    },
+    {
+      "id": "9a10d3ac-a391-5d31-a2b5-60ec60a1901d",
+      "name": "AIC100",
+      "rxcui": null,
+      "drugbank_id": "DB17350"
+    },
+    {
+      "id": "46ff6bbb-3ad7-59a7-b24c-65dd42700114",
+      "name": "Rabbit",
+      "rxcui": null,
+      "drugbank_id": "DB10415"
+    }
+  ],
+  "ing_created_by": [
+    {
+      "created_by": "admin",
+      "cnt": 19842
+    },
+    {
+      "created_by": null,
+      "cnt": 195
+    }
+  ],
+  "syn_schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "synonym",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": 500,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "created_by",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "id"
+      },
+      {
+        "column_name": "synonym"
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column_name": "id",
+        "foreign_schema": "public",
+        "foreign_table": "ingredients",
+        "foreign_column": "id"
+      },
+      {
+        "column_name": "id",
+        "foreign_schema": "drugdb",
+        "foreign_table": "ingredients",
+        "foreign_column": "id"
+      },
+      {
+        "column_name": "id",
+        "foreign_schema": "public",
+        "foreign_table": "ingredients",
+        "foreign_column": "id"
+      },
+      {
+        "column_name": "id",
+        "foreign_schema": "drugdb",
+        "foreign_table": "ingredients",
+        "foreign_column": "id"
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "ingredient_synonyms_pkey",
+        "indexdef": "CREATE UNIQUE INDEX ingredient_synonyms_pkey ON drugdb.ingredient_synonyms USING btree (id, synonym)"
+      },
+      {
+        "indexname": "idx_synonyms_id",
+        "indexdef": "CREATE INDEX idx_synonyms_id ON drugdb.ingredient_synonyms USING btree (id)"
+      }
+    ]
+  },
+  "syn_stats": {
+    "total_rows": 18160,
+    "distinct_ingredient_ids": 18160,
+    "min_synonyms": 1,
+    "max_synonyms": 65,
+    "avg_synonyms": "2.87"
+  },
+  "syn_null": {
+    "total": 52154,
+    "with_id": 52154,
+    "with_synonym": 52154
+  },
+  "syn_samples": [
+    {
+      "id": "c750ced7-4187-565a-aa74-d4d511966f33",
+      "synonym": "Uroquinasa"
+    },
+    {
+      "id": "95d85f85-264c-598e-abc8-88904831c14b",
+      "synonym": "Leuporelin"
+    },
+    {
+      "id": "95d85f85-264c-598e-abc8-88904831c14b",
+      "synonym": "Leuprorelin"
+    },
+    {
+      "id": "95d85f85-264c-598e-abc8-88904831c14b",
+      "synonym": "Leuprorelina"
+    },
+    {
+      "id": "95d85f85-264c-598e-abc8-88904831c14b",
+      "synonym": "Leuproreline"
+    }
+  ],
+  "syn_top5": [
+    {
+      "name": "Castor oil",
+      "synonym_count": 65
+    },
+    {
+      "name": "Turmeric",
+      "synonym_count": 57
+    },
+    {
+      "name": "Yellowfin tuna",
+      "synonym_count": 51
+    },
+    {
+      "name": "Acacia",
+      "synonym_count": 44
+    },
+    {
+      "name": "Senna leaf",
+      "synonym_count": 44
+    }
+  ],
+  "ibi_schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "nextval('drugdb.indian_brand_ingredient_id_seq'::regclass)",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0
+      },
+      {
+        "column_name": "indian_brand_id",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0
+      },
+      {
+        "column_name": "ingredient_index",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0
+      },
+      {
+        "column_name": "ingredient_name_raw",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "ingredient_name_norm",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "strength_mass",
+        "data_type": "numeric",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 18,
+        "numeric_scale": 4
+      },
+      {
+        "column_name": "strength_unit",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "strength_label",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "rxcui_in",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "match_confidence",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "drugbank_id",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "id"
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column_name": "indian_brand_id",
+        "foreign_schema": "drugdb",
+        "foreign_table": "indian_brand",
+        "foreign_column": "indian_brand_id"
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "indian_brand_ingredient_pkey",
+        "indexdef": "CREATE UNIQUE INDEX indian_brand_ingredient_pkey ON drugdb.indian_brand_ingredient USING btree (id)"
+      },
+      {
+        "indexname": "indian_brand_ingredient_indian_brand_id_ingredient_index_key",
+        "indexdef": "CREATE UNIQUE INDEX indian_brand_ingredient_indian_brand_id_ingredient_index_key ON drugdb.indian_brand_ingredient USING btree (indian_brand_id, ingredient_index)"
+      },
+      {
+        "indexname": "idx_ibi_brand_id",
+        "indexdef": "CREATE INDEX idx_ibi_brand_id ON drugdb.indian_brand_ingredient USING btree (indian_brand_id)"
+      },
+      {
+        "indexname": "idx_ibi_name_norm",
+        "indexdef": "CREATE INDEX idx_ibi_name_norm ON drugdb.indian_brand_ingredient USING btree (ingredient_name_norm)"
+      },
+      {
+        "indexname": "idx_ibi_name_trgm",
+        "indexdef": "CREATE INDEX idx_ibi_name_trgm ON drugdb.indian_brand_ingredient USING gin (ingredient_name_norm gin_trgm_ops)"
+      },
+      {
+        "indexname": "idx_ibi_rxcui",
+        "indexdef": "CREATE INDEX idx_ibi_rxcui ON drugdb.indian_brand_ingredient USING btree (rxcui_in)"
+      },
+      {
+        "indexname": "uq_brand_ing_idx",
+        "indexdef": "CREATE UNIQUE INDEX uq_brand_ing_idx ON drugdb.indian_brand_ingredient USING btree (indian_brand_id, ingredient_index)"
+      }
+    ]
+  },
+  "ibi_cols": [
+    {
+      "column_name": "id",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "indian_brand_id",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "ingredient_index",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "ingredient_name_raw",
+      "data_type": "text"
+    },
+    {
+      "column_name": "ingredient_name_norm",
+      "data_type": "text"
+    },
+    {
+      "column_name": "strength_mass",
+      "data_type": "numeric"
+    },
+    {
+      "column_name": "strength_unit",
+      "data_type": "text"
+    },
+    {
+      "column_name": "strength_label",
+      "data_type": "text"
+    },
+    {
+      "column_name": "rxcui_in",
+      "data_type": "text"
+    },
+    {
+      "column_name": "match_confidence",
+      "data_type": "text"
+    },
+    {
+      "column_name": "drugbank_id",
+      "data_type": "text"
+    }
+  ],
+  "ibi_stats": {
+    "total_rows": 580669,
+    "with_drugbank_id": 575839,
+    "missing_drugbank_id": 4830,
+    "pct_mapped": "99.17"
+  },
+  "ibi_distinct": {
+    "distinct_raw": 1877,
+    "distinct_norm": 1875,
+    "distinct_drugbank_ids": 1627
+  },
+  "ibi_samples": [
+    {
+      "id": 282588,
+      "indian_brand_id": 174629,
+      "ingredient_index": 0,
+      "ingredient_name_raw": "Gabapentin",
+      "ingredient_name_norm": "gabapentin",
+      "strength_mass": "400.0000",
+      "strength_unit": "mg",
+      "strength_label": "400mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": "DB00996"
+    },
+    {
+      "id": 282617,
+      "indian_brand_id": 174648,
+      "ingredient_index": 0,
+      "ingredient_name_raw": "Ibuprofen",
+      "ingredient_name_norm": "ibuprofen",
+      "strength_mass": "100.0000",
+      "strength_unit": "mg",
+      "strength_label": "100mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": "DB01050"
+    },
+    {
+      "id": 282556,
+      "indian_brand_id": 174608,
+      "ingredient_index": 2,
+      "ingredient_name_raw": "Voglibose",
+      "ingredient_name_norm": "voglibose",
+      "strength_mass": "0.2000",
+      "strength_unit": "mg",
+      "strength_label": "0.2mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": "DB04878"
+    },
+    {
+      "id": 282608,
+      "indian_brand_id": 174643,
+      "ingredient_index": 0,
+      "ingredient_name_raw": "Aripiprazole",
+      "ingredient_name_norm": "aripiprazole",
+      "strength_mass": "30.0000",
+      "strength_unit": "mg",
+      "strength_label": "30mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": "DB01238"
+    },
+    {
+      "id": 282593,
+      "indian_brand_id": 174631,
+      "ingredient_index": 0,
+      "ingredient_name_raw": "Fluorometholone",
+      "ingredient_name_norm": "fluorometholone",
+      "strength_mass": "0.1000",
+      "strength_unit": "% w/v",
+      "strength_label": "0.1% w/v",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": "DB00324"
+    }
+  ],
+  "ibi_unmapped_samples": [
+    {
+      "id": 282547,
+      "indian_brand_id": 174604,
+      "ingredient_index": 1,
+      "ingredient_name_raw": "Tricholine",
+      "ingredient_name_norm": "tricholine",
+      "strength_mass": "275.0000",
+      "strength_unit": "mg",
+      "strength_label": "275mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": null
+    },
+    {
+      "id": 282599,
+      "indian_brand_id": 174635,
+      "ingredient_index": 1,
+      "ingredient_name_raw": "Tricholine",
+      "ingredient_name_norm": "tricholine",
+      "strength_mass": "27.5000",
+      "strength_unit": "mg",
+      "strength_label": "27.5mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": null
+    },
+    {
+      "id": 282684,
+      "indian_brand_id": 174690,
+      "ingredient_index": 1,
+      "ingredient_name_raw": "Tricholine",
+      "ingredient_name_norm": "tricholine",
+      "strength_mass": "275.0000",
+      "strength_unit": "mg",
+      "strength_label": "275mg",
+      "rxcui_in": null,
+      "match_confidence": null,
+      "drugbank_id": null
+    }
+  ],
+  "dsm_schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "sourceid",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "source",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": "'openfda'::text",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "record",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "keyterms",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "clean_record",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "standardized_records",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "id"
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "indexname": "DrugSourceMaster_pkey",
+        "indexdef": "CREATE UNIQUE INDEX \"DrugSourceMaster_pkey\" ON public.\"DrugSourceMaster\" USING btree (id)"
+      },
+      {
+        "indexname": "idx_drug_source_master_sourceid",
+        "indexdef": "CREATE INDEX idx_drug_source_master_sourceid ON public.\"DrugSourceMaster\" USING btree (sourceid)"
+      },
+      {
+        "indexname": "idx_drug_source_master_source_sourceid_unique",
+        "indexdef": "CREATE UNIQUE INDEX idx_drug_source_master_source_sourceid_unique ON public.\"DrugSourceMaster\" USING btree (source, sourceid)"
+      },
+      {
+        "indexname": "idx_dsm_source_id",
+        "indexdef": "CREATE INDEX idx_dsm_source_id ON public.\"DrugSourceMaster\" USING btree (source, id)"
+      },
+      {
+        "indexname": "idx_dsm_unii_drugbank",
+        "indexdef": "CREATE INDEX idx_dsm_unii_drugbank ON public.\"DrugSourceMaster\" USING btree ((((record -> 'drug'::text) ->> 'unii'::text))) WHERE (source = 'drugbank'::text)"
+      },
+      {
+        "indexname": "idx_dsm_sourceid_drugbank",
+        "indexdef": "CREATE INDEX idx_dsm_sourceid_drugbank ON public.\"DrugSourceMaster\" USING btree (sourceid) WHERE (source = 'drugbank'::text)"
+      },
+      {
+        "indexname": "idx_drugsourcemaster_drugbank_unii",
+        "indexdef": "CREATE INDEX idx_drugsourcemaster_drugbank_unii ON public.\"DrugSourceMaster\" USING btree ((((record -> 'drug'::text) ->> 'unii'::text))) WHERE (source = 'drugbank'::text)"
+      }
+    ]
+  },
+  "dsm_cols": [
+    {
+      "column_name": "id",
+      "data_type": "uuid"
+    },
+    {
+      "column_name": "sourceid",
+      "data_type": "text"
+    },
+    {
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "column_name": "record",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "keyterms",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "clean_record",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "standardized_records",
+      "data_type": "jsonb"
+    }
+  ],
+  "dsm_total": {
+    "total_rows": 738197
+  },
+  "dsm_by_source": [
+    {
+      "source": "rxnorm",
+      "row_count": 410459
+    },
+    {
+      "source": "openfda",
+      "row_count": 256165
+    },
+    {
+      "source": "dailymed",
+      "row_count": 51731
+    },
+    {
+      "source": "drugbank",
+      "row_count": 19842
+    }
+  ],
+  "dsm_null": {
+    "total": 738197,
+    "with_source": 738197
+  },
+  "dsm_samples": [
+    {
+      "id": "7c7c0ccc-4f48-579d-b5f3-2dad771d4804",
+      "sourceid": "3869e21c-4720-4c37-8e2d-97b0d8e89ac9",
+      "source": "openfda",
+      "record": {
+        "id": "3869e21c-4720-4c37-8e2d-97b0d8e89ac9",
+        "set_id": "c4e78fa5-6ced-4c90-89c6-31e5fc71b837",
+        "openfda": {
+          "unii": [
+            "91A0K1TY3Z"
+          ],
+          "route": [
+            "TOPICAL"
+          ],
+          "rxcui": [
+            "977978"
+          ],
+          "spl_id": [
+            "3869e21c-4720-4c37-8e2d-97b0d8e89ac9"
+          ],
+          "brand_name": [
+            "Halobetasol Propionate"
+          ],
+          "spl_set_id": [
+            "c4e78fa5-6ced-4c90-89c6-31e5fc71b837"
+          ],
+          "package_ndc": [
+            "72162-2067-2",
+            "72162-2067-4"
+          ],
+          "product_ndc": [
+            "72162-2067"
+          ],
+          "generic_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "substance_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "manufacturer_name": [
+            "Bryant Ranch Prepack"
+          ],
+          "application_number": [
+            "ANDA213560"
+          ],
+          "original_packager_product_ndc": [
+            "70752-119"
+          ]
+        },
+        "version": "103",
+        "pregnancy": [
+          "Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus."
+        ],
+        "overdosage": [
+          "OVERDOSAGE Topically applied Halobetasol Propionate Ointment can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS )."
+        ],
+        "description": [
+          "DESCRIPTION Halobetasol Propionate Ointment, 0.05% contains halobetasol propionate, a synthetic corticosteroid for topical dermatological use. The corticosteroids constitute a class of primarily synthetic steroids used topically as an anti-inflammatory and antipruritic agent. Chemically halobetasol propionate is 21-chloro-6\u03b1, 9-difluoro-11\u03b2,17-dihydroxy-16\u03b2-methylpregna-1,4-diene-3-20-dione,17-propionate, C 25 H 31 ClF 2 O 5 . It has the following structural formula: Halobetasol propionate has the molecular weight of 485. It is a white crystalline powder insoluble in water. Each gram of Halobetasol Propionate Ointment contains 0.5 mg/g of halobetasol propionate in a base of aluminum stearate, white beeswax, pentaerythritol cocoate, propylene glycol, sorbitan sesquioleate, monostearyl citrate, and white petrolatum."
+        ],
+        "precautions": [
+          "PRECAUTIONS General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae. Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions. Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test. Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations. Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman. Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema. Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out."
+        ],
+        "how_supplied": [
+          "HOW SUPPLIED Halobetasol Propionate Ointment, 0.05% is supplied in the following tube sizes: 15 g (NDC 72162-2067-2) 50 g (NDC 72162-2067-4) Repackaged/Relabeled by: Bryant Ranch Prepack, Inc. Burbank, CA 91504"
+        ],
+        "geriatric_use": [
+          "Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out."
+        ],
+        "pediatric_use": [
+          "Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema."
+        ],
+        "effective_time": "20230815",
+        "nursing_mothers": [
+          "Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman."
+        ],
+        "laboratory_tests": [
+          "Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test."
+        ],
+        "pharmacokinetics": [
+          "Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids."
+        ],
+        "adverse_reactions": [
+          "ADVERSE REACTIONS In controlled clinical trials, the most frequent adverse events reported for Halobetasol Propionate Ointment included stinging or burning in 1.6% of the patients. Less frequently reported adverse reactions were pustulation, erythema, skin atrophy, leukoderma, acne, itching, secondary infection, telangiectasia, urticaria, dry skin, miliaria, paresthesia, and rash. The following additional local adverse reactions are reported infrequently with topical corticosteroids, and they may occur more frequently with high potency corticosteroids, such as Halobetasol Propionate Ointment. These reactions are listed in an approximate decreasing order of occurrence: folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, secondary infection, striae and miliaria. To report SUSPECTED ADVERSE REACTIONS, contact Quagen Pharmaceuticals LLC at 1-888-344-9603 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch ."
+        ],
+        "contraindications": [
+          "CONTRAINDICATIONS Halobetasol Propionate Ointment is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation."
+        ],
+        "general_precautions": [
+          "General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae."
+        ],
+        "storage_and_handling": [
+          "STORAGE Store at 20\u00b0-25\u00b0C (68\u00b0-77\u00b0F) [see USP Controlled Room Temperature]. Manufactured by: Quagen Pharmaceuticals LLC West Caldwell, NJ 07006 52010 Rev. 10/20"
+        ],
+        "clinical_pharmacology": [
+          "CLINICAL PHARMACOLOGY Like other topical corticosteroids, halobetasol propionate has anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of the anti-inflammatory activity of the topical corticosteroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase A 2 inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A 2 . Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids."
+        ],
+        "indications_and_usage": [
+          "INDICATIONS AND USAGE Halobetasol Propionate Ointment 0.05% is a super-high potency corticosteroid indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses. Treatment beyond two consecutive weeks is not recommended, and the total dosage should not exceed 50 g/week because of the potential for the drug to suppress the hypothalamic-pituitary-adrenal (HPA) axis. Use in children under 12 years of age is not recommended. As with other highly active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of the diagnosis may be necessary."
+        ],
+        "information_for_patients": [
+          "Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions."
+        ],
+        "spl_unclassified_section": [
+          "Rx Only"
+        ],
+        "dosage_and_administration": [
+          "DOSAGE AND ADMINISTRATION Apply a thin layer of Halobetasol Propionate Ointment to the affected skin once or twice daily, as directed by your physician, and rub in gently and completely. Halobetasol Propionate Ointment is a super-high potency topical corticosteroid; therefore, treatment should be limited to two weeks, and amounts greater than 50 g/wk should not be used. As with other corticosteroids, therapy should be discontinued when control is achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. Halobetasol Propionate Ointment should not be used with occlusive dressings."
+        ],
+        "spl_product_data_elements": [
+          "Halobetasol Propionate Halobetasol Propionate HALOBETASOL PROPIONATE HALOBETASOL ALUMINUM STEARATE PETROLATUM WHITE WAX PROPYLENE GLYCOL SORBITAN SESQUIOLEATE MONOSTEARYL CITRATE PENTAERYTHRITOL chemicalstructure"
+        ],
+        "package_label_principal_display_panel": [
+          "Halobetasol Propionate 0.05% Oint #15 Label"
+        ],
+        "carcinogenesis_and_mutagenesis_and_impairment_of_fertility": [
+          "Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations."
+        ]
+      },
+      "keyterms": {
+        "brand_name": [
+          "Halobetasol Propionate"
+        ],
+        "generic_name": [
+          "HALOBETASOL PROPIONATE"
+        ]
+      },
+      "clean_record": {
+        "set_id": "c4e78fa5-6ced-4c90-89c6-31e5fc71b837",
+        "version": "103",
+        "drug_info": {
+          "route": [
+            "TOPICAL"
+          ],
+          "brand_name": "Halobetasol Propionate",
+          "generic_name": "HALOBETASOL PROPIONATE",
+          "manufacturer": "Bryant Ranch Prepack",
+          "product_type": "HUMAN PRESCRIPTION DRUG"
+        },
+        "overdosage": "OVERDOSAGE Topically applied Halobetasol Propionate Ointment can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS ).",
+        "document_id": "3869e21c-4720-4c37-8e2d-97b0d8e89ac9",
+        "precautions": "PRECAUTIONS General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae. Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions. Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test. Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations. Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman. Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema. Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.",
+        "unclassified": "Rx Only",
+        "geriatric_use": "Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.",
+        "package_label": [
+          "Halobetasol Propionate 0.05% Oint #15 Label"
+        ],
+        "pediatric_use": "Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.",
+        "effective_date": "20230815",
+        "nursing_mothers": "Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman.",
+        "drug_description": "DESCRIPTION Halobetasol Propionate Ointment, 0.05% contains halobetasol propionate, a synthetic corticosteroid for topical dermatological use. The corticosteroids constitute a class of primarily synthetic steroids used topically as an anti-inflammatory and antipruritic agent. Chemically halobetasol propionate is 21-chloro-6\u03b1, 9-difluoro-11\u03b2,17-dihydroxy-16\u03b2-methylpregna-1,4-diene-3-20-dione,17-propionate, C 25 H 31 ClF 2 O 5 . It has the following structural formula: Halobetasol propionate has the molecular weight of 485. It is a white crystalline powder insoluble in water. Each gram of Halobetasol Propionate Ointment contains 0.5 mg/g of halobetasol propionate in a base of aluminum stearate, white beeswax, pentaerythritol cocoate, propylene glycol, sorbitan sesquioleate, monostearyl citrate, and white petrolatum.",
+        "laboratory_tests": "Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test.",
+        "openfda_metadata": {
+          "unii": [
+            "91A0K1TY3Z"
+          ],
+          "route": [
+            "TOPICAL"
+          ],
+          "rxcui": [
+            "977978"
+          ],
+          "spl_id": [
+            "3869e21c-4720-4c37-8e2d-97b0d8e89ac9"
+          ],
+          "brand_name": [
+            "Halobetasol Propionate"
+          ],
+          "spl_set_id": [
+            "c4e78fa5-6ced-4c90-89c6-31e5fc71b837"
+          ],
+          "package_ndc": [
+            "72162-2067-2",
+            "72162-2067-4"
+          ],
+          "product_ndc": [
+            "72162-2067"
+          ],
+          "generic_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "substance_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "manufacturer_name": [
+            "Bryant Ranch Prepack"
+          ],
+          "application_number": [
+            "ANDA213560"
+          ],
+          "original_packager_product_ndc": [
+            "70752-119"
+          ]
+        },
+        "pharmacokinetics": "Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids.",
+        "use_in_pregnancy": "Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+        "adverse_reactions": "ADVERSE REACTIONS In controlled clinical trials, the most frequent adverse events reported for Halobetasol Propionate Ointment included stinging or burning in 1.6% of the patients. Less frequently reported adverse reactions were pustulation, erythema, skin atrophy, leukoderma, acne, itching, secondary infection, telangiectasia, urticaria, dry skin, miliaria, paresthesia, and rash. The following additional local adverse reactions are reported infrequently with topical corticosteroids, and they may occur more frequently with high potency corticosteroids, such as Halobetasol Propionate Ointment. These reactions are listed in an approximate decreasing order of occurrence: folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, secondary infection, striae and miliaria. To report SUSPECTED ADVERSE REACTIONS, contact Quagen Pharmaceuticals LLC at 1-888-344-9603 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch .",
+        "contraindications": "CONTRAINDICATIONS Halobetasol Propionate Ointment is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.",
+        "general_precautions": "General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae.",
+        "how_supplied_storage": "HOW SUPPLIED Halobetasol Propionate Ointment, 0.05% is supplied in the following tube sizes: 15 g (NDC 72162-2067-2) 50 g (NDC 72162-2067-4) Repackaged/Relabeled by: Bryant Ranch Prepack, Inc. Burbank, CA 91504",
+        "storage_and_handling": "STORAGE Store at 20\u00b0-25\u00b0C (68\u00b0-77\u00b0F) [see USP Controlled Room Temperature]. Manufactured by: Quagen Pharmaceuticals LLC West Caldwell, NJ 07006 52010 Rev. 10/20",
+        "clinical_pharmacology": "CLINICAL PHARMACOLOGY Like other topical corticosteroids, halobetasol propionate has anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of the anti-inflammatory activity of the topical corticosteroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase A 2 inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A 2 . Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids.",
+        "indications_and_usage": "INDICATIONS AND USAGE Halobetasol Propionate Ointment 0.05% is a super-high potency corticosteroid indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses. Treatment beyond two consecutive weeks is not recommended, and the total dosage should not exceed 50 g/week because of the potential for the drug to suppress the hypothalamic-pituitary-adrenal (HPA) axis. Use in children under 12 years of age is not recommended. As with other highly active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of the diagnosis may be necessary.",
+        "information_for_patients": "Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions.",
+        "dosage_and_administration": "DOSAGE AND ADMINISTRATION Apply a thin layer of Halobetasol Propionate Ointment to the affected skin once or twice daily, as directed by your physician, and rub in gently and completely. Halobetasol Propionate Ointment is a super-high potency topical corticosteroid; therefore, treatment should be limited to two weeks, and amounts greater than 50 g/wk should not be used. As with other corticosteroids, therapy should be discontinued when control is achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. Halobetasol Propionate Ointment should not be used with occlusive dressings.",
+        "spl_product_data_elements": "Halobetasol Propionate Halobetasol Propionate HALOBETASOL PROPIONATE HALOBETASOL ALUMINUM STEARATE PETROLATUM WHITE WAX PROPYLENE GLYCOL SORBITAN SESQUIOLEATE MONOSTEARYL CITRATE PENTAERYTHRITOL chemicalstructure",
+        "carcinogenesis_and_mutagenesis_and_impairment_of_fertility": "Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations."
+      },
+      "standardized_records": {
+        "safety": {
+          "precautions": {
+            "text": "PRECAUTIONS General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae. Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions. Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test. Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations. Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman. Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema. Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out."
+          },
+          "contraindications": {
+            "text": "CONTRAINDICATIONS Halobetasol Propionate Ointment is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation."
+          },
+          "general_precautions": {
+            "text": "General Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment. Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free-cortisol tests. Patients receiving super potent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA suppression. Halobetasol Propionate Ointment produced HPA axis suppression when used in divided doses at 7 grams per day for one week in patients with psoriasis. These effects were reversible upon discontinuation of treatment. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products. Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see PRECAUTIONS: Pediatric Use ). If irritation develops, Halobetasol Propionate Ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing failure to heal rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing. If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Halobetasol Propionate Ointment should be discontinued until the infection has been adequately controlled. Halobetasol Propionate Ointment should not be used in the treatment of rosacea or perioral dermatitis, and it should not be used on the face, groin, or in the axillae."
+          }
+        },
+        "clinical": {
+          "pharmacokinetics": {
+            "text": "Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids."
+          },
+          "clinical_pharmacology": {
+            "text": "CLINICAL PHARMACOLOGY Like other topical corticosteroids, halobetasol propionate has anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of the anti-inflammatory activity of the topical corticosteroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase A 2 inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A 2 . Pharmacokinetics The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption. Human and animal studies indicate that less than 6% of the applied dose of halobetasol propionate enters the circulation within 96 hours following topical administration of Halobetasol Propionate Ointment. Studies performed with Halobetasol Propionate Ointment indicate that it is in the super-high range of potency as compared with other topical corticosteroids."
+          }
+        },
+        "drug_info": {
+          "route": [
+            "TOPICAL"
+          ],
+          "brand_name": "Halobetasol Propionate",
+          "generic_name": "HALOBETASOL PROPIONATE",
+          "manufacturer": "Bryant Ranch Prepack",
+          "product_type": "HUMAN PRESCRIPTION DRUG"
+        },
+        "patient_info": {
+          "information_for_patients": {
+            "text": "Information for Patients Patients using topical corticosteroids should receive the following information and instructions: The medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes. The medication should not be used for any disorder other than that for which it was prescribed. The treated skin area should not be bandaged, otherwise covered or wrapped, so as to be occlusive unless directed by the physician. Patients should report to their physician any signs of local adverse reactions."
+          }
+        },
+        "adverse_events": {
+          "overdosage": {
+            "text": "OVERDOSAGE Topically applied Halobetasol Propionate Ointment can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS )."
+          },
+          "adverse_reactions": {
+            "text": "ADVERSE REACTIONS In controlled clinical trials, the most frequent adverse events reported for Halobetasol Propionate Ointment included stinging or burning in 1.6% of the patients. Less frequently reported adverse reactions were pustulation, erythema, skin atrophy, leukoderma, acne, itching, secondary infection, telangiectasia, urticaria, dry skin, miliaria, paresthesia, and rash. The following additional local adverse reactions are reported infrequently with topical corticosteroids, and they may occur more frequently with high potency corticosteroids, such as Halobetasol Propionate Ointment. These reactions are listed in an approximate decreasing order of occurrence: folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, secondary infection, striae and miliaria. To report SUSPECTED ADVERSE REACTIONS, contact Quagen Pharmaceuticals LLC at 1-888-344-9603 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch ."
+          }
+        },
+        "identification": {
+          "set_id": "c4e78fa5-6ced-4c90-89c6-31e5fc71b837",
+          "version": "103",
+          "document_id": "3869e21c-4720-4c37-8e2d-97b0d8e89ac9",
+          "effective_date": "20230815",
+          "spl_product_data_elements": "Halobetasol Propionate Halobetasol Propionate HALOBETASOL PROPIONATE HALOBETASOL ALUMINUM STEARATE PETROLATUM WHITE WAX PROPYLENE GLYCOL SORBITAN SESQUIOLEATE MONOSTEARYL CITRATE PENTAERYTHRITOL chemicalstructure"
+        },
+        "supply_storage": {
+          "package_label": {
+            "text": [
+              "Halobetasol Propionate 0.05% Oint #15 Label"
+            ]
+          },
+          "how_supplied_storage": {
+            "text": "HOW SUPPLIED Halobetasol Propionate Ointment, 0.05% is supplied in the following tube sizes: 15 g (NDC 72162-2067-2) 50 g (NDC 72162-2067-4) Repackaged/Relabeled by: Bryant Ranch Prepack, Inc. Burbank, CA 91504"
+          },
+          "storage_and_handling": {
+            "text": "STORAGE Store at 20\u00b0-25\u00b0C (68\u00b0-77\u00b0F) [see USP Controlled Room Temperature]. Manufactured by: Quagen Pharmaceuticals LLC West Caldwell, NJ 07006 52010 Rev. 10/20"
+          }
+        },
+        "labeling_content": {
+          "unclassified": {
+            "text": "Rx Only"
+          },
+          "drug_description": "DESCRIPTION Halobetasol Propionate Ointment, 0.05% contains halobetasol propionate, a synthetic corticosteroid for topical dermatological use. The corticosteroids constitute a class of primarily synthetic steroids used topically as an anti-inflammatory and antipruritic agent. Chemically halobetasol propionate is 21-chloro-6\u03b1, 9-difluoro-11\u03b2,17-dihydroxy-16\u03b2-methylpregna-1,4-diene-3-20-dione,17-propionate, C 25 H 31 ClF 2 O 5 . It has the following structural formula: Halobetasol propionate has the molecular weight of 485. It is a white crystalline powder insoluble in water. Each gram of Halobetasol Propionate Ointment contains 0.5 mg/g of halobetasol propionate in a base of aluminum stearate, white beeswax, pentaerythritol cocoate, propylene glycol, sorbitan sesquioleate, monostearyl citrate, and white petrolatum.",
+          "indications_and_usage": {
+            "text": "INDICATIONS AND USAGE Halobetasol Propionate Ointment 0.05% is a super-high potency corticosteroid indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses. Treatment beyond two consecutive weeks is not recommended, and the total dosage should not exceed 50 g/week because of the potential for the drug to suppress the hypothalamic-pituitary-adrenal (HPA) axis. Use in children under 12 years of age is not recommended. As with other highly active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of the diagnosis may be necessary."
+          },
+          "dosage_and_administration": {
+            "text": "DOSAGE AND ADMINISTRATION Apply a thin layer of Halobetasol Propionate Ointment to the affected skin once or twice daily, as directed by your physician, and rub in gently and completely. Halobetasol Propionate Ointment is a super-high potency topical corticosteroid; therefore, treatment should be limited to two weeks, and amounts greater than 50 g/wk should not be used. As with other corticosteroids, therapy should be discontinued when control is achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. Halobetasol Propionate Ointment should not be used with occlusive dressings."
+          }
+        },
+        "openfda_metadata": {
+          "unii": [
+            "91A0K1TY3Z"
+          ],
+          "route": [
+            "TOPICAL"
+          ],
+          "rxcui": [
+            "977978"
+          ],
+          "spl_id": [
+            "3869e21c-4720-4c37-8e2d-97b0d8e89ac9"
+          ],
+          "brand_name": [
+            "Halobetasol Propionate"
+          ],
+          "spl_set_id": [
+            "c4e78fa5-6ced-4c90-89c6-31e5fc71b837"
+          ],
+          "package_ndc": [
+            "72162-2067-2",
+            "72162-2067-4"
+          ],
+          "product_ndc": [
+            "72162-2067"
+          ],
+          "generic_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "substance_name": [
+            "HALOBETASOL PROPIONATE"
+          ],
+          "manufacturer_name": [
+            "Bryant Ranch Prepack"
+          ],
+          "application_number": [
+            "ANDA213560"
+          ],
+          "original_packager_product_ndc": [
+            "70752-119"
+          ]
+        },
+        "drug_interactions": {
+          "laboratory_tests": {
+            "text": "Laboratory Tests The following tests may be helpful in evaluating patients for HPA axis suppression: ACTH-stimulation test; A.M. plasma cortisol test; Urinary free-cortisol test."
+          }
+        },
+        "population_specific": {
+          "geriatric_use": {
+            "text": "Geriatric Use Of approximately 850 patients treated with Halobetasol Propionate Ointment in clinical studies, 21% were 61 years and over and 6% were 71 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients; and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out."
+          },
+          "pediatric_use": {
+            "text": "Pediatric Use Safety and effectiveness of Halobetasol Propionate Ointment in pediatric patients have not been established and use in pediatric patients under 12 is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children. HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema."
+          },
+          "nursing_mothers": {
+            "text": "Nursing Mothers Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Halobetasol Propionate Ointment is administered to a nursing woman."
+          },
+          "use_in_pregnancy": {
+            "text": "Pregnancy Teratogenic effects: Pregnancy Category C Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Halobetasol propionate has been shown to be teratogenic in SPF rats and chinchilla-type rabbits when given systemically during gestation at doses of 0.04 to 0.1 mg/kg in rats and 0.01 mg/kg in rabbits. These doses are approximately 13, 33 and 3 times, respectively, the human topical dose of Halobetasol Propionate Ointment. Halobetasol propionate was embryotoxic in rabbits but not in rats. Cleft palate was observed in both rats and rabbits. Omphalocele was seen in rats, but not in rabbits. There are no adequate and well-controlled studies of the teratogenic potential of halobetasol propionate in pregnant women. Halobetasol Propionate Ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus."
+          },
+          "carcinogenesis_and_mutagenesis_and_impairment_of_fertility": {
+            "text": "Carcinogenesis, Mutagenesis and Impairment of Fertility Long-term animal studies have not been performed to evaluate the carcinogenic potential of halobetasol propionate. Positive mutagenicity effects were observed in two genotoxicity assays. Halobetasol propionate was positive in a Chinese hamster micronucleus test, and in a mouse lymphoma gene mutation assay in vitro . Studies in the rat following oral administration at dose levels up to 50 mcg/kg/day indicated no impairment of fertility or general reproductive performance. In other genotoxicity testing, halobetasol propionate was not found to be genotoxic in the Ames/Salmonella assay, in the sister chromatid exchange test in somatic cells of the Chinese hamster, in chromosome aberration studies of germinal and somatic cells of rodents, and in a mammalian spot test to determine point mutations."
+          }
+        }
+      }
+    },
+    {
+      "id": "3791f9a0-dda6-4b9f-a76c-56dc48b259cb",
+      "sourceid": "1921219",
+      "source": "rxnorm",
+      "record": {
+        "rxcui": "1921219",
+        "entries": [
+          {
+            "sab": "SNOMEDCT_US",
+            "str": "Brigatinib-containing product in oral dose form",
+            "tty": "PT",
+            "code": "764160009"
+          },
+          {
+            "sab": "SNOMEDCT_US",
+            "str": "Product containing brigatinib in oral dose form (medicinal product form)",
+            "tty": "FN",
+            "code": "764160009"
+          },
+          {
+            "sab": "RXNORM",
+            "str": "brigatinib Oral Product",
+            "tty": "SCDG",
+            "code": "1921219"
+          }
+        ]
+      },
+      "keyterms": {
+        "tty": [
+          "FN",
+          "PT",
+          "SCDG"
+        ],
+        "name": "Brigatinib-containing product in oral dose form",
+        "synonyms": [
+          "Brigatinib-containing product in oral dose form",
+          "Product containing brigatinib in oral dose form (medicinal product form)",
+          "brigatinib Oral Product"
+        ]
+      },
+      "clean_record": null,
+      "standardized_records": {
+        "rxcui": "1921219",
+        "entries": [
+          {
+            "sab": "SNOMEDCT_US",
+            "str": "Brigatinib-containing product in oral dose form",
+            "tty": "PT",
+            "code": "764160009"
+          },
+          {
+            "sab": "SNOMEDCT_US",
+            "str": "Product containing brigatinib in oral dose form (medicinal product form)",
+            "tty": "FN",
+            "code": "764160009"
+          },
+          {
+            "sab": "RXNORM",
+            "str": "brigatinib Oral Product",
+            "tty": "SCDG",
+            "code": "1921219"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37335588-a501-4d53-9b49-b93f4618fa7d",
+      "sourceid": "1924965",
+      "source": "rxnorm",
+      "record": {
+        "rxcui": "1924965",
+        "entries": [
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1168"
+          },
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1169"
+          },
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL SUBCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1168"
+          }
+        ]
+      },
+      "keyterms": {
+        "tty": [
+          "DP"
+        ],
+        "name": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+        "synonyms": [
+          "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+          "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL SUBCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]"
+        ]
+      },
+      "clean_record": null,
+      "standardized_records": {
+        "rxcui": "1924965",
+        "entries": [
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1168"
+          },
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL PERCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1169"
+          },
+          {
+            "sab": "MTHSPL",
+            "str": "BETULA PAPYRIFERA POLLEN 0.05 g in 1 mL / BETULA PENDULA POLLEN 0.05 g in 1 mL / BETULA NIGRA POLLEN 0.05 g in 1 mL SUBCUTANEOUS INJECTION, SOLUTION [Pollens - Trees, Birch Mix]",
+            "tty": "DP",
+            "code": "65044-1168"
+          }
+        ]
+      }
+    }
+  ],
+  "dml_schema": {
+    "columns": [
+      {
+        "column_name": "master_linkage_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "set_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::text[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "openfda_master_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::uuid[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "dailymed_master_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::uuid[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "drugbank_master_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::uuid[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "drugbank_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::text[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "rxcui_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::text[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "unii_ids",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::text[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "relation_openfda_dailymed",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "relation_rxnorm_drugbank",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "link_sources",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "column_default": "'{}'::text[]",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "confidence",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "evidence_summary",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "column_default": "'{}'::jsonb",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "column_default": "now()",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "combined_clean_jsonb",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "standard_combined_json",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "master_linkage_id"
+      }
+    ],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "indexname": "MasterLinkage_pkey",
+        "indexdef": "CREATE UNIQUE INDEX \"MasterLinkage_pkey\" ON public.\"DrugMasterLinkage\" USING btree (master_linkage_id)"
+      },
+      {
+        "indexname": "idx_master_linkage_set_ids_gin",
+        "indexdef": "CREATE INDEX idx_master_linkage_set_ids_gin ON public.\"DrugMasterLinkage\" USING gin (set_ids)"
+      },
+      {
+        "indexname": "idx_master_linkage_drugbank_ids_gin",
+        "indexdef": "CREATE INDEX idx_master_linkage_drugbank_ids_gin ON public.\"DrugMasterLinkage\" USING gin (drugbank_ids)"
+      },
+      {
+        "indexname": "idx_master_linkage_confidence",
+        "indexdef": "CREATE INDEX idx_master_linkage_confidence ON public.\"DrugMasterLinkage\" USING btree (confidence)"
+      },
+      {
+        "indexname": "idx_dml_unii_ids_gin",
+        "indexdef": "CREATE INDEX idx_dml_unii_ids_gin ON public.\"DrugMasterLinkage\" USING gin (unii_ids)"
+      },
+      {
+        "indexname": "idx_dml_null_jsonb",
+        "indexdef": "CREATE INDEX idx_dml_null_jsonb ON public.\"DrugMasterLinkage\" USING btree (master_linkage_id) WHERE (combined_clean_jsonb IS NULL)"
+      },
+      {
+        "indexname": "idx_dml_updated_at",
+        "indexdef": "CREATE INDEX idx_dml_updated_at ON public.\"DrugMasterLinkage\" USING btree (updated_at, master_linkage_id)"
+      },
+      {
+        "indexname": "idx_dml_null_jsonb_updated",
+        "indexdef": "CREATE INDEX idx_dml_null_jsonb_updated ON public.\"DrugMasterLinkage\" USING btree (updated_at, master_linkage_id) WHERE (combined_clean_jsonb IS NULL)"
+      }
+    ]
+  },
+  "dml_stats": {
+    "total_rows": 50111,
+    "with_jsonb": 50111,
+    "with_rxnorm_key": 50111,
+    "with_rxnorm_entries": 47619,
+    "with_openfda": 50111,
+    "with_drugbank": 50111,
+    "null_jsonb": 0
+  },
+  "dml_col_stats": {
+    "total": 50111,
+    "with_master_linkage_id": 50111,
+    "with_set_ids": 50111,
+    "with_confidence": 50111,
+    "with_standard_combined_json": 0,
+    "with_combined_clean_jsonb": 50111
+  },
+  "dml_confidence": [
+    {
+      "confidence": "high",
+      "cnt": 50110
+    },
+    {
+      "confidence": "medium",
+      "cnt": 1
+    }
+  ],
+  "dml_samples": [
+    {
+      "master_linkage_id": "c330730b-6d44-557b-9da4-7bba1a4afd1f",
+      "confidence": "high",
+      "set_id_count": 1,
+      "has_rxnorm": true,
+      "has_openfda": true,
+      "has_drugbank": true
+    },
+    {
+      "master_linkage_id": "d68479d3-c018-57c3-8dfc-8826ac00fccb",
+      "confidence": "high",
+      "set_id_count": 1,
+      "has_rxnorm": true,
+      "has_openfda": true,
+      "has_drugbank": true
+    },
+    {
+      "master_linkage_id": "8a540e63-3f3f-523b-ac57-18f321c3372f",
+      "confidence": "high",
+      "set_id_count": 1,
+      "has_rxnorm": true,
+      "has_openfda": true,
+      "has_drugbank": true
+    },
+    {
+      "master_linkage_id": "5d9fbf36-cd6b-511c-9fe8-e5fe1a3f6720",
+      "confidence": "high",
+      "set_id_count": 1,
+      "has_rxnorm": true,
+      "has_openfda": true,
+      "has_drugbank": true
+    },
+    {
+      "master_linkage_id": "524ac8dc-0318-5406-a0a7-035cd01b4527",
+      "confidence": "high",
+      "set_id_count": 1,
+      "has_rxnorm": true,
+      "has_openfda": true,
+      "has_drugbank": true
+    }
+  ],
+  "dml_jsonb_keys": [
+    {
+      "key": "dailymed",
+      "present_in_rows": 50111
+    },
+    {
+      "key": "drugbank",
+      "present_in_rows": 50111
+    },
+    {
+      "key": "openfda",
+      "present_in_rows": 50111
+    },
+    {
+      "key": "rxnorm",
+      "present_in_rows": 50111
+    }
+  ],
+  "drug_schema": {
+    "columns": [
+      {
+        "column_name": "formulation_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "master_linkage_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "generic_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "generic_formulation",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "dosage_forms",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "generic_formulation_original",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "rxnorm_generic_formulation",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "rxcui",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 50,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "formulation_id"
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column_name": "master_linkage_id",
+        "foreign_schema": "public",
+        "foreign_table": "DrugMasterLinkage",
+        "foreign_column": "master_linkage_id"
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "drug_pkey",
+        "indexdef": "CREATE UNIQUE INDEX drug_pkey ON public.drug USING btree (formulation_id)"
+      },
+      {
+        "indexname": "idx_drug_master_linkage_id",
+        "indexdef": "CREATE INDEX idx_drug_master_linkage_id ON public.drug USING btree (master_linkage_id)"
+      },
+      {
+        "indexname": "idx_drug_generic_name",
+        "indexdef": "CREATE INDEX idx_drug_generic_name ON public.drug USING btree (generic_name)"
+      },
+      {
+        "indexname": "idx_drug_formulation_dosage",
+        "indexdef": "CREATE INDEX idx_drug_formulation_dosage ON public.drug USING btree (generic_formulation, dosage_forms)"
+      },
+      {
+        "indexname": "idx_drug_rxnorm_formulation",
+        "indexdef": "CREATE INDEX idx_drug_rxnorm_formulation ON public.drug USING btree (rxnorm_generic_formulation)"
+      },
+      {
+        "indexname": "idx_drug_rxcui",
+        "indexdef": "CREATE INDEX idx_drug_rxcui ON public.drug USING btree (rxcui)"
+      }
+    ]
+  },
+  "drug_stats": {
+    "total_rows": 88983,
+    "with_generic_name": 88983,
+    "missing_generic_name": 0,
+    "with_formulation": 88983,
+    "with_dosage_forms": 88983,
+    "with_rxcui": 88983,
+    "with_rxnorm_formulation": 88983,
+    "with_formulation_original": 88983,
+    "distinct_linkage_ids": 47619,
+    "distinct_rxcui_values": 8074,
+    "distinct_dosage_forms": 150,
+    "distinct_generic_names": 4849
+  },
+  "drug_len": {
+    "min_gf_len": 11,
+    "max_gf_len": 524,
+    "avg_gf_len": "27.4",
+    "min_gn_len": 0,
+    "max_gn_len": 268,
+    "avg_gn_len": "18.1"
+  },
+  "drug_dosage_forms": [
+    {
+      "dosage_forms": "Oral Tablet",
+      "cnt": 34672
+    },
+    {
+      "dosage_forms": "Oral Capsule",
+      "cnt": 8123
+    },
+    {
+      "dosage_forms": "Injection",
+      "cnt": 5903
+    },
+    {
+      "dosage_forms": "TABLET, EXTENDED RELEASE",
+      "cnt": 3725
+    },
+    {
+      "dosage_forms": "Extended Release Oral Tablet",
+      "cnt": 3725
+    },
+    {
+      "dosage_forms": "SOLUTION FOR INJECTION",
+      "cnt": 3174
+    },
+    {
+      "dosage_forms": "Injectable Solution",
+      "cnt": 3174
+    },
+    {
+      "dosage_forms": "CAPSULE, EXTENDED RELEASE",
+      "cnt": 1567
+    },
+    {
+      "dosage_forms": "Extended Release Oral Capsule",
+      "cnt": 1567
+    },
+    {
+      "dosage_forms": "INHALATION GAS",
+      "cnt": 1370
+    },
+    {
+      "dosage_forms": "Gas for Inhalation",
+      "cnt": 1370
+    },
+    {
+      "dosage_forms": "Oral Solution",
+      "cnt": 1201
+    },
+    {
+      "dosage_forms": "SOLUTION, ORAL",
+      "cnt": 1201
+    },
+    {
+      "dosage_forms": "Topical Cream",
+      "cnt": 1183
+    },
+    {
+      "dosage_forms": "Oral Suspension",
+      "cnt": 923
+    }
+  ],
+  "drug_samples": [
+    {
+      "formulation_id": "c973975a-5c1e-5a9c-935d-eeaa973829cd",
+      "master_linkage_id": "111d45ed-d3ba-5cba-b922-657c87f6d816",
+      "generic_name": "ALPRAZOLAM",
+      "generic_formulation": "alprazolam 0.25 MG",
+      "dosage_forms": "Oral Tablet",
+      "rxcui": "308047"
+    },
+    {
+      "formulation_id": "980a5129-4a6e-57ca-834a-e4790c89a2cc",
+      "master_linkage_id": "111d45ed-d3ba-5cba-b922-657c87f6d816",
+      "generic_name": "ALPRAZOLAM",
+      "generic_formulation": "alprazolam 0.5 MG",
+      "dosage_forms": "Oral Tablet",
+      "rxcui": "308048"
+    },
+    {
+      "formulation_id": "a275914e-e739-50d8-8405-009ae9e8b9b2",
+      "master_linkage_id": "1c5d6d55-c845-5003-9117-aa1794b4ad15",
+      "generic_name": "FENOFIBRATE",
+      "generic_formulation": "fenofibrate 160 MG",
+      "dosage_forms": "Oral Tablet",
+      "rxcui": "349287"
+    },
+    {
+      "formulation_id": "9f6a03d5-fe8b-557e-8545-fb972972813d",
+      "master_linkage_id": "1c5d6d55-c845-5003-9117-aa1794b4ad15",
+      "generic_name": "FENOFIBRATE",
+      "generic_formulation": "fenofibrate 54 MG",
+      "dosage_forms": "Oral Tablet",
+      "rxcui": "351133"
+    },
+    {
+      "formulation_id": "cd4ea547-54c3-51b9-b001-dd4b544ecc2c",
+      "master_linkage_id": "21c2e3f1-9738-5ee9-8d32-7772ef2aae8d",
+      "generic_name": "CLOPIDOGREL",
+      "generic_formulation": "clopidogrel 75 MG",
+      "dosage_forms": "Oral Tablet",
+      "rxcui": "309362"
+    }
+  ],
+  "drug_null_name": [],
+  "dim_schema": {
+    "columns": [
+      {
+        "column_name": "formulation_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "ingredient_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "mass",
+        "data_type": "numeric",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "unit",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": 50,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "formulation_id"
+      },
+      {
+        "column_name": "ingredient_id"
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column_name": "formulation_id",
+        "foreign_schema": "public",
+        "foreign_table": "drug",
+        "foreign_column": "formulation_id"
+      },
+      {
+        "column_name": "ingredient_id",
+        "foreign_schema": "drugdb",
+        "foreign_table": "ingredients",
+        "foreign_column": "id"
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "drug_ingredient_mapping_pkey",
+        "indexdef": "CREATE UNIQUE INDEX drug_ingredient_mapping_pkey ON public.drug_ingredient_mapping USING btree (formulation_id, ingredient_id)"
+      },
+      {
+        "indexname": "idx_dim_formulation_id",
+        "indexdef": "CREATE INDEX idx_dim_formulation_id ON public.drug_ingredient_mapping USING btree (formulation_id)"
+      },
+      {
+        "indexname": "idx_dim_ingredient_id",
+        "indexdef": "CREATE INDEX idx_dim_ingredient_id ON public.drug_ingredient_mapping USING btree (ingredient_id)"
+      }
+    ]
+  },
+  "dim_stats": {
+    "total_rows": 98832,
+    "distinct_formulations": 88839,
+    "total_formulations": 88983,
+    "pct_coverage": "99.84",
+    "distinct_ingredients_used": 2107,
+    "with_mass": 98832,
+    "missing_mass": 0,
+    "with_unit": 98832,
+    "missing_unit": 0,
+    "min_mass": "0.000003",
+    "max_mass": "40000000000000.0",
+    "avg_mass": "1308960996.3294"
+  },
+  "dim_uncovered": {
+    "uncovered_formulations": 144
+  },
+  "dim_units": [
+    {
+      "unit": "MG",
+      "cnt": 66366
+    },
+    {
+      "unit": "MG/ML",
+      "cnt": 22471
+    },
+    {
+      "unit": "%",
+      "cnt": 2942
+    },
+    {
+      "unit": "MG/MG",
+      "cnt": 2090
+    },
+    {
+      "unit": "UNT/ML",
+      "cnt": 1545
+    },
+    {
+      "unit": "MG/HR",
+      "cnt": 809
+    },
+    {
+      "unit": "MEQ",
+      "cnt": 701
+    },
+    {
+      "unit": "MEQ/ML",
+      "cnt": 658
+    },
+    {
+      "unit": "MG/ACTUAT",
+      "cnt": 645
+    },
+    {
+      "unit": "UNT/MG",
+      "cnt": 265
+    }
+  ],
+  "dim_multi": {
+    "multi_ingredient_formulations": 7784
+  },
+  "dim_ing_count": {
+    "max_ingredients": 21,
+    "avg_ingredients": "1.11"
+  },
+  "dim_samples": [
+    {
+      "formulation_id": "c973975a-5c1e-5a9c-935d-eeaa973829cd",
+      "generic_formulation": "alprazolam 0.25 MG",
+      "ingredient_name": "Alprazolam",
+      "drugbank_id": "DB00404",
+      "mass": "0.25",
+      "unit": "MG"
+    },
+    {
+      "formulation_id": "980a5129-4a6e-57ca-834a-e4790c89a2cc",
+      "generic_formulation": "alprazolam 0.5 MG",
+      "ingredient_name": "Alprazolam",
+      "drugbank_id": "DB00404",
+      "mass": "0.5",
+      "unit": "MG"
+    },
+    {
+      "formulation_id": "a275914e-e739-50d8-8405-009ae9e8b9b2",
+      "generic_formulation": "fenofibrate 160 MG",
+      "ingredient_name": "Fenofibrate",
+      "drugbank_id": "DB01039",
+      "mass": "160.0",
+      "unit": "MG"
+    },
+    {
+      "formulation_id": "9f6a03d5-fe8b-557e-8545-fb972972813d",
+      "generic_formulation": "fenofibrate 54 MG",
+      "ingredient_name": "Fenofibrate",
+      "drugbank_id": "DB01039",
+      "mass": "54.0",
+      "unit": "MG"
+    },
+    {
+      "formulation_id": "cd4ea547-54c3-51b9-b001-dd4b544ecc2c",
+      "generic_formulation": "clopidogrel 75 MG",
+      "ingredient_name": "Clopidogrel",
+      "drugbank_id": "DB00758",
+      "mass": "75.0",
+      "unit": "MG"
+    }
+  ],
+  "dim_ing_quality": {
+    "total_mapping_rows": 98832,
+    "distinct_ingredients": 2107,
+    "matched_to_ingredients_table": 2107,
+    "with_drugbank_id": 96817,
+    "with_rxcui": 97526
+  },
+  "dsf_schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "nextval('drug_synonym_formulation_id_seq'::regclass)",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0
+      },
+      {
+        "column_name": "formulation_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      },
+      {
+        "column_name": "synonyms",
+        "data_type": "ARRAY",
+        "is_nullable": "YES",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null
+      }
+    ],
+    "primary_keys": [
+      {
+        "column_name": "id"
+      }
+    ],
+    "foreign_keys": [
+      {
+        "column_name": "formulation_id",
+        "foreign_schema": "public",
+        "foreign_table": "drug",
+        "foreign_column": "formulation_id"
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "drug_synonym_formulation_pkey",
+        "indexdef": "CREATE UNIQUE INDEX drug_synonym_formulation_pkey ON public.drug_synonym_formulation USING btree (id)"
+      },
+      {
+        "indexname": "uq_drug_synonym_formulation_formulation_id",
+        "indexdef": "CREATE UNIQUE INDEX uq_drug_synonym_formulation_formulation_id ON public.drug_synonym_formulation USING btree (formulation_id)"
+      },
+      {
+        "indexname": "idx_drug_synonym_formulation_formulation_id",
+        "indexdef": "CREATE INDEX idx_drug_synonym_formulation_formulation_id ON public.drug_synonym_formulation USING btree (formulation_id)"
+      },
+      {
+        "indexname": "idx_dsf_synonyms_gin",
+        "indexdef": "CREATE INDEX idx_dsf_synonyms_gin ON public.drug_synonym_formulation USING gin (synonyms)"
+      }
+    ]
+  },
+  "dsf_stats": {
+    "total_rows": 66154,
+    "distinct_formulations": 66154,
+    "total_formulations": 88983,
+    "pct_coverage": "74.34",
+    "min_synonyms": 1,
+    "max_synonyms": 48,
+    "avg_synonyms": "2.28",
+    "null_synonyms": 0
+  },
+  "dsf_samples": [
+    {
+      "formulation_id": "c4e37197-652b-5222-a5a8-6267b5187ce8",
+      "generic_formulation": "ascorbic acid 30 MG / cholecalciferol 1000 UNT / cuprous oxide 2 MG / folic acid 1 MG / magnesium oxide 20 MG / niacin 15 MG / polysaccharide iron complex 29 MG / potassium iodide 0.15 MG / pyridoxine hydrochloride 2.5 MG / riboflavin 1.8 MG / thiamine mononitrate 1.6 MG / vitamin A 1100 UNT / vitamin B12 0.012 MG / vitamin E 20 UNT / zinc oxide 25 MG",
+      "synonym_count": 48,
+      "first_2_synonyms": [
+        "vit-C 30 MG / cholecalciferol 1000 UNT / cuprous oxide 2 MG / folate 1 MG / magnesium oxide 20 MG / nicotinic acid 15 MG / polysaccharide iron complex 29 MG / K+ iodide 0.15 MG / vit-B6 hydrochloride 2.5 MG / riboflavin 1.8 MG / vit-B1 mononitrate 1.6 MG / vitamin A 1100 UNT / vitamin B12 0.012 MG / vitamin E 20 UNT / ZNO 25 MG Oral Capsule",
+        "vit-C 30 MG / cholecalciferol 1000 UNT / cuprous oxide 2 MG / folate 1 MG / magnesium oxide 20 MG / nicotinic acid 15 MG / polysaccharide iron complex 29 MG / K+ iodide 0.15 MG / vit-B6 hydrochloride 2.5 MG / riboflavin 1.8 MG / vitamin B1 mononitrate 1.6 MG / vitamin A 1100 UNT / vitamin B12 0.012 MG / vitamin E 20 UNT / ZNO 25 MG Oral Capsule"
+      ]
+    },
+    {
+      "formulation_id": "094fa8d1-14d5-54d6-91d7-78032cfeb8c0",
+      "generic_formulation": "ascorbic acid 100 MG / biotin 0.15 MG / calcium pantothenate 5 MG / folic acid 1 MG / niacin 20 MG / pyridoxine 10 MG / riboflavin 1.7 MG / thiamine mononitrate 1.5 MG / vitamin B12 0.006 MG",
+      "synonym_count": 25,
+      "first_2_synonyms": [
+        "ascorbic acid 100 MG / biotin 0.15 MG / calcium pantothenate 5 MG / cyanocobalamin 0.006 MG / folic acid 1 MG / niacin 20 MG / pyridoxine 10 MG / riboflavin 1.7 MG / thiamine mononitrate 1.5 MG Oral Capsule",
+        "vit-C 100 MG / biotin 0.15 MG / calcium pantothenate 5 MG / folate 1 MG / nicotinic acid 20 MG / vit-B6 10 MG / riboflavin 1.7 MG / vit-B1 mononitrate 1.5 MG / vitamin B12 0.006 MG Oral Capsule"
+      ]
+    },
+    {
+      "formulation_id": "f3773d83-0cf3-5c9e-9316-3dfd825c7e42",
+      "generic_formulation": "ascorbic acid 100 MG / biotin 0.3 MG / calcium carbonate 100 MG / calcium pantothenate 7 MG / folic acid 1 MG / niacin 25 MG / pyridoxine hydrochloride 30 MG / riboflavin 5 MG / succinic acid 150 MG / thiamine hydrochloride 5 MG / vitamin B12 0.01 MG",
+      "synonym_count": 24,
+      "first_2_synonyms": [
+        "vit-C 100 MG / biotin 0.3 MG / calcium carbonate 100 MG / calcium pantothenate 7 MG / folate 1 MG / nicotinic acid 25 MG / vit-B6 hydrochloride 30 MG / riboflavin 5 MG / succinic acid 150 MG / vit-B1 hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet",
+        "vit-C 100 MG / biotin 0.3 MG / calcium carbonate 100 MG / calcium pantothenate 7 MG / folate 1 MG / nicotinic acid 25 MG / vit-B6 hydrochloride 30 MG / riboflavin 5 MG / succinic acid 150 MG / vitamin B1 hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet"
+      ]
+    },
+    {
+      "formulation_id": "046a7124-14fc-5eb3-8556-25103d92cfa3",
+      "generic_formulation": "ascorbic acid 210 MG / biotin 0.3 MG / calcium pantothenate 7 MG / copper sulfate 0.8 MG / ferrous fumarate 130 MG / folic acid 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / niacin 20 MG / polysaccharide iron complex 92.4 MG / pyridoxine hydrochloride 25 MG / riboflavin 5 MG / thiamine mononitrate 5 MG / vitamin B12 0.01 MG / zinc sulfate 18.2 MG",
+      "synonym_count": 24,
+      "first_2_synonyms": [
+        "vit-C 210 MG / biotin 0.3 MG / calcium pantothenate 7 MG / copper sulfate 0.8 MG / ferrous fumarate 130 MG / folate 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / nicotinic acid 20 MG / polysaccharide iron complex 92.4 MG / vit-B6 hydrochloride 25 MG / riboflavin 5 MG / vit-B1 mononitrate 5 MG / vitamin B12 0.01 MG / ZnSO4 18.2 MG Oral Capsule",
+        "vit-C 210 MG / biotin 0.3 MG / calcium pantothenate 7 MG / copper sulfate 0.8 MG / ferrous fumarate 130 MG / folate 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / nicotinic acid 20 MG / polysaccharide iron complex 92.4 MG / vit-B6 hydrochloride 25 MG / riboflavin 5 MG / vitamin B1 mononitrate 5 MG / vitamin B12 0.01 MG / ZnSO4 18.2 MG Oral Capsule"
+      ]
+    },
+    {
+      "formulation_id": "0ee87e35-3247-543a-bfcd-0b14d2e501b7",
+      "generic_formulation": "ascorbic acid 100 MG / biotin 0.3 MG / calcium pantothenate 0.3 MG / ferrous bisglycinate 65 MG / folic acid 1 MG / formic acid 155 MG / iron-dextran complex 65 MG / niacin 25 MG / pyridoxine hydrochloride 30 MG / riboflavin 5 MG / thiamine hydrochloride 5 MG / vitamin B12 0.01 MG",
+      "synonym_count": 24,
+      "first_2_synonyms": [
+        "vit-C 100 MG / biotin 0.3 MG / calcium pantothenate 0.3 MG / ferrous bisglycinate 65 MG / folate 1 MG / formic acid 155 MG / iron-dextran complex 65 MG / nicotinic acid 25 MG / vit-B6 hydrochloride 30 MG / riboflavin 5 MG / vit-B1 hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet",
+        "vit-C 100 MG / biotin 0.3 MG / calcium pantothenate 0.3 MG / ferrous bisglycinate 65 MG / folate 1 MG / formic acid 155 MG / iron-dextran complex 65 MG / nicotinic acid 25 MG / vit-B6 hydrochloride 30 MG / riboflavin 5 MG / vitamin B1 hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet"
+      ]
+    }
+  ],
+  "rel_cross": {
+    "total_formulations": 88983,
+    "with_ingredient_mapping": 88839,
+    "with_synonyms": 66154,
+    "with_both": 66018,
+    "with_neither": 8
+  },
+  "rel_dml_to_drug": {
+    "total_linkage_records": 50111,
+    "linkage_ids_in_drug": 47619,
+    "not_in_drug": 2492
+  },
+  "rel_ibi_to_ing": {
+    "distinct_ids_in_brand": 1627,
+    "matched_to_ingredients": 1627
+  },
+  "rel_syn_to_ing": {
+    "ids_in_synonyms": 18160,
+    "matched_to_ingredients": 18160,
+    "orphaned": 0
+  }
+}

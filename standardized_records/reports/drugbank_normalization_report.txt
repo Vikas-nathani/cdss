@@ -1,0 +1,61 @@
+====================================
+DRUGBANK SCHEMA NORMALIZATION REPORT
+====================================
+Generated: 2026-04-29 12:54:28
+
+ORIGINAL STRUCTURE:
+  Top-level fields : 11
+  Total fields     : 19
+  Max depth        : 3
+
+NORMALIZED STRUCTURE (Option A):
+  Top-level categories : 4
+  Total fields         : 19
+  Max depth            : 4
+
+VERIFICATION:
+  ✓ All 19 fields mapped
+  ✓ Zero fields lost  (missing: none)
+  ✓ Zero extra fields (extra: none)
+  ✓ Field count match: 19 → 19
+
+SEMANTIC CATEGORIES:
+  - drug_info            (5 fields)
+  - clinical             (3 fields)
+  - drug_interactions    (6 fields)
+  - chemistry            (5 fields)
+
+FIELD MAPPING DETAIL:
+  ORIGINAL PATH                                 NORMALIZED PATH                                         CATEGORY
+  -------------------------------------------------------------------------------------------------------------------
+  drugbank_id                                   drug_info.drugbank_id                                   drug_info
+  name                                          drug_info.name                                          drug_info
+  unii                                          drug_info.unii                                          drug_info
+  synonyms                                      drug_info.synonyms                                      drug_info
+  classification_description                    drug_info.classification_description                    drug_info
+  indication                                    clinical.indication                                     clinical
+  pharmacodynamics                              clinical.pharmacodynamics                               clinical
+  general_function                              clinical.general_function                               clinical
+  drug_interactions                             drug_interactions.drug_interactions                     drug_interactions
+  drug_interactions.name                        drug_interactions.drug_interactions.name                drug_interactions
+  drug_interactions.description                 drug_interactions.drug_interactions.description         drug_interactions
+  drug_interactions.drugbank_id                 drug_interactions.drug_interactions.drugbank_id         drug_interactions
+  food_interactions                             drug_interactions.food_interactions                     drug_interactions
+  food_interactions.text                        drug_interactions.food_interactions.text                drug_interactions
+  reactions                                     chemistry.reactions                                     chemistry
+  reactions.sequence                            chemistry.reactions.sequence                            chemistry
+  reactions.left_element                        chemistry.reactions.left_element                        chemistry
+  reactions.right_element                       chemistry.reactions.right_element                       chemistry
+  reactions.enzymes                             chemistry.reactions.enzymes                             chemistry
+
+CATEGORY ALIGNMENT WITH OpenFDA / DailyMed:
+  drug_info        → EXACT MATCH  (used in both OpenFDA and DailyMed)
+  clinical         → EXACT MATCH  (used in both OpenFDA and DailyMed)
+  drug_interactions→ EXACT MATCH  (used in both OpenFDA and DailyMed)
+  chemistry        → NEW CATEGORY (DrugBank-specific: biochemical reactions)
+
+OUTPUT FILES:
+  ✓ master_schema_drugbank_normalized.json
+  ✓ drugbank_field_mapping.json
+  ✓ normalization_stats_drugbank.json
+  ✓ drugbank_normalization_report.txt

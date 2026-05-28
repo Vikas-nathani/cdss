@@ -1,0 +1,613 @@
+{
+  "set_id": null,
+  "version": null,
+  "stop_use": null,
+  "warnings": null,
+  "drug_info": {
+    "route": [],
+    "brand_name": null,
+    "generic_name": null,
+    "manufacturer": null,
+    "product_type": null
+  },
+  "questions": null,
+  "do_not_use": null,
+  "when_using": null,
+  "document_id": null,
+  "package_label": [],
+  "effective_date": null,
+  "openfda_metadata": {
+    "unii": [],
+    "route": [],
+    "rxcui": [],
+    "spl_id": [],
+    "brand_name": [],
+    "spl_set_id": [],
+    "package_ndc": [],
+    "product_ndc": [],
+    "generic_name": [],
+    "product_type": [],
+    "substance_name": [],
+    "manufacturer_name": [],
+    "application_number": [],
+    "is_original_packager": [],
+    "nui": [],
+    "pharm_class_epc": [],
+    "pharm_class_moa": [],
+    "original_packager_product_ndc": [],
+    "upc": [],
+    "pharm_class_cs": [],
+    "pharm_class_pe": []
+  },
+  "active_ingredient": null,
+  "keep_out_of_reach": null,
+  "inactive_ingredient": null,
+  "indications_and_usage": null,
+  "other_safety_information": null,
+  "dosage_and_administration": null,
+  "spl_product_data_elements": null,
+  "precautions": null,
+  "drug_description": null,
+  "adverse_reactions": null,
+  "contraindications": null,
+  "how_supplied_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "general_precautions": null,
+  "how_supplied_storage": null,
+  "clinical_pharmacology": null,
+  "purpose": null,
+  "storage_and_handling": null,
+  "components": null,
+  "overdosage": null,
+  "references": null,
+  "microbiology": null,
+  "unclassified": null,
+  "geriatric_use": null,
+  "pediatric_use": null,
+  "pharmacodynamics": null,
+  "pharmacokinetics": null,
+  "use_in_pregnancy": null,
+  "drug_interactions": null,
+  "mechanism_of_action": null,
+  "recent_major_changes": null,
+  "warnings_and_cautions": null,
+  "nonclinical_toxicology": null,
+  "information_for_patients": null,
+  "dosage_forms_and_strengths": null,
+  "recent_major_changes_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "use_in_specific_populations": null,
+  "carcinogenesis_and_mutagenesis_and_impairment_of_fertility": null,
+  "nursing_mothers": null,
+  "clinical_studies": null,
+  "description_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "instructions_for_use": null,
+  "pregnancy_or_breast_feeding": null,
+  "ask_doctor": null,
+  "ask_doctor_or_pharmacist": null,
+  "labor_and_delivery": null,
+  "clinical_studies_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pharmacokinetics_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "adverse_reactions_tables": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "spl_patient_package_insert": null,
+  "clinical_pharmacology_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "intended_use_of_the_device": null,
+  "abuse": null,
+  "dependence": null,
+  "controlled_substance": null,
+  "drug_abuse_and_dependence": null,
+  "boxed_warning": [],
+  "dosage_tables": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "laboratory_tests": null,
+  "teratogenic_effects": null,
+  "pharmacodynamics_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "nonteratogenic_effects": null,
+  "drug_and_or_laboratory_test_interactions": null,
+  "patient_medication_information": null,
+  "medication_guide": null,
+  "drug_interactions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "spl_patient_package_insert_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "spl_medguide_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "purpose_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "active_ingredient_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "indications_and_usage_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pregnancy_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "use_in_specific_populations_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "warnings_and_cautions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "patient_medication_information_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "package_label_principal_display_panel_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "spl_unclassified_section_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "contraindications_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "warnings_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "animal_pharmacology_and_or_toxicology": null,
+  "dosage_forms_and_strengths_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "microbiology_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "ask_doctor_or_pharmacist_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "precautions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "instructions_for_use_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pediatric_use_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "risks": null,
+  "geriatric_use_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "overdosage_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "nonclinical_toxicology_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "animal_pharmacology_and_or_toxicology_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pharmacogenomics": null,
+  "information_for_owners_or_caregivers": null,
+  "storage_and_handling_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "health_claim": null,
+  "references_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "statement_of_identity": null,
+  "safe_handling_warning": null,
+  "general_precautions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "information_for_patients_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "health_care_provider_letter": null,
+  "health_care_provider_letter_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "disposal_and_waste_handling": null,
+  "user_safety_warnings": null,
+  "carcinogenesis_and_mutagenesis_and_impairment_of_fertility_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "boxed_warning_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "keep_out_of_reach_of_children_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "drug_abuse_and_dependence_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "drug_and_or_laboratory_test_interactions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "inactive_ingredient_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "stop_use_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "cleaning": null,
+  "alarms": null,
+  "alarms_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "ask_doctor_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "do_not_use_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "when_using_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "route": null,
+  "teratogenic_effects_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "troubleshooting": null,
+  "questions_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "accessories": null,
+  "environmental_warning": null,
+  "summary_of_safety_and_effectiveness": null,
+  "statement_of_identity_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "laboratory_tests_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "other_safety_information_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pregnancy_or_breast_feeding_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "mechanism_of_action_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "spl_indexing_data_elements": null,
+  "veterinary_indications": null,
+  "nursing_mothers_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "calibration_instructions": null,
+  "assembly_or_installation_instructions": null,
+  "nonteratogenic_effects_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "health_claim_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "compatible_accessories": null,
+  "abuse_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "pharmacogenomics_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "labor_and_delivery_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "information_for_owners_or_caregivers_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "components_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "residue_warning": null,
+  "guaranteed_analysis_of_feed": null,
+  "spl_indexing_data_elements_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "safe_handling_warning_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "controlled_substance_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "intended_use_of_the_device_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "food_safety_warning": null,
+  "diagram_of_device": null,
+  "risks_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ],
+  "dependence_table": [
+    {
+      "rows": [],
+      "caption": null,
+      "headers": []
+    }
+  ]
+}

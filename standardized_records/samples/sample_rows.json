@@ -1,0 +1,190 @@
+[
+  {
+    "set_id": "899acc4f-4d50-41d0-bcf2-9937d58aa923",
+    "purpose": "Purpose Alertness aid",
+    "version": "20",
+    "stop_use": "Stop use and ask a doctor if fatigue or drowsiness persists or continues to recur.",
+    "warnings": "Warnings For occasional use only Caffeine warning: The recommended dose of this product contains about as much caffeine as a cup of coffee. Limit the use of caffeine-containing medications, foods, or beverages while taking this product because too much caffeine may cause nervousness, irritability, sleeplessness, and, occasionally, rapid heart beat. Do not use for children under 12 years of age as a substitute for sleep Stop use and ask a doctor if fatigue or drowsiness persists or continues to recur. If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+    "drug_info": {
+      "route": [
+        "ORAL"
+      ],
+      "brand_name": "Awake Maximum Strength",
+      "generic_name": "CAFFEINE",
+      "manufacturer": "Walgreen Company",
+      "product_type": "HUMAN OTC DRUG"
+    },
+    "do_not_use": "Do not use for children under 12 years of age as a substitute for sleep",
+    "document_id": "c0167c00-8424-4232-b459-306dee8bb91a",
+    "unclassified": "Questions or comments? 1-800-426-9391",
+    "package_label": [
+      "Principal Display Panel NDC 0363-3440-11 Walgreens Compare to the active ingredient in Maximum Strength NoDoz \u00ae \u2020\u2020 Awake CAFFEINE 200 mg / ALERTNESS AID MAXIMUM STRENGTH 60 COATED CAPLETS ACTUAL SIZE TAMPER EVIDENT: DO NOT USE IF IMPRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING \u2020\u2020 This product is not manufactured or distributed by Lil' Drug Store Products. Inc., owner of the registered trademark Maximum Strength NoDoz \u00ae . 50844 ORG121934411 DISTRIBUTED BY: WALGREEN CO. 200 WILMOT RD., DEERFIELD, IL 60015 Walgreens 100 % SATISFACTION GUARANTEED walgreens.com \u00a9 2021 Walgreen Co. Walgreens 44-344 Walgreens 44-344"
+    ],
+    "effective_date": "20250903",
+    "openfda_metadata": {
+      "nui": [
+        "N0000175739",
+        "N0000175729",
+        "N0000175790",
+        "M0023046"
+      ],
+      "upc": [
+        "0311917070063"
+      ],
+      "unii": [
+        "3G6A5W338E"
+      ],
+      "route": [
+        "ORAL"
+      ],
+      "rxcui": [
+        "198520"
+      ],
+      "spl_id": [
+        "c0167c00-8424-4232-b459-306dee8bb91a"
+      ],
+      "brand_name": [
+        "Awake Maximum Strength"
+      ],
+      "spl_set_id": [
+        "899acc4f-4d50-41d0-bcf2-9937d58aa923"
+      ],
+      "package_ndc": [
+        "0363-3440-11"
+      ],
+      "product_ndc": [
+        "0363-3440"
+      ],
+      "generic_name": [
+        "CAFFEINE"
+      ],
+      "product_type": [
+        "HUMAN OTC DRUG"
+      ],
+      "pharm_class_cs": [
+        "Xanthines [CS]"
+      ],
+      "pharm_class_pe": [
+        "Central Nervous System Stimulation [PE]"
+      ],
+      "substance_name": [
+        "CAFFEINE"
+      ],
+      "pharm_class_epc": [
+        "Central Nervous System Stimulant [EPC]",
+        "Methylxanthine [EPC]"
+      ],
+      "manufacturer_name": [
+        "Walgreen Company"
+      ],
+      "application_number": [
+        "M011"
+      ],
+      "is_original_packager": [
+        true
+      ]
+    },
+    "active_ingredient": "Active ingredient (in each caplet) Caffeine 200 mg",
+    "keep_out_of_reach": "Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+    "inactive_ingredient": "Inactive ingredients corn starch, dextrates hydrated, dibasic calcium phosphate dihydrate, flavor, hypromellose, magnesium stearate, microcrystalline cellulose, polyethylene glycol, stearic acid",
+    "storage_and_handling": "Other information store at 25\u00b0C (77\u00b0F); excursions permitted between 15\u00b0-30\u00b0C (59\u00b0-86\u00b0F) see end flap for expiration date and lot number",
+    "indications_and_usage": "Use helps restore mental alertness or wakefulness when experiencing fatigue or drowsiness",
+    "dosage_and_administration": "Directions adults and children 12 years and over: take \u00bd to 1 caplet not more often than every 3 to 4 hours children under 12 years: do not use",
+    "spl_product_data_elements": "Awake Maximum Strength Caffeine CAFFEINE CAFFEINE STARCH, CORN DEXTROSE MONOHYDRATE DIBASIC CALCIUM PHOSPHATE DIHYDRATE HYPROMELLOSE, UNSPECIFIED MAGNESIUM STEARATE MICROCRYSTALLINE CELLULOSE POLYETHYLENE GLYCOL, UNSPECIFIED STEARIC ACID 44;344",
+    "pregnancy_or_breast_feeding": "If pregnant or breast-feeding, ask a health professional before use."
+  },
+  {
+    "set_id": "e8d4065a-45fc-4adf-9406-2122ca131d99",
+    "version": "4",
+    "warnings": "WARNINGS Increased Mortality in Elderly Patients with Dementia-Related Psychosis: Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Fluphenazine hydrochloride is not approved for the treatment of patients with dementia-related psychosis (see BOXED WARNING ). Tardive Dyskinesia: Tardive dyskinesia, a syndrome consisting of potentially irreversible, involuntary, dyskinetic movements may develop in patients treated with neuroleptic (antipsychotic) drugs. Although the prevalence of the syndrome appears to be highest among the elderly, especially elderly women, it is impossible to rely upon prevalence estimates to predict, at the inception of neuroleptic treatment, which patients are likely to develop the syndrome. Whether neuroleptic drug products differ in their potential to cause tardive dyskinesia is unknown. Both the risk of developing the syndrome and the likelihood that it will become irreversible are believed to increase as the duration of treatment and the total cumulative dose of neuroleptic drugs administered to the patient increase. However, the syndrome can develop, although much less commonly, after relatively brief treatment periods at low doses. There is no known treatment for established cases of tardive dyskinesia, although the syndrome may remit, partially or completely, if neuroleptic treatment is withdrawn. Neuroleptic treatment itself, however, may suppress (or partially suppress) the signs and symptoms of the syndrome and thereby may possibly mask the underlying disease process. The effect that symptomatic suppression has upon the long-term course of the syndrome is unknown. Given these considerations, neuroleptics should be prescribed in a manner that is most likely to minimize the occurrence of tardive dyskinesia. Chronic neuroleptic treatment should generally be reserved for patients who suffer from a chronic illness that, 1) is known to respond to neuroleptic drugs, and, 2) for whom alternative, equally effective, but potentially less harmful treatments are not available or appropriate. In patients who do require chronic treatment, the smallest dose and the shortest duration of treatment producing a satisfactory clinical response should be sought. The need for continued treatment should be reassessed periodically. If signs and symptoms of tardive dyskinesia appear in a patient on neuroleptics, drug discontinuation should be considered. However, some patients may require treatment despite the presence of the syndrome. (For further information about the description of tardive dyskinesia and its clinical detection, please refer to the sections on PRECAUTIONS, Information for Patients and ADVERSE REACTIONS, Tardive Dyskinesia .) Neuroleptic Malignant Syndrome (NMS): A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) has been reported in association with antipsychotic drugs. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis, and cardiac dysrhythmias). The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology. The management of NMS should include: 1) immediate discontinuation of antipsychotic drugs and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and, 3) treatment of any concomitant serious medical problems for which specific treatments are available. There is no general agreement about specific pharmacological treatment regimens for uncomplicated NMS. If a patient requires antipsychotic drug treatment after recovery from NMS, the potential reintroduction of drug therapy should be carefully considered. The patient should be carefully monitored, since recurrences of NMS have been reported. The use of this drug may impair the mental and physical abilities required for driving a car or operating heavy machinery. Potentiation of the effects of alcohol may occur with the use of this drug. Since there is no adequate experience in children who have received this drug, safety and efficacy in children have not been established. Falls Fluphenazine hydrochloride tablets, USP may cause somnolence, postural hypotension, motor and sensory instability, which may lead to falls and, consequently, fractures or other injuries. For patients with diseases, conditions, or medications that could exacerbate these effects, complete fall risk assessments when initiating antipsychotic treatment and recurrently for patients on long-term antipsychotic therapy. Usage in Pregnancy: The safety for the use of this drug during pregnancy has not been established; therefore, the possible hazards should be weighed against the potential benefits when administering this drug to pregnant patients. Non-teratogenic Effects Neonates exposed to antipsychotic drugs, during the third trimester of pregnancy are at risk for extrapyramidal and/or withdrawal symptoms following delivery. There have been reports of agitation, hypertonia, hypotonia, tremor, somnolence, respiratory distress and feeding disorder in these neonates. These complications have varied in severity; while in some cases symptoms have been self-limited, in other cases neonates have required intensive care unit support and prolonged hospitalization. Fluphenazine hydrochloride should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+    "drug_info": {
+      "route": [
+        "ORAL"
+      ],
+      "brand_name": "Fluphenazine Hydrochloride",
+      "generic_name": "FLUPHENAZINE HYDROCHLORIDE",
+      "manufacturer": "Major Pharmaceuticals",
+      "product_type": "HUMAN PRESCRIPTION DRUG"
+    },
+    "document_id": "491d902d-1778-4bd3-a836-d1faf6ea9930",
+    "precautions": "PRECAUTIONS General: Because of the possibility of cross-sensitivity, fluphenazine hydrochloride should be used cautiously in patients who have developed cholestatic jaundice, dermatoses or other allergic reactions to phenothiazine derivatives. Psychotic patients on large doses of a phenothiazine drug who are undergoing surgery should be watched carefully for possible hypotensive phenomena. Moreover, it should be remembered that reduced amounts of anesthetics or central nervous system depressants may be necessary. The effects of atropine may be potentiated in some patients receiving fluphenazine hydrochloride because of added anticholinergic effects. Fluphenazine hydrochloride should be used cautiously in patients exposed to extreme heat or phosphorus insecticides; in patients with a history of convulsive disorders, since grand mal convulsions have been known to occur; and in patients with special medical disorders, such as mitral insufficiency or other cardiovascular diseases and pheochromocytoma. The possibility of liver damage, pigmentary retinopathy, lenticular and corneal deposits, and development of irreversible dyskinesia should be remembered when patients are on prolonged therapy. Neuroleptic drugs elevate prolactin levels; the elevation persists during chronic administration. Tissue culture experiments indicate that approximately one-third of human breast cancers are prolactin dependent in vitro , a factor of potential importance if the prescription of these drugs is contemplated in a patient with a previously detected breast cancer. Although disturbances such as galactorrhea, amenorrhea, gynecomastia, and impotence have been reported, the clinical significance of elevated serum prolactin levels is unknown for most patients. An increase in mammary neoplasms has been found in rodents after chronic administration of neuroleptic drugs. Published epidemiologic studies have shown inconsistent results when exploring the association between hyperprolactinemia and breast cancer. Information for Patients: Given the likelihood that some patients exposed chronically to neuroleptics will develop tardive dyskinesia, it is advised that all patients in whom chronic use is contemplated be given, if possible, full information about this risk. The decision to inform patients and/or their guardians must obviously take into account the clinical circumstances and the competency of the patient to understand the information provided. Abrupt Withdrawal: In general, phenothiazines do not produce psychic dependence; however, gastritis, nausea and vomiting, dizziness, and tremulousness have been reported following abrupt cessation of high dose therapy. Reports suggest that these symptoms can be reduced if concomitant antiparkinsonian agents are continued for several weeks after the phenothiazine is withdrawn. Facilities should be available for periodic checking of hepatic function, renal function and the blood picture. Renal function of patients on long-term therapy should be monitored; if BUN (blood urea nitrogen) becomes abnormal, treatment should be discontinued. As with any phenothiazine, the physician should be alert to the possible development of \u201csilent pneumonias\u201d in patients under treatment with fluphenazine hydrochloride. Leukopenia, Neutropenia and Agranulocytosis: In clinical trial and postmarketing experience, events of leukopenia/neutropenia have been reported temporally related to antipsychotic agents, including fluphenazine hydrochloride USP. Agranulocytosis (including fatal cases) has also been reported. Possible risk factors for leukopenia/neutropenia include preexisting low white blood cell count (WBC) and history of drug induced leukopenia/neutropenia. Patients with a preexisting low WBC or a history of drug induced leukopenia/neutropenia should have their complete blood count (CBC) monitored frequently during the first few months of therapy and should discontinue fluphenazine hydrochloride USP at the first sign of a decline in WBC in the absence of other causative factors. Patients with neutropenia should be carefully monitored for fever or other symptoms or signs of infection and treated promptly if such symptoms or signs occur. Patients with severe neutropenia (absolute neutrophil count <1000/mm 3 ) should discontinue fluphenazine hydrochloride USP and have their WBC followed until recovery.",
+    "unclassified": "Rx only",
+    "boxed_warning": [
+      "WARNING Increased Mortality in Elderly Patients with Dementia-Related Psychosis: Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks), largely in patients taking atypical antipsychotic drugs, revealed a risk of death in drug-treated patients of between 1.6 to 1.7 times the risk of death in placebo-treated patients. Over the course of a typical 10-week controlled trial, the rate of death in drug-treated patients was about 4.5%, compared to a rate of about 2.6% in the placebo group. Although the causes of death were varied, most of the deaths appeared to be either cardiovascular (e.g., heart failure, sudden death) or infectious (e.g., pneumonia) in nature. Observational studies suggest that, similar to atypical antipsychotic drugs, treatment with conventional antipsychotic drugs may increase mortality. The extent to which the findings of increased mortality in observational studies may be attributed to the antipsychotic drug as opposed to some characteristic(s) of the patients is not clear. Fluphenazine hydrochloride is not approved for the treatment of patients with dementia-related psychosis (see WARNINGS )."
+    ],
+    "package_label": [
+      "Package/Label Display Panel MAJOR\u00ae NDC 0904-7157-61 Unit Dose Fluphenazine Hydrochloride Tablets, USP 1 mg 100 TABLETS (10 x 10) Rx only 1mg carton label",
+      "Package/Label Display Panel MAJOR\u00ae NDC 0904-7158-61 Unit Dose Fluphenazine Hydrochloride Tablets, USP 2.5 mg 100 TABLETS (10 x 10) Rx only 2.5mg carton label",
+      "Package/Label Display Panel MAJOR\u00ae NDC 0904-7159-61 Unit Dose Fluphenazine Hydrochloride Tablets, USP 5 mg 100 TABLETS (10 x 10) Rx only 5mg carton label",
+      "Package/Label Display Panel MAJOR\u00ae NDC 0904-7160-61 Unit Dose Fluphenazine Hydrochloride Tablets, USP 10 mg 100 TABLETS (10 x 10) Rx only 10mg carton label"
+    ],
+    "effective_date": "20250911",
+    "drug_description": "DESCRIPTION Fluphenazine hydrochloride is a trifluoromethyl phenothiazine derivative intended for the management of schizophrenia. The chemical designation is 4-[3-[2-(Trifluoromethyl) phenothiazin-10-yl] propyl]-1-piperazineethanol dihydrochloride. The structural formula is represented below: Fluphenazine Hydrochloride Tablets, USP, for oral administration, contain 1 mg, 2.5 mg, 5 mg, or 10 mg fluphenazine hydrochloride, USP per tablet. Each tablet also contains corn starch, D&C Red No. 27 (2.5 mg and 5 mg tablet), D&C Red No. 30 (5 mg tablet), D&C Yellow No. 10 (5 mg tablet), dibasic calcium phosphate dihydrate, FD&C Blue No. 1 (5 mg tablet), FD&C Blue No. 2 (2.5 mg tablet), FD&C Red No. 40 (10 mg tablet), FD&C Yellow No. 6 (10 mg tablet), hypromellose, lactose monohydrate, magnesium stearate, polyethylene glycol, polysorbate 80, pregelatinized starch, purified water, and titanium dioxide. fluphenazine-molec-structure",
+    "openfda_metadata": {
+      "unii": [
+        "ZOU145W1XL"
+      ],
+      "route": [
+        "ORAL"
+      ],
+      "rxcui": [
+        "859841",
+        "860918",
+        "865117",
+        "865123"
+      ],
+      "spl_id": [
+        "491d902d-1778-4bd3-a836-d1faf6ea9930"
+      ],
+      "brand_name": [
+        "Fluphenazine Hydrochloride"
+      ],
+      "spl_set_id": [
+        "e8d4065a-45fc-4adf-9406-2122ca131d99"
+      ],
+      "package_ndc": [
+        "0904-7157-61",
+        "0904-7158-61",
+        "0904-7159-61",
+        "0904-7160-61"
+      ],
+      "product_ndc": [
+        "0904-7157",
+        "0904-7158",
+        "0904-7159",
+        "0904-7160"
+      ],
+      "generic_name": [
+        "FLUPHENAZINE HYDROCHLORIDE"
+      ],
+      "product_type": [
+        "HUMAN PRESCRIPTION DRUG"
+      ],
+      "substance_name": [
+        "FLUPHENAZINE HYDROCHLORIDE"
+      ],
+      "manufacturer_name": [
+        "Major Pharmaceuticals"
+      ],
+      "application_number": [
+        "ANDA089743"
+      ],
+      "original_packager_product_ndc": [
+        "0527-1788",
+        "0527-1789",
+        "0527-1790",
+        "0527-1791"
+      ]
+    },
+    "use_in_pregnancy": "Usage in Pregnancy: The safety for the use of this drug during pregnancy has not been established; therefore, the possible hazards should be weighed against the potential benefits when administering this drug to pregnant patients. Non-teratogenic Effects Neonates exposed to antipsychotic drugs, during the third trimester of pregnancy are at risk for extrapyramidal and/or withdrawal symptoms following delivery. There have been reports of agitation, hypertonia, hypotonia, tremor, somnolence, respiratory distress and feeding disorder in these neonates. These complications have varied in severity; while in some cases symptoms have been self-limited, in other cases neonates have required intensive care unit support and prolonged hospitalization. Fluphenazine hydrochloride should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+    "adverse_reactions": "ADVERSE REACTIONS Central Nervous System: The side effects most frequently reported with phenothiazine compounds are extrapyramidal symptoms including pseudoparkinsonism, dystonia, dyskinesia, akathisia, oculogyric crises, opisthotonos, and hyperreflexia. Most often these extrapyramidal symptoms are reversible; however, they may be persistent (see below ). With any given phenothiazine derivative, the incidence and severity of such reactions depend more on individual patient sensitivity than on other factors, but dosage level and patient age are also determinants. Extrapyramidal reactions may be alarming, and the patient should be forewarned and reassured. These reactions can usually be controlled by administration of antiparkinsonian drugs such as benztropine mesylate or intravenous caffeine and sodium benzoate injection, and by subsequent reduction in dosage. Extrapyramidal Symptoms: Dystonia: Class Effect: Symptoms of dystonia, prolonged abnormal contractions of muscle groups, may occur in susceptible individuals during the first few days of treatment. Dystonic symptoms include: spasm of the neck muscles, sometimes progressing to tightness of the throat, swallowing difficulty, difficulty breathing, and/or protrusion of the tongue. While these symptoms can occur at low doses, they occur more frequently and with greater severity with high potency and at higher doses of first generation antipsychotic drugs. An elevated risk of acute dystonia is observed in males and younger age groups. Tardive Dyskinesia: See WARNINGS . The syndrome is characterized by involuntary choreoathetoid movements which variously involve the tongue, face, mouth, lips, or jaw (e.g., protrusion of the tongue, puffing of cheeks, puckering of the mouth, chewing movements), trunk and extremities. The severity of the syndrome and the degree of impairment produced vary widely. The syndrome may become clinically recognizable either during treatment, upon dosage reduction, or upon withdrawal of treatment. Early detection of tardive dyskinesia is important. To increase the likelihood of detecting the syndrome at the earliest possible time, the dosage of neuroleptic drug should be reduced periodically (if clinically possible) and the patient observed for signs of the disorder. This maneuver is critical, since neuroleptic drugs may mask the signs of the syndrome. Other CNS Effects: Occurrences of neuroleptic malignant syndrome (NMS) have been reported in patients on neuroleptic therapy (see WARNINGS, Neuroleptic Malignant Syndrome ); leukocytosis, elevated CPK, liver function abnormalities, and acute renal failure may also occur with NMS. Drowsiness or lethargy, if they occur, may necessitate a reduction in dosage; the induction of a catatonic-like state has been known to occur with dosages of fluphenazine far in excess of the recommended amounts. As with other phenothiazine compounds, reactivation or aggravation of psychotic processes may be encountered. Phenothiazine derivatives have been known to cause, in some patients, restlessness, excitement, or bizarre dreams. Autonomic Nervous System: Hypertension and fluctuations in blood pressure have been reported with fluphenazine hydrochloride. Hypotension has rarely presented a problem with fluphenazine. However, patients with pheochromocytoma, cerebral vascular or renal insufficiency, or a severe cardiac reserve deficiency such as mitral insufficiency appear to be particularly prone to hypotensive reactions with phenothiazine compounds, and should therefore be observed closely when the drug is administered. If severe hypotension should occur, supportive measures including the use of intravenous vasopressor drugs should be instituted immediately. Norepinephrine Bitartrate Injection is the most suitable drug for this purpose; epinephrine should not be used since phenothiazine derivatives have been found to reverse its action, resulting in a further lowering of blood pressure. Autonomic reactions including nausea and loss of appetite, salivation, polyuria, perspiration, dry mouth, headache, and constipation may occur. Autonomic effects can usually be controlled by reducing or temporarily discontinuing dosage. In some patients, phenothiazine derivatives have caused blurred vision, glaucoma, bladder paralysis, fecal impaction, paralytic ileus, tachycardia, or nasal congestion. Metabolic and Endocrine: Weight change, peripheral edema, abnormal lactation, gynecomastia, menstrual irregularities, false results on pregnancy tests, impotency in men and increased libido in women have all been known to occur in some patients on phenothiazine therapy. Allergic Reactions: Skin disorders such as itching, erythema, urticaria, seborrhea, photosensitivity, eczema and even exfoliative dermatitis have been reported with phenothiazine derivatives. The possibility of anaphylactoid reactions occurring in some patients should be borne in mind. Hematologic: Routine blood counts are advisable during therapy since blood dyscrasias including leukopenia, agranulocytosis, thrombocytopenic or nonthrombocytopenic purpura, eosinophilia, and pancytopenia have been observed with phenothiazine derivatives. Furthermore, if any soreness of the mouth, gums, or throat, or any symptoms of upper respiratory infection occur and confirmatory leukocyte count indicates cellular depression, therapy should be discontinued and other appropriate measures instituted immediately. Hepatic: Liver damage as manifested by cholestatic jaundice may be encountered, particularly during the first months of therapy; treatment should be discontinued if this occurs. An increase in cephalin flocculation, sometimes accompanied by alterations in other liver function tests, has been reported in patients receiving fluphenazine hydrochloride who have had no clinical evidence of liver damage. Others: Sudden, unexpected and unexplained deaths have been reported in hospitalized psychotic patients receiving phenothiazines. Previous brain damage or seizures may be predisposing factors; high doses should be avoided in known seizure patients. Several patients have shown sudden flare-ups of psychotic behavior patterns shortly before death. Autopsy findings have usually revealed acute fulminating pneumonia or pneumonitis, aspiration of gastric contents, or intramyocardial lesions. Although this is not a general feature of fluphenazine, potentiation of central nervous system depressants (opiates, analgesics, antihistamines, barbiturates, alcohol) may occur. The following adverse reactions have also occurred with phenothiazine derivatives: systemic lupus erythematosus-like syndrome, hypotension severe enough to cause fatal cardiac arrest, altered electrocardiographic and electroencephalographic tracings, altered cerebrospinal fluid proteins, cerebral edema, asthma, laryngeal edema, and angioneurotic edema; with long-term use-skin pigmentation, and lenticular and corneal opacities.",
+    "contraindications": "CONTRAINDICATIONS Phenothiazines are contraindicated in patients with suspected or established subcortical brain damage, in patients receiving large doses of hypnotics, and in comatose or severely depressed states. The presence of blood dyscrasia or liver damage precludes the use of fluphenazine hydrochloride. Fluphenazine hydrochloride is contraindicated in patients who have shown hypersensitivity to fluphenazine; cross-sensitivity to phenothiazine derivatives may occur.",
+    "general_precautions": "General: Because of the possibility of cross-sensitivity, fluphenazine hydrochloride should be used cautiously in patients who have developed cholestatic jaundice, dermatoses or other allergic reactions to phenothiazine derivatives. Psychotic patients on large doses of a phenothiazine drug who are undergoing surgery should be watched carefully for possible hypotensive phenomena. Moreover, it should be remembered that reduced amounts of anesthetics or central nervous system depressants may be necessary. The effects of atropine may be potentiated in some patients receiving fluphenazine hydrochloride because of added anticholinergic effects. Fluphenazine hydrochloride should be used cautiously in patients exposed to extreme heat or phosphorus insecticides; in patients with a history of convulsive disorders, since grand mal convulsions have been known to occur; and in patients with special medical disorders, such as mitral insufficiency or other cardiovascular diseases and pheochromocytoma. The possibility of liver damage, pigmentary retinopathy, lenticular and corneal deposits, and development of irreversible dyskinesia should be remembered when patients are on prolonged therapy. Neuroleptic drugs elevate prolactin levels; the elevation persists during chronic administration. Tissue culture experiments indicate that approximately one-third of human breast cancers are prolactin dependent in vitro , a factor of potential importance if the prescription of these drugs is contemplated in a patient with a previously detected breast cancer. Although disturbances such as galactorrhea, amenorrhea, gynecomastia, and impotence have been reported, the clinical significance of elevated serum prolactin levels is unknown for most patients. An increase in mammary neoplasms has been found in rodents after chronic administration of neuroleptic drugs. Published epidemiologic studies have shown inconsistent results when exploring the association between hyperprolactinemia and breast cancer.",
+    "how_supplied_storage": "HOW SUPPLIED Fluphenazine Hydrochloride Tablets, USP are available as follows: 1 mg tablets are white, round, film-coated tablets debossed \u201cLCI\u201d on one side and \u201c1788\u201d on the other side. They are supplied: Cartons of 100 film-coated tablets (10 film-coated tablets each blister pack x 10), NDC 0904-7157-61 2.5 mg tablets are blue, round, film-coated tablets debossed \u201cLCI\u201d on one side and \u201c1789\u201d on the other side. They are supplied: Cartons of 100 film-coated tablets (10 film-coated tablets each blister pack x 10), NDC 0904-7158-61 5 mg tablets are dark pink, round, film-coated tablets debossed \u201cLCI\u201d on one side and \u201c1790\u201d on the other side. They are supplied: Cartons of 100 film-coated tablets (10 film-coated tablets each blister pack x 10), NDC 0904-7159-61 10 mg tablets are orange, round, film-coated tablets debossed \u201cLCI\u201d on one side and \u201c1791\u201d on the other side. They are supplied: Cartons of 100 film-coated tablets (10 film-coated tablets each blister pack x 10), NDC 0904-7160-61 WARNING: These Unit Dose packages are not child resistant and are Intended for Institutional Use Only. Keep this and all drugs out of the reach of children. Store at 20\u00b0 to 25\u00b0C (68\u00b0 to 77\u00b0F) [see USP Controlled Room Temperature]. Avoid excessive heat. Protect from light. Dispense in a tight, light-resistant container as defined in the USP with a child-resistant closure. Distributed by: Lannett Company, Inc. Philadelphia, PA 19136 Packaged and Distributed by: MAJOR\u00ae PHARMACEUTICALS Indianapolis, IN 46268 USA Refer to package label for Distributor's NDC Number CIB70359F Rev. 11/24",
+    "clinical_pharmacology": "CLINICAL PHARMACOLOGY Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown.",
+    "indications_and_usage": "INDICATIONS AND USAGE Fluphenazine hydrochloride tablets are indicated in the management of manifestations of psychotic disorders. Fluphenazine hydrochloride has not been shown effective in the management of behavioral complications in patients with mental retardation.",
+    "information_for_patients": "Information for Patients: Given the likelihood that some patients exposed chronically to neuroleptics will develop tardive dyskinesia, it is advised that all patients in whom chronic use is contemplated be given, if possible, full information about this risk. The decision to inform patients and/or their guardians must obviously take into account the clinical circumstances and the competency of the patient to understand the information provided.",
+    "dosage_and_administration": "DOSAGE AND ADMINISTRATION Depending on severity and duration of symptoms, total daily dosage for adult psychotic patients may range initially from 2.5 mg to 10 mg and should be divided and given at 6 to 8 hour intervals. The smallest amount that will produce the desired results must be carefully determined for each individual, since optimal dosage levels of this potent drug vary from patient to patient. In general, the oral dose has been found to be approximately 2 to 3 times the parenteral dose of fluphenazine. Treatment is best instituted with a low initial dosage, which may be increased, if necessary, until the desired clinical effects are achieved. Therapeutic effect is often achieved with doses under 20 mg daily. Patients remaining severely disturbed or inadequately controlled may require upward titration of dosage. Daily doses up to 40 mg may be necessary; controlled clinical studies have not been performed to demonstrate safety of prolonged administration of such doses. When symptoms are controlled, dosage can generally be reduced gradually to daily maintenance doses of 1 mg to 5 mg, often given as a single daily dose. Continued treatment is needed to achieve maximum therapeutic benefits; further adjustments in dosage may be necessary during the course of therapy to meet the patient\u2019s requirements. For psychotic patients who have been stabilized on a fixed daily dosage of orally administered fluphenazine hydrochloride dosage forms, conversion to the long-acting fluphenazine decanoate may be indicated (see package insert for fluphenazine decanoate for conversion information). For geriatric patients, the suggested starting dose is 1 mg to 2.5 mg daily, adjusted according to the response of the patient.",
+    "spl_product_data_elements": "Fluphenazine Hydrochloride Fluphenazine Hydrochloride FLUPHENAZINE HYDROCHLORIDE FLUPHENAZINE STARCH, CORN DIBASIC CALCIUM PHOSPHATE DIHYDRATE HYPROMELLOSE, UNSPECIFIED LACTOSE MONOHYDRATE MAGNESIUM STEARATE POLYETHYLENE GLYCOL, UNSPECIFIED POLYSORBATE 80 WATER TITANIUM DIOXIDE LCI;1788 Fluphenazine Hydrochloride Fluphenazine Hydrochloride FLUPHENAZINE HYDROCHLORIDE FLUPHENAZINE STARCH, CORN D&C RED NO. 27 DIBASIC CALCIUM PHOSPHATE DIHYDRATE FD&C BLUE NO. 2 HYPROMELLOSE, UNSPECIFIED LACTOSE MONOHYDRATE MAGNESIUM STEARATE POLYETHYLENE GLYCOL, UNSPECIFIED POLYSORBATE 80 WATER TITANIUM DIOXIDE LCI;1789 Fluphenazine Hydrochloride Fluphenazine Hydrochloride FLUPHENAZINE HYDROCHLORIDE FLUPHENAZINE STARCH, CORN D&C RED NO. 27 D&C RED NO. 30 D&C YELLOW NO. 10 DIBASIC CALCIUM PHOSPHATE DIHYDRATE FD&C BLUE NO. 1 HYPROMELLOSE, UNSPECIFIED LACTOSE MONOHYDRATE MAGNESIUM STEARATE POLYETHYLENE GLYCOL, UNSPECIFIED POLYSORBATE 80 WATER TITANIUM DIOXIDE Dark pink LCI;1790 Fluphenazine Hydrochloride Fluphenazine Hydrochloride FLUPHENAZINE HYDROCHLORIDE FLUPHENAZINE STARCH, CORN DIBASIC CALCIUM PHOSPHATE DIHYDRATE FD&C RED NO. 40 FD&C YELLOW NO. 6 HYPROMELLOSE, UNSPECIFIED LACTOSE MONOHYDRATE MAGNESIUM STEARATE POLYETHYLENE GLYCOL, UNSPECIFIED POLYSORBATE 80 WATER TITANIUM DIOXIDE LCI;1791"
+  }
+]

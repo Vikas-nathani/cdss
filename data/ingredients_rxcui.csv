@@ -1,0 +1,336 @@
+ingredient_name_norm,has_spelling_issue,corrected_name,correction_note,rxcui,tty,rxnorm_notes
+nafithromycin,NO,,,,,Novel macrolide; not yet in RxNorm
+docaravimab,NO,,,,,Novel mAb; not yet in RxNorm
+hydroxyquinolines,NO,,,,,Class term; no single RxCUI
+lipid,NO,,,,,Excipient/class; no single RxCUI
+ripasudil,NO,,,1860494,IN,
+l-methyltetrahydrofolate clacium,YES,l-methyltetrahydrofolate calcium,"""clacium"" → ""calcium""",1041845,IN,Spelling issue → see corrected_name
+ginkgo biloba extract (egb 761),NO,,,392798,IN,
+placenta extracts,NO,,,,,Biological extract; not in RxNorm
+human gamma globulin,NO,,,2103882,IN,
+monobasic,NO,,,,,Partial compound name; no RxCUI
+fexuprazan,NO,,,,,Novel P-CAB; not yet in RxNorm
+minodronic acid,NO,,,,,Japan-specific bisphosphonate; not in RxNorm
+levonadifloxacin,NO,,,,,India-specific fluoroquinolone; not in RxNorm
+lactobacillus,NO,,,,,Genus-level; no single RxCUI
+mulberry extract,NO,,,,,Herbal; not in RxNorm
+hydroxyethyl starch(hes),NO,,,44818,IN,Hydroxyethyl starch
+hemocoagulase,NO,,,,,Biological; not in RxNorm
+"human papillomavirus quadrivalent (types 6, 11, 16, and 18) vaccine, recombinant",NO,,,655380,IN,
+oxetacaine,NO,,,,,India/older market; not in RxNorm
+arterolane,NO,,,,,India-specific antimalarial; not in RxNorm
+sultamicillin tosilate,YES,sultamicillin tosylate,"""tosilate"" → ""tosylate""",,,Spelling issue → see corrected_name
+belladonna dry extract,NO,,,10357,IN,Belladonna
+inactivated influenza vaccine (quadrivalent),NO,,,1656613,IN,
+udenafil,NO,,,,,Korea-specific PDE5 inhibitor; not in RxNorm
+isoflavone,NO,,,389877,IN,
+carbohydrate,NO,,,,,Class; no single RxCUI
+permethrin topical,YES,permethrin,"""topical"" is dosage form qualifier, not ingredient name",8119,IN,Qualifier issue → see corrected_name
+thiamine(vitamin b12),YES,thiamine (vitamin b1),"Thiamine = B1, not B12; ""b12"" → ""b1""",10339,IN,Spelling/naming issue → see corrected_name
+vit d3 cholecalciferol,YES,vitamin d3 (cholecalciferol),"""vit"" → ""vitamin""; add parentheses",41367,IN,Spelling issue → see corrected_name
+iguratimod,NO,,,,,Japan-specific DMARD; not in RxNorm
+pneumococcal polysaccharide vaccine,NO,,,121940,IN,
+doxorubicin (plain),YES,doxorubicin,"""plain"" is formulation qualifier",3639,IN,Qualifier issue → see corrected_name
+methylcobalamin/mecobalamin,NO,,,44253,IN,Methylcobalamin
+lidocaine/lignocaine,NO,,,28508,IN,Lidocaine (INN=Lidocaine; Lignocaine is older BAN)
+live freeze dried lactic acid bacteria and bifidobacteria,NO,,,,,Probiotic complex; not in RxNorm
+methyl,NO,,,,,Chemical fragment; no RxCUI
+clostridium butryricum to-a,YES,clostridium butyricum to-a,"""butryricum"" → ""butyricum""",,,Spelling issue → see corrected_name
+nadifloxacin,NO,,,,,India/Japan topical fluoroquinolone; not in RxNorm
+cetalkonium,NO,,,,,Quaternary ammonium; not in RxNorm as standalone
+polio vaccine,NO,,,217987,IN,"Poliovirus vaccine, live (OPV)"
+extractum cepae-cepalin,NO,,,,,Onion extract (brand Contractubex); not in RxNorm
+vi capsular polysaccharide of salmonella typhi,NO,,,,,Vaccine antigen; not in RxNorm as ingredient
+miromavimab,NO,,,,,Novel mAb; not yet in RxNorm
+dimethyl,NO,,,,,Chemical fragment; no RxCUI
+methyl sulfonyl methane,NO,,,392413,IN,Methylsulfonylmethane (MSM)
+recombinant human erythropoietin beta,NO,,,,,Epoetin beta → see RxCUI for epoetin beta
+tegoprazan,NO,,,,,Novel P-CAB; not yet in RxNorm
+polatuzumab,NO,,,2049126,IN,Polatuzumab vedotin
+azelnidipine,NO,,,,,Japan/India CCB; not in RxNorm
+recombinant follicle stimulating hormone,NO,,,73178,IN,Follitropin alfa
+"oral corticosteroids, plain",NO,,,,,Therapeutic class; no single RxCUI
+aflapin,NO,,,,,Boswellia extract; not in RxNorm
+light,NO,,,,,Not a pharmaceutical ingredient
+itopride,NO,,,,,India/Japan prokinetic; not in RxNorm
+proanthocyanidin,NO,,,,,Phytochemical; not in RxNorm
+co-trimoxazole,NO,,,10829,IN,Sulfamethoxazole/Trimethoprim combination
+thymosin alpha,NO,,,,,Thymalfasin; not as 'thymosin alpha' in RxNorm
+alpha-beta arteether,NO,,,,,India-specific artemisinin; not in RxNorm
+nor-ursodeoxycholic acid,NO,,,,,Investigational bile acid; not in RxNorm
+vitamin b3(nicotinic acid),NO,,,7453,IN,Niacin / Nicotinic acid
+faropenem,NO,,,,,Japan/India carbapenem-like; not in RxNorm
+oxyfedrin,NO,,,,,Withdrawn; not in RxNorm
+desidustat,NO,,,,,India HIF-PHI; not in RxNorm
+d-chiro inositol,NO,,,,,Nutraceutical; not in RxNorm
+multivitamin,NO,,,,,Category; no single RxCUI
+milk of magnesia,NO,,,41493,IN,Magnesium hydroxide
+disodium hydrogen,NO,,,,,Partial compound name; no RxCUI
+remogliflozin,NO,,,,,India SGLT2 inhibitor; not in RxNorm
+levo-carnitine,NO,,,392665,IN,Levocarnitine
+tripotassium dicitrato bismuthate,NO,,,,,Bismuth tripotassium dicitrate; not in RxNorm
+black grape seed extract,NO,,,,,Nutraceutical; not in RxNorm
+meglumine diatrizoate,NO,,,6769,IN,Diatrizoate meglumine
+diphtheria immune globulin,NO,,,,,Biological product; not in RxNorm as ingredient
+fenpiverinium,NO,,,,,Anticholinergic; not in RxNorm
+equine rabies immunoglobulin,NO,,,,,Biological; not in RxNorm
+propyl thiouracil,NO,,,8687,IN,Propylthiouracil
+pertussis toxoid,NO,,,,,Vaccine component; not standalone in RxNorm
+agomelatine,NO,,,,,Europe/India melatonin agonist; not in RxNorm
+carbetocin,NO,,,,,Not in RxNorm US
+levosulpiride,NO,,,,,India-specific; not in RxNorm
+fimasartan,NO,,,,,Korea-specific ARB; not in RxNorm
+satranidazole,NO,,,,,India-specific nitroimidazole; not in RxNorm
+hepatitis b vaccine (rdna),NO,,,415905,IN,Hepatitis B vaccine recombinant
+prenoxdiazine,NO,,,,,Europe/India; not in RxNorm
+polyethelene glycol,YES,polyethylene glycol,"""polyethelene"" → ""polyethylene""",61438,IN,Spelling issue → see corrected_name
+dibasic,NO,,,,,Partial compound name; no RxCUI
+etizolam,NO,,,,,Japan/India thienodiazepine; not in RxNorm
+sulphonated surfactant blend,NO,,,,,Industrial/excipient; not in RxNorm
+filamentous haemagglutinin,NO,,,,,Vaccine component antigen; not in RxNorm
+nitric,NO,,,,,Incomplete compound name; no RxCUI
+teneligliptin,NO,,,,,India/Japan DPP-4 inhibitor; not in RxNorm
+standard common krait venom (bangarus caeruleus),YES,standard common krait venom (bungarus caeruleus),"""bangarus"" → ""bungarus"" (correct genus)",,,Spelling issue → see corrected_name
+piperaquine,NO,,,,,Antimalarial; not in RxNorm as standalone IN
+electrolytes,NO,,,,,Class; no single RxCUI
+purified vi polysaccharide typhoid vaccine,NO,,,,,Vaccine antigen; not in RxNorm
+benidipine,NO,,,,,Japan/India CCB; not in RxNorm
+polmacoxib,NO,,,,,Korea COX-2 inhibitor; not in RxNorm
+l glutathione reduced,NO,,,,,Nutraceutical; not in RxNorm as 'l glutathione reduced'
+amino acids,NO,,,,,Class; no single RxCUI
+doxofylline,NO,,,,,Italy/India xanthine; not in RxNorm
+topiroxostat,NO,,,,,Japan/India xanthine oxidase inhibitor; not in RxNorm
+inactivated polio vaccine,NO,,,352060,IN,Poliovirus vaccine inactivated (IPV)
+dill oil,NO,,,,,Herbal/volatile oil; not in RxNorm
+efonidipine,NO,,,,,Japan CCB; not in RxNorm
+caroverine,NO,,,,,Not in RxNorm
+ichthyol pale,NO,,,,,Pale ichthammol; not as 'ichthyol pale' in RxNorm
+meningococcal (group a & c) polysaccharide vaccine,NO,,,,,Vaccine; not in RxNorm as written
+flumethrin,NO,,,,,Veterinary pyrethroid; not in RxNorm
+rabies human monoclonal antibody (rdna),NO,,,,,Novel biologic; not yet in RxNorm
+valethamate,NO,,,,,Anticholinergic; not in RxNorm
+pegylated recombinant human erythropoietin,NO,,,,,Epoetin beta pegol / CERA; not as written in RxNorm
+varicella vaccine (live) attenuated,NO,,,58313,IN,Varicella virus vaccine live
+biapenem,NO,,,,,Japan carbapenem; not in RxNorm
+inactivated influenza vaccine,NO,,,1656613,IN,Influenza vaccine inactivated
+anti-psoriatic,NO,,,,,Therapeutic class; no single RxCUI
+liposomal dithranol,NO,,,,,Dithranol/anthralin in liposomal form; not in RxNorm as such
+l ascorbic acid,NO,,,54356,IN,Ascorbic acid
+citrus bioflavonoid,NO,,,,,Nutraceutical; not in RxNorm
+protein hydrolysate,NO,,,,,Class; not in RxNorm
+adapting electrolyte solutions,NO,,,,,Product description; not an ingredient
+iso amyl 2-cynoacrylate,YES,isoamyl 2-cyanoacrylate,"""cynoacrylate"" → ""cyanoacrylate""; ""iso amyl"" → ""isoamyl""",,,Spelling issue → see corrected_name
+silver colloid,NO,,,,,Colloidal silver; not in RxNorm
+cholera vaccine (inactivated),NO,,,,,Not in RxNorm US
+evogliptin,NO,,,,,Korea DPP-4 inhibitor; not in RxNorm
+hormone recombinant human luteinizing hormone/lutropin alfa,NO,,,359770,IN,Lutropin alfa
+blonanserin,NO,,,,,Japan/India atypical antipsychotic; not in RxNorm
+prulifloxacin,NO,,,,,Italy/India fluoroquinolone; not in RxNorm
+human prothrombin complex,NO,,,,,Biological product; not in RxNorm as ingredient
+inactivated rabies vaccine (animals),NO,,,,,Veterinary; not in RxNorm
+potassium hydrogen,NO,,,,,Partial compound name; no RxCUI
+ferrous asparto,NO,,,,,Iron amino acid chelate; not in RxNorm
+antithymocyte immunoglobulins,NO,,,1597589,IN,Anti-thymocyte globulin
+gadopentetic acid,NO,,,19787,IN,Gadopentetate dimeglumine
+protodioscin,NO,,,,,Saponin/nutraceutical; not in RxNorm
+levonorgestrel (intrauterine delivery system),NO,,,56480,IN,Levonorgestrel
+alpha glycerylphosphorylcholine,NO,,,,,Nutraceutical (alpha-GPC); not in RxNorm
+elobixibat,NO,,,,,Japan IBAT inhibitor; not in RxNorm
+s-metoprolol,NO,,,,,S-enantiomer of metoprolol; not separately in RxNorm
+human antitetanus immunoglobulin,NO,,,,,Biological; not in RxNorm as ingredient
+rosehip,NO,,,,,Herbal; not in RxNorm
+"combined canine distemper, hepatitis, parvovirus & parainfluenza vaccine",NO,,,,,Veterinary combo vaccine; not in RxNorm
+ramosetron,NO,,,,,Japan/India 5-HT3 antagonist; not in RxNorm
+bacillus calmette-guerin strain,NO,,,,,BCG vaccine; not as 'strain' in RxNorm
+poliomyelitis virus type 2,NO,,,,,Vaccine component; not standalone in RxNorm
+messenger ribonucleic acid (mrna) (nucleoside modified),NO,,,,,mRNA platform component; not in RxNorm
+uniflexin,NO,,,,,Proprietary; not in RxNorm
+ozagrel,NO,,,,,Japan/India TXA2 synthase inhibitor; not in RxNorm
+dha rich algal oil,NO,,,,,Nutraceutical; not in RxNorm
+potassium dihydrogen,NO,,,,,Partial compound name; no RxCUI
+rupatadine,NO,,,,,Europe/India antihistamine; not in RxNorm
+salmonella typhi vaccine,NO,,,,,See Vi polysaccharide or Ty21a; generic not in RxNorm
+sodium pyrrolidone carboxylic acid,NO,,,,,Excipient/humectant; not in RxNorm
+oxychloro complex,NO,,,,,Stabilised chlorine dioxide; not in RxNorm
+albumin,NO,,,247865,IN,Human albumin
+l-carnitine l-tartrate,NO,,,392665,IN,Levocarnitine (carnitine salt)
+cetilistat,NO,,,,,Japan/India lipase inhibitor; not in RxNorm
+dapoxetine,NO,,,,,India/Europe SSRI (PE); not in US RxNorm
+"herpes zoster / shingles vaccine (recombinant, adjuvanted)",NO,,,1987003,IN,"Zoster vaccine recombinant, adjuvanted (Shingrix)"
+ulinastatin,NO,,,,,Japan/India urinary trypsin inhibitor; not in RxNorm
+s-methoprene,NO,,,54489,IN,Methoprene
+quiniodochlor,NO,,,,,Clioquinol alternate name; see clioquinol
+fructo oligosaccharide,NO,,,,,Prebiotic; not in RxNorm
+iron hydroxide polymaltose,NO,,,,,Iron polymaltose; not in RxNorm as written
+gastroprokinetics plain,NO,,,,,Therapeutic class; no single RxCUI
+cerebroprotein hydrolysate,NO,,,,,India/Europe; not in RxNorm
+imeglimin,NO,,,,,Japan/India mitochondrial antidiabetic; not in RxNorm
+trelagliptin,NO,,,,,Japan DPP-4 inhibitor; not in RxNorm
+bacillus mesentericus,NO,,,,,Probiotic; not in RxNorm
+inactivated japanese encephalitis virus protein,NO,,,,,JE vaccine antigen; not standalone in RxNorm
+oteracil,NO,,,,,Cytostatic component (S-1); not standalone in RxNorm
+feracrylum,NO,,,,,India haemostatic; not in RxNorm
+l-methyltetrahydrofolate,NO,,,1041845,IN,Levomefolate
+closantel,NO,,,,,Veterinary anthelmintic; not in human RxNorm
+recombinant human parathyroid hormone,NO,,,72924,IN,Teriparatide
+soya isoflavones,NO,,,,,Nutraceutical; not in RxNorm
+progesterone (natural micronized),YES,progesterone,"""natural micronized"" is formulation qualifier",8727,IN,Qualifier issue → see corrected_name
+cerebrolysin,NO,,,,,Europe/India neuropeptide; not in RxNorm
+tazobactum,YES,tazobactam,"""tazobactum"" → ""tazobactam""",55641,IN,Spelling issue → see corrected_name
+phospholipids,NO,,,,,Class; not in RxNorm
+rimonabant,NO,,,,,Withdrawn; not in RxNorm
+clinidipine,YES,cilnidipine,"""clinidipine"" → ""cilnidipine"" (transposed letters)",,,Spelling issue → see corrected_name
+euphorbia prostrata extract,NO,,,,,Herbal; not in RxNorm
+combined canine distemper & canine parvovirus vaccine,NO,,,,,Veterinary; not in RxNorm
+inotuzumab ozogamacin,YES,inotuzumab ozogamicin,"""ozogamacin"" → ""ozogamicin""",1865481,IN,Spelling issue → see corrected_name
+seratrodast,NO,,,,,Japan TXA2 antagonist; not in RxNorm
+lobeglitazone,NO,,,,,Korea PPAR-gamma agonist; not in RxNorm
+docosahexanoic acid(dha),YES,docosahexaenoic acid (dha),"""hexanoic"" → ""hexaenoic""; add space before (dha)",41376,IN,Spelling issue → see corrected_name
+"yellow fever virus (live, attenuated)",NO,,,,,Yellow fever vaccine; not as ingredient in RxNorm
+aloe barbadensis,NO,,,,,Herbal; not in RxNorm
+zinc monomethionine,NO,,,,,Nutraceutical; not in RxNorm
+pyridoxal-5-phasphate,YES,pyridoxal-5-phosphate,"""phasphate"" → ""phosphate""",44068,IN,Spelling issue → see corrected_name
+enclomiphene,NO,,,,,Clomiphene trans-isomer; not separately in RxNorm
+eperisone,NO,,,,,Japan/India muscle relaxant; not in RxNorm
+"human papillomavirus 9-valent (types 6,11,16,18,31,33,45,52 and 58) vaccine, recombinant",NO,,,1617752,IN,HPV 9-valent vaccine recombinant (Gardasil 9)
+vaccine,NO,,,,,Generic category term; no single RxCUI
+interferon alpha 2a,NO,,,59743,IN,Interferon alfa-2a
+trypsin chymotrypsin,NO,,,,,Enzyme combination; not in RxNorm as combined
+gemigliptin,NO,,,,,Korea DPP-4 inhibitor; not in RxNorm
+s-etodolac,NO,,,,,S-enantiomer; not separately in RxNorm
+sodium thiosulphate,YES,sodium thiosulfate,"""thiosulphate"" → ""thiosulfate"" (INN/USP spelling)",9987,IN,Spelling issue → see corrected_name
+lacto bacillus rhamnosus,YES,lactobacillus rhamnosus,"""lacto bacillus"" → ""lactobacillus"" (one word)",,,Spelling issue → see corrected_name
+human menopausal gonadotrophin,NO,,,,,hMG / Menotropin; see menotropins
+omega-3 marine triglycerides,NO,,,1551861,IN,Omega-3-acid ethyl esters / fish oil
+lactic acid bacillus,NO,,,,,Probiotic; not in RxNorm
+poliomyelitis virus type 1,NO,,,,,Vaccine component; not standalone in RxNorm
+centchroman,NO,,,,,India SERM contraceptive; not in RxNorm
+acetyl l-carnitine,NO,,,58327,IN,Acetylcarnitine
+rebamipide,NO,,,,,Japan/India mucoprotective; not in RxNorm
+pegylated interferon alpha 2b,NO,,,1010609,IN,Peginterferon alfa-2b
+oleum lini,NO,,,,,Linseed/flaxseed oil; not in RxNorm
+live attenuated varicella-zoster virus,NO,,,58313,IN,Varicella virus vaccine live
+metadoxine,NO,,,,,Europe/India pyridoxine metabolite; not in RxNorm
+dehydroepiandrosterone (micronized),YES,dehydroepiandrosterone,"""micronized"" is formulation qualifier",3622,IN,Qualifier issue → see corrected_name
+aviptadil,NO,,,,,VIP analogue; not in RxNorm
+itolizumab,NO,,,,,India anti-CD6 mAb; not in RxNorm
+bile constituents,NO,,,,,Class; not in RxNorm
+bacillus mesentericus to-a jpc,NO,,,,,Probiotic strain; not in RxNorm
+thiamine(vitamin b1),NO,,,10339,IN,Thiamine (Vitamin B1)
+balofloxacin,NO,,,,,Korea fluoroquinolone; not in RxNorm
+gamma linolenic acid,NO,,,49506,IN,Gamma-linolenic acid
+clostridium butryricum,YES,clostridium butyricum,"""butryricum"" → ""butyricum""",,,Spelling issue → see corrected_name
+ilaprazole,NO,,,,,Korea/India PPI; not in RxNorm
+mumps virus vaccine,NO,,,60694,IN,Mumps vaccine live
+saroglitazar,NO,,,,,India dual PPAR agonist; not in RxNorm
+naftopidil,NO,,,,,Japan alpha-1A blocker; not in RxNorm
+sodium diatrizoate,NO,,,6769,IN,Diatrizoate sodium
+deca peptide,NO,,,,,Peptide complex; not in RxNorm
+s-adenosyl l-methoinine disulfate,YES,s-adenosyl l-methionine disulfate,"""methoinine"" → ""methionine""",,,Spelling issue → see corrected_name
+arteether,NO,,,,,India artemisinin; not in RxNorm
+human adenovirus vector vaccine,NO,,,,,Vector platform; not as ingredient in RxNorm
+nimotuzumab,NO,,,,,India/Cuba anti-EGFR mAb; not in RxNorm
+rubella vaccine (live),NO,,,120471,IN,Rubella virus vaccine live
+ichtyolammonium,YES,ichthyolammonium,"Missing ""h"": ""ichtyol"" → ""ichthyol""",,,Spelling issue → see corrected_name
+thiamine(vitamin b1)2,YES,thiamine (vitamin b1),"Trailing ""2"" = duplicate row artifact; remove",10339,IN,Spelling/duplicate issue → see corrected_name
+clioquinol (iodochlorhydroxyquin),NO,,,2670,IN,Clioquinol
+zaltoprofen,NO,,,,,Japan NSAID; not in RxNorm
+allium cepa,NO,,,,,Onion extract; not in RxNorm
+inactivated hepatitis a vaccine,NO,,,9110,IN,Hepatitis A vaccine inactivated
+dexamethasone intravitreal implant,NO,,,41493,IN,Dexamethasone → RxCUI 41493 is for dexamethasone base; intravitreal implant is formulation
+clostridium botulinum type a toxin-haemagglutinin complex,NO,,,,,OnabotulinumtoxinA complex; not in RxNorm as written
+tribasic,NO,,,,,Partial compound name; no RxCUI
+bilastine,NO,,,,,Europe antihistamine; not in RxNorm
+almagate,NO,,,,,Antacid; not in RxNorm
+kalmegh dry extract,NO,,,,,Andrographis; not in RxNorm
+granulocyte colony stimulating factor,NO,,,,,G-CSF/Filgrastim; see filgrastim RxCUI 30050
+standard russels viper venom (vipera russelli),YES,russell's viper venom (vipera russelli),"""russels"" → ""russell's""",,,Spelling issue → see corrected_name
+diltiazem topical,YES,diltiazem,"""topical"" is dosage form qualifier",3948,IN,Qualifier issue → see corrected_name
+interferon alpha 2b,NO,,,59745,IN,Interferon alfa-2b
+paraffin liquid,NO,,,7947,IN,Mineral oil (liquid paraffin)
+choline dihydrogen,NO,,,,,Partial compound name; no RxCUI
+univestin,NO,,,,,Proprietary BCM-95 curcumin; not in RxNorm
+type 2 collagen,NO,,,,,Nutraceutical; not in RxNorm
+hydroxy ethyl cellulose,NO,,,,,Excipient; not in RxNorm
+standard cobra venom (naja naja),NO,,,,,Antivenom component; not in RxNorm
+"combined feline panleukopenia, calicivirus & rhinotracheitis vaccine",NO,,,,,Veterinary; not in RxNorm
+centbucridine,NO,,,,,India local anesthetic; not in RxNorm
+tadalafil ip,YES,tadalafil,"""ip"" (Indian Pharmacopoeia) is spec suffix, not ingredient",110635,IN,Qualifier issue → see corrected_name
+pneumococcal polysaccharide conjugate vaccine,NO,,,591888,IN,Pneumococcal 13-valent conjugate vaccine
+n-butyl-2-cyanoacrylate,NO,,,,,Tissue adhesive; not in RxNorm
+lafutidine,NO,,,,,Japan/India H2 blocker; not in RxNorm
+voglibose,NO,,,,,Japan/India alpha-glucosidase inhibitor; not in RxNorm
+pneumococcal 13 valent conjugate vaccine,NO,,,591888,IN,Pneumococcal 13-valent conjugate vaccine (Prevnar 13)
+epalrestat,NO,,,,,India aldose reductase inhibitor; not in RxNorm
+anti rh d immunoglobulin,NO,,,9496,IN,Rho(D) immune globulin
+snake venom antiserum (polyvalent),NO,,,,,Biological; not in RxNorm
+"rotavirus vaccine (live attenuated, oral)",NO,,,354700,IN,Rotavirus vaccine live oral
+freeze-dried live attenuated hepatitis a vaccine,NO,,,9110,IN,Hepatitis A vaccine inactivated
+human chorionic gonadotropin (hcg),NO,,,22459,IN,Chorionic gonadotropin
+human rabies immunoglobulin,NO,,,9496,IN,Rabies immune globulin
+sovateltide,NO,,,,,India endothelin-B agonist; not in RxNorm
+alpha ketoanalogue,NO,,,,,Amino acid analogue mixture; not in RxNorm
+doxorubicin (liposomal),NO,,,28487,IN,Doxorubicin (base ingredient; formulation is liposomal)
+lactobacillus jensenii,NO,,,,,Probiotic species; not in RxNorm
+ringer's,NO,,,,,Ringer's solution; not a single ingredient
+pitofenone,NO,,,,,Antispasmodic; not in RxNorm
+low dextrans ( 50000 daltons),NO,,,,,Dextran 40; not as written in RxNorm
+polycarbophil,NO,,,8313,IN,Polycarbophil
+streptococcus faecalis t-110 jpc,NO,,,,,Probiotic strain; not in RxNorm
+nartograstim,NO,,,,,Japan G-CSF variant; not in RxNorm
+micronised purified flavonoid fraction,NO,,,,,MPFF/Daflon; not in RxNorm
+aminexil,NO,,,,,Hair/scalp agent; not in RxNorm
+mixed carotene,NO,,,,,Class; not in RxNorm
+calcium polystyrene sulphonate,NO,,,,,Ion exchange resin; not in RxNorm as written
+pantothenic acid (vitamin b5),NO,,,7452,IN,Pantothenic acid
+haemophilus type b conjugate vaccine,NO,,,1250820,IN,Haemophilus b conjugate vaccine
+cilnidipine,NO,,,,,Japan/India CCB; not in RxNorm
+endoxifen,NO,,,,,Tamoxifen active metabolite; investigational; not in RxNorm
+levocloperastine,NO,,,,,Europe antitussive; not in RxNorm
+serenoa repens,NO,,,,,Saw palmetto; not in RxNorm
+collagen peptide,NO,,,,,Nutraceutical; not in RxNorm
+polyvinyl alcohol (including pvp),NO,,,67197,IN,Polyvinyl alcohol
+coral,NO,,,,,Non-ingredient term
+poliomyelitis virus type 3,NO,,,,,Vaccine component; not standalone in RxNorm
+dried yeast,NO,,,,,Excipient/nutritional; not in RxNorm
+recombinant folliclestimulating hormone,YES,recombinant follicle-stimulating hormone,"Missing space+hyphen: ""folliclestimulating"" → ""follicle-stimulating""",73178,IN,Spelling issue → see corrected_name
+"whole virion, inactivated corona virus vaccine",NO,,,,,COVID vaccine type; not as ingredient in RxNorm
+haemophilus influenzae type b capsular polysaccharide,NO,,,,,Vaccine antigen; not standalone in RxNorm
+terpin,NO,,,,,Expectorant; not in RxNorm
+troxipide,NO,,,,,Japan/India antiulcer; not in RxNorm
+pegylated liposomal irinotecan,NO,,,51499,IN,Irinotecan (base ingredient)
+propoxur,NO,,,,,Insecticide; not in RxNorm
+"meningococcal vaccine (group a, c, y & w-135)",NO,,,,,Menactra/Menveo type; not as written in RxNorm
+chadox1 ncov-19 corona virus vaccine (recombinant),NO,,,,,AstraZeneca COVID vaccine; not in RxNorm
+sodium tauroglycocholate,NO,,,,,Bile salt excipient; not in RxNorm
+"rabies vaccine, human",NO,,,9803,IN,Rabies vaccine human
+l-lysine monohydrochloride,NO,,,6917,IN,Lysine
+menotrophin,NO,,,,,hMG; not as 'menotrophin' in RxNorm → see menotropins 59487
+phenyramidol (fenyramidol),NO,,,,,Muscle relaxant; not in RxNorm
+stabilized oxychloro,NO,,,,,Stabilised chlorine dioxide; not in RxNorm
+garenoxacin,NO,,,,,Japan fluoroquinolone; not in RxNorm
+l-ornithine l-aspartate,NO,,,,,Europe/India hepatic; not in RxNorm
+di-iodohydroxyquinoline,NO,,,28151,IN,Diiodohydroxyquinoline / Iodoquinol
+gimeracil,NO,,,,,DPD inhibitor component (S-1); not standalone in RxNorm
+tricholine,NO,,,,,Not in RxNorm
+silver nano particles,NO,,,,,Nanosilver; not in RxNorm
+pazufloxazin,YES,pazufloxacin,"""pazufloxazin"" → ""pazufloxacin""",,,Spelling issue → see corrected_name
+methylpolysiloxane,NO,,,67145,IN,Dimethicone / Simethicone
+acetomenadione,NO,,,,,Vitamin K3 variant; not in RxNorm
+acotiamide,NO,,,,,Japan prokinetic; not in RxNorm
+dexibuprofen,NO,,,,,S-ibuprofen; not in RxNorm as dexibuprofen
+favipiravir,NO,,,,,Japan/India antiviral; limited RxNorm presence
+dexrabeprazole,NO,,,,,R-rabeprazole; not in RxNorm
+eberconazole,NO,,,,,Spain/India antifungal; not in RxNorm
+chondroitin,NO,,,4506073,IN,Chondroitin sulfate
+paracetamol/acetaminophen,NO,,,161,IN,Acetaminophen / Paracetamol (RxCUI 161)
+stannous,NO,,,,,Partial compound (tin ion); incomplete ingredient name
+recombinant human erythropoietin,NO,,,,,Epoetin alfa → see RxCUI 24808 for epoetin alfa
+succinyl choline,NO,,,10154,IN,Succinylcholine
+flavoured mentholated base,NO,,,,,Excipient/vehicle; not in RxNorm
+paradichlorobenzene,NO,,,7804,IN,Paradichlorobenzene / p-Dichlorobenzene
+canine parainfluenza & bordetella bronchiseptica vaccine,NO,,,,,Veterinary; not in RxNorm
+phenyl mercuric,NO,,,,,Partial compound name; no standalone RxCUI
+mycobacterium w,NO,,,,,India immunomodulator; not in RxNorm
+human normal immunoglobulin,NO,,,2103882,IN,Immune globulin human
+vitamin k2-7,NO,,,,,Menaquinone-7; not in RxNorm as 'vitamin k2-7'

@@ -1,0 +1,51 @@
+dosage_forms,rxnorm_suffix,rows_affected
+TABLET, EXTENDED RELEASE,Extended Release Oral Tablet,3725
+SOLUTION FOR INJECTION,Injectable Solution,3174
+CAPSULE, EXTENDED RELEASE,Extended Release Oral Capsule,1567
+INHALATION GAS,Gas for Inhalation,1370
+SOLUTION, ORAL,Oral Solution,1201
+SUSPENSION, ORAL (FINAL DOSE FORM),Oral Suspension,923
+GASTRO-RESISTANT TABLET,Delayed Release Oral Tablet,814
+TABLET, DELAYED RELEASE (OBS 06-25-01),Delayed Release Oral Tablet,814
+TABLET,DISINTEGRATING,Disintegrating Oral Tablet,484
+TRANSDERMAL PATCH,Transdermal System,356
+CUTANEOUS SOLUTION,Topical Solution,291
+TABLET,CHEWABLE,Chewable Tablet,256
+AUTO-INJECTOR (EA),Auto-Injector,248
+TABLET, SUBLINGUAL,Sublingual Tablet,245
+INHALATION SOLUTION,Inhalation Solution,229
+ORAL GEL,Oral Gel,147
+EYE OINTMENT,Ophthalmic Ointment,105
+SUPPOSITORY, RECTAL,Rectal Suppository,102
+POWDER FOR ORAL SUSPENSION,Powder for Oral Suspension,101
+POWDER FOR ORAL SOLUTION,Powder for Oral Solution,97
+SUSPENSION FOR INJECTION,Injectable Suspension,97
+GARGLE,Mouthwash,95
+MOUTHWASH,Mouthwash,95
+INHALATION SUSPENSION,Inhalation Suspension,48
+TOOTHPASTE,Toothpaste,48
+CUTANEOUS FOAM,Topical Foam,47
+VAGINAL CREAM,Vaginal Cream,44
+SOLUTION, IRRIGATION,Irrigation Solution,42
+GRANULES FOR ORAL SUSPENSION,Granules for Oral Suspension,41
+VAGINAL GEL,Vaginal Gel,35
+EYE GEL,Ophthalmic Gel,32
+PELLET (EA),Oral Pellet,30
+RECTAL CREAM,Rectal Cream,27
+CUTANEOUS POWDER,Topical Powder,27
+RING, VAGINAL,Vaginal System,19
+LOZENGE,Oral Lozenge,18
+TROCHE,Oral Lozenge,18
+INHALATION POWDER,Inhalation Powder,16
+SUSPENSION,EXTENDED RELEASE VIAL (ML),Extended Release Suspension,15
+RECTAL GEL,Rectal Gel,15
+ENEMA (ML),Enema,14
+ENEMA (EA),Enema,14
+ORAL POWDER,Oral Powder,12
+GRANULES FOR ORAL SOLUTION,Granules for Oral Solution,10
+RECTAL FOAM,Rectal Foam,6
+RECTAL OINTMENT,Rectal Ointment,5
+TABLET, BUCCAL,Buccal Tablet,3
+NASAL POWDER,Nasal Powder,2
+TAPE, MEDICATED,Medicated Tape,2
+NASAL GEL,Nasal Gel,2

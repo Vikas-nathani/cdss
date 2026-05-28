@@ -1,0 +1,2773 @@
+{
+  "tier_5_1_parenthetical": [
+    {
+      "indian_name": "Vitamin B6 (Pyridoxine)",
+      "indian_norm": "vitamin b6 (pyridoxine)",
+      "record_count": 2460,
+      "tier": "5.1",
+      "matched_with": "Pyridoxine",
+      "drugbank_id": "DB00165",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Progesterone (Natural Micronized)",
+      "indian_norm": "progesterone (natural micronized)",
+      "record_count": 1570,
+      "tier": "5.1",
+      "matched_with": "Progesterone",
+      "drugbank_id": "DB00396",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Clioquinol (Iodochlorhydroxyquin)",
+      "indian_norm": "clioquinol (iodochlorhydroxyquin)",
+      "record_count": 172,
+      "tier": "5.1",
+      "matched_with": "Iodochlorhydroxyquin",
+      "drugbank_id": "DB04815",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Thiamine(Vitamin B1)",
+      "indian_norm": "thiamine(vitamin b1)",
+      "record_count": 141,
+      "tier": "5.1",
+      "matched_with": "Vitamin B1",
+      "drugbank_id": "DB00152",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Human chorionic gonadotropin (hCG)",
+      "indian_norm": "human chorionic gonadotropin (hcg)",
+      "record_count": 130,
+      "tier": "5.1",
+      "matched_with": "hCG",
+      "drugbank_id": "DB09126",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Docosahexanoic acid(DHA)",
+      "indian_norm": "docosahexanoic acid(dha)",
+      "record_count": 110,
+      "tier": "5.1",
+      "matched_with": "DHA",
+      "drugbank_id": "DB03756",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Dehydroepiandrosterone (Micronized)",
+      "indian_norm": "dehydroepiandrosterone (micronized)",
+      "record_count": 93,
+      "tier": "5.1",
+      "matched_with": "Dehydroepiandrosterone",
+      "drugbank_id": "DB01708",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Thiamine (Vitamin B1)",
+      "indian_norm": "thiamine (vitamin b1)",
+      "record_count": 77,
+      "tier": "5.1",
+      "matched_with": "Vitamin B1",
+      "drugbank_id": "DB00152",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Calcitonin (Salmon)",
+      "indian_norm": "calcitonin (salmon)",
+      "record_count": 49,
+      "tier": "5.1",
+      "matched_with": "Salmon",
+      "drugbank_id": "DB11014",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Hepatitis B Vaccine (rDNA)",
+      "indian_norm": "hepatitis b vaccine (rdna)",
+      "record_count": 33,
+      "tier": "5.1",
+      "matched_with": "Hepatitis B Vaccine",
+      "drugbank_id": "DB11627",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Mesna",
+      "indian_norm": "mesna",
+      "record_count": 29,
+      "tier": "5.1",
+      "matched_with": "Mesna",
+      "drugbank_id": null,
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Polyvinyl Alcohol (Including Pvp)",
+      "indian_norm": "polyvinyl alcohol (including pvp)",
+      "record_count": 23,
+      "tier": "5.1",
+      "matched_with": "Polyvinyl Alcohol",
+      "drugbank_id": "DB11060",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Doxorubicin (Plain)",
+      "indian_norm": "doxorubicin (plain)",
+      "record_count": 17,
+      "tier": "5.1",
+      "matched_with": "Doxorubicin",
+      "drugbank_id": "DB00997",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Hydroxyethyl Starch(HES)",
+      "indian_norm": "hydroxyethyl starch(hes)",
+      "record_count": 12,
+      "tier": "5.1",
+      "matched_with": "HES",
+      "drugbank_id": "DB09106",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Vitamin B3(Nicotinic Acid)",
+      "indian_norm": "vitamin b3(nicotinic acid)",
+      "record_count": 9,
+      "tier": "5.1",
+      "matched_with": "Nicotinic Acid",
+      "drugbank_id": "DB00627",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Rotavirus vaccine (live attenuated, oral)",
+      "indian_norm": "rotavirus vaccine (live attenuated, oral)",
+      "record_count": 6,
+      "tier": "5.1",
+      "matched_with": "Rotavirus vaccine",
+      "drugbank_id": "DB10276",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Levonorgestrel (intrauterine delivery system)",
+      "indian_norm": "levonorgestrel (intrauterine delivery system)",
+      "record_count": 4,
+      "tier": "5.1",
+      "matched_with": "Levonorgestrel",
+      "drugbank_id": "DB00367",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sucroferric oxyhydroxide",
+      "indian_norm": "sucroferric oxyhydroxide",
+      "record_count": 4,
+      "tier": "5.1",
+      "matched_with": "Sucroferric oxyhydroxide",
+      "drugbank_id": null,
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Thiamine(Vitamin B12)",
+      "indian_norm": "thiamine(vitamin b12)",
+      "record_count": 4,
+      "tier": "5.1",
+      "matched_with": "Vitamin B12",
+      "drugbank_id": "DB14098",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Phenyramidol (Fenyramidol)",
+      "indian_norm": "phenyramidol (fenyramidol)",
+      "record_count": 3,
+      "tier": "5.1",
+      "matched_with": "Fenyramidol",
+      "drugbank_id": "DB13414",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Pantothenic Acid (Vitamin B5)",
+      "indian_norm": "pantothenic acid (vitamin b5)",
+      "record_count": 3,
+      "tier": "5.1",
+      "matched_with": "Vitamin B5",
+      "drugbank_id": "DB01783",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Doxorubicin (Liposomal)",
+      "indian_norm": "doxorubicin (liposomal)",
+      "record_count": 3,
+      "tier": "5.1",
+      "matched_with": "Doxorubicin",
+      "drugbank_id": "DB00997",
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Dextran 40",
+      "indian_norm": "dextran 40",
+      "record_count": 2,
+      "tier": "5.1",
+      "matched_with": "Dextran 40",
+      "drugbank_id": null,
+      "method": "parenthetical \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Cholera Vaccine (Inactivated)",
+      "indian_norm": "cholera vaccine (inactivated)",
+      "record_count": 2,
+      "tier": "5.1",
+      "matched_with": "Cholera Vaccine",
+      "drugbank_id": "DB14443",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Ginkgo biloba extract (EGb 761)",
+      "indian_norm": "ginkgo biloba extract (egb 761)",
+      "record_count": 2,
+      "tier": "5.1",
+      "matched_with": "Ginkgo biloba extract",
+      "drugbank_id": "DB01381",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Thiamine(Vitamin B1)2",
+      "indian_norm": "thiamine(vitamin b1)2",
+      "record_count": 1,
+      "tier": "5.1",
+      "matched_with": "Vitamin B1",
+      "drugbank_id": "DB00152",
+      "method": "parenthetical \u2192 ingredient_synonyms"
+    }
+  ],
+  "tier_5_2_high_confidence": [
+    {
+      "indian_name": "Methyl Sulfonyl Methane",
+      "indian_norm": "methyl sulfonyl methane",
+      "record_count": 697,
+      "tier": "5.2",
+      "matched_with": "methylsulfonyl methane",
+      "drugbank_id": "DB14090",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Pyridoxal-5-phosphate",
+      "indian_norm": "pyridoxal-5-phosphate",
+      "record_count": 329,
+      "tier": "5.2",
+      "matched_with": "pyridoxal 5-phosphate",
+      "drugbank_id": "DB00114",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "Levo-carnitine",
+      "indian_norm": "levo-carnitine",
+      "record_count": 234,
+      "tier": "5.2",
+      "matched_with": "levocarnitine",
+      "drugbank_id": "DB00583",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 96
+    },
+    {
+      "indian_name": "Gamma Benzene Hexachloride",
+      "indian_norm": "gamma benzene hexachloride",
+      "record_count": 20,
+      "tier": "5.2",
+      "matched_with": "gamma-benzene hexachloride",
+      "drugbank_id": "DB00431",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 96
+    },
+    {
+      "indian_name": "silver nano particles",
+      "indian_norm": "silver nano particles",
+      "record_count": 19,
+      "tier": "5.2",
+      "matched_with": "silver nanoparticles",
+      "drugbank_id": "DB12965",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Pegylated Interferon Alpha 2B",
+      "indian_norm": "pegylated interferon alpha 2b",
+      "record_count": 18,
+      "tier": "5.2",
+      "matched_with": "pegylated interferon alpha 2a",
+      "drugbank_id": "DB00008",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "L Glutathione Reduced",
+      "indian_norm": "l glutathione reduced",
+      "record_count": 15,
+      "tier": "5.2",
+      "matched_with": "l-glutathione reduced",
+      "drugbank_id": "DB00143",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "White Soft Paraffin",
+      "indian_norm": "white soft paraffin",
+      "record_count": 12,
+      "tier": "5.2",
+      "matched_with": "white, soft paraffin",
+      "drugbank_id": "DB11058",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Soya Isoflavones",
+      "indian_norm": "soya isoflavones",
+      "record_count": 11,
+      "tier": "5.2",
+      "matched_with": "soy isoflavones",
+      "drugbank_id": "DB14101",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Interferon Alpha 2B",
+      "indian_norm": "interferon alpha 2b",
+      "record_count": 7,
+      "tier": "5.2",
+      "matched_with": "interferon alpha-2b",
+      "drugbank_id": "DB00105",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "Succinyl Choline",
+      "indian_norm": "succinyl choline",
+      "record_count": 6,
+      "tier": "5.2",
+      "matched_with": "succinylcholine",
+      "drugbank_id": "DB00202",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Hydroxyquinolines",
+      "indian_norm": "hydroxyquinolines",
+      "record_count": 5,
+      "tier": "5.2",
+      "matched_with": "hydroxyquinoline",
+      "drugbank_id": "DB11145",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Gamma Linolenic acid",
+      "indian_norm": "gamma linolenic acid",
+      "record_count": 4,
+      "tier": "5.2",
+      "matched_with": "gammalinolenic acid",
+      "drugbank_id": "DB13854",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Interferon Alpha 2A",
+      "indian_norm": "interferon alpha 2a",
+      "record_count": 3,
+      "tier": "5.2",
+      "matched_with": "interferon alpha-2a",
+      "drugbank_id": "DB00034",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "Human Gamma Globulin",
+      "indian_norm": "human gamma globulin",
+      "record_count": 3,
+      "tier": "5.2",
+      "matched_with": "human gammaglobulin",
+      "drugbank_id": "DB00028",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Inotuzumab Ozogamacin",
+      "indian_norm": "inotuzumab ozogamacin",
+      "record_count": 2,
+      "tier": "5.2",
+      "matched_with": "inotuzumab ozogamicin",
+      "drugbank_id": "DB05889",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "Di-iodohydroxyquinoline",
+      "indian_norm": "di-iodohydroxyquinoline",
+      "record_count": 2,
+      "tier": "5.2",
+      "matched_with": "diiodohydroxyquinoline",
+      "drugbank_id": "DB09115",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Paraffin Liquid",
+      "indian_norm": "paraffin liquid",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "paraffin, liquid",
+      "drugbank_id": "DB11057",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Lacto bacillus Rhamnosus",
+      "indian_norm": "lacto bacillus rhamnosus",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "lactobacillus rhamnosus",
+      "drugbank_id": "DB19282",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Antithymocyte immunoglobulins",
+      "indian_norm": "antithymocyte immunoglobulins",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "antithymocyte immunoglobulin",
+      "drugbank_id": "DB00098",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Hydroxy Ethyl Cellulose",
+      "indian_norm": "hydroxy ethyl cellulose",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "hydroxyethyl cellulose",
+      "drugbank_id": "DB11602",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 98
+    },
+    {
+      "indian_name": "Propyl Thiouracil",
+      "indian_norm": "propyl thiouracil",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "propylthiouracil",
+      "drugbank_id": "DB00550",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 97
+    },
+    {
+      "indian_name": "Polyethelene Glycol",
+      "indian_norm": "polyethelene glycol",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "polyethylene glycol",
+      "drugbank_id": "DB09287",
+      "method": "high-confidence fuzzy (ingredients.name)",
+      "similarity": 95
+    },
+    {
+      "indian_name": "L-Methyltetrahydrofolate",
+      "indian_norm": "l-methyltetrahydrofolate",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "n-methyltetrahydrofolate",
+      "drugbank_id": "DB04789",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 96
+    },
+    {
+      "indian_name": "Procaine Penicillin G",
+      "indian_norm": "procaine penicillin g",
+      "record_count": 1,
+      "tier": "5.2",
+      "matched_with": "procaine penicillin",
+      "drugbank_id": "DB09320",
+      "method": "high-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 95
+    }
+  ],
+  "tier_5_3_token_based": [
+    {
+      "indian_name": "Metoprolol Succinate",
+      "indian_norm": "metoprolol succinate",
+      "record_count": 919,
+      "tier": "5.3",
+      "matched_with": "Metoprolol",
+      "drugbank_id": "DB00264",
+      "method": "token 'Metoprolol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Trypsin Chymotrypsin",
+      "indian_norm": "trypsin chymotrypsin",
+      "record_count": 849,
+      "tier": "5.3",
+      "matched_with": "Trypsin",
+      "drugbank_id": "DB11237",
+      "method": "token 'Trypsin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Olmesartan Medoxomil",
+      "indian_norm": "olmesartan medoxomil",
+      "record_count": 651,
+      "tier": "5.3",
+      "matched_with": "Olmesartan",
+      "drugbank_id": "DB00275",
+      "method": "token 'Olmesartan' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Alpha-Beta Arteether",
+      "indian_norm": "alpha-beta arteether",
+      "record_count": 614,
+      "tier": "5.3",
+      "matched_with": "Arteether",
+      "drugbank_id": "DB13851",
+      "method": "token 'Arteether' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Sodium Picosulfate",
+      "indian_norm": "sodium picosulfate",
+      "record_count": 598,
+      "tier": "5.3",
+      "matched_with": "Picosulfate",
+      "drugbank_id": "DB09268",
+      "method": "token 'Picosulfate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Sodium Valproate",
+      "indian_norm": "sodium valproate",
+      "record_count": 430,
+      "tier": "5.3",
+      "matched_with": "Valproate",
+      "drugbank_id": "DB00313",
+      "method": "token 'Valproate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Glucosamine Sulfate Potassium",
+      "indian_norm": "glucosamine sulfate potassium",
+      "record_count": 411,
+      "tier": "5.3",
+      "matched_with": "Glucosamine",
+      "drugbank_id": "DB01296",
+      "method": "token 'Glucosamine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Zinc pyrithione",
+      "indian_norm": "zinc pyrithione",
+      "record_count": 360,
+      "tier": "5.3",
+      "matched_with": "Zinc",
+      "drugbank_id": "DB01593",
+      "method": "token 'Zinc' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "L-Ornithine L-Aspartate",
+      "indian_norm": "l-ornithine l-aspartate",
+      "record_count": 326,
+      "tier": "5.3",
+      "matched_with": "Ornithine",
+      "drugbank_id": "DB00129",
+      "method": "token 'Ornithine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Colistimethate Sodium",
+      "indian_norm": "colistimethate sodium",
+      "record_count": 290,
+      "tier": "5.3",
+      "matched_with": "Colistimethate",
+      "drugbank_id": "DB01111",
+      "method": "token 'Colistimethate' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sodium Hyaluronate",
+      "indian_norm": "sodium hyaluronate",
+      "record_count": 284,
+      "tier": "5.3",
+      "matched_with": "Hyaluronate",
+      "drugbank_id": "DB08818",
+      "method": "token 'Hyaluronate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Triamcinolone Acetonide",
+      "indian_norm": "triamcinolone acetonide",
+      "record_count": 175,
+      "tier": "5.3",
+      "matched_with": "Triamcinolone",
+      "drugbank_id": "DB00620",
+      "method": "token 'Triamcinolone' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Calcium Dobesilate",
+      "indian_norm": "calcium dobesilate",
+      "record_count": 149,
+      "tier": "5.3",
+      "matched_with": "Calcium",
+      "drugbank_id": "DB01373",
+      "method": "token 'Calcium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sultamicillin tosilate",
+      "indian_norm": "sultamicillin tosilate",
+      "record_count": 139,
+      "tier": "5.3",
+      "matched_with": "Sultamicillin",
+      "drugbank_id": "DB12127",
+      "method": "token 'Sultamicillin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Turpentine Oil",
+      "indian_norm": "turpentine oil",
+      "record_count": 124,
+      "tier": "5.3",
+      "matched_with": "Turpentine",
+      "drugbank_id": "DB11120",
+      "method": "token 'Turpentine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Metoprolol Tartrate",
+      "indian_norm": "metoprolol tartrate",
+      "record_count": 123,
+      "tier": "5.3",
+      "matched_with": "Metoprolol",
+      "drugbank_id": "DB00264",
+      "method": "token 'Metoprolol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sodium Alginate",
+      "indian_norm": "sodium alginate",
+      "record_count": 97,
+      "tier": "5.3",
+      "matched_with": "Alginate",
+      "drugbank_id": "DB13518",
+      "method": "token 'Alginate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Selenium dioxide",
+      "indian_norm": "selenium dioxide",
+      "record_count": 85,
+      "tier": "5.3",
+      "matched_with": "Selenium",
+      "drugbank_id": "DB11135",
+      "method": "token 'Selenium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "L-Carnitine L-Tartrate",
+      "indian_norm": "l-carnitine l-tartrate",
+      "record_count": 70,
+      "tier": "5.3",
+      "matched_with": "Carnitine",
+      "drugbank_id": "DB00583",
+      "method": "token 'Carnitine' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Imatinib mesylate",
+      "indian_norm": "imatinib mesylate",
+      "record_count": 69,
+      "tier": "5.3",
+      "matched_with": "Imatinib",
+      "drugbank_id": "DB00619",
+      "method": "token 'Imatinib' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Thiamine mononitrate",
+      "indian_norm": "thiamine mononitrate",
+      "record_count": 64,
+      "tier": "5.3",
+      "matched_with": "Thiamine",
+      "drugbank_id": "DB00152",
+      "method": "token 'Thiamine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Hyoscine butylbromide",
+      "indian_norm": "hyoscine butylbromide",
+      "record_count": 58,
+      "tier": "5.3",
+      "matched_with": "Hyoscine",
+      "drugbank_id": "DB00747",
+      "method": "token 'Hyoscine' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Elemental Iron",
+      "indian_norm": "elemental iron",
+      "record_count": 55,
+      "tier": "5.3",
+      "matched_with": "Iron",
+      "drugbank_id": "DB01592",
+      "method": "token 'Iron' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Calcium Leucovorin",
+      "indian_norm": "calcium leucovorin",
+      "record_count": 51,
+      "tier": "5.3",
+      "matched_with": "Calcium",
+      "drugbank_id": "DB01373",
+      "method": "token 'Calcium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "D-Chiro Inositol",
+      "indian_norm": "d-chiro inositol",
+      "record_count": 49,
+      "tier": "5.3",
+      "matched_with": "Inositol",
+      "drugbank_id": "DB13178",
+      "method": "token 'Inositol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Fennel Oil",
+      "indian_norm": "fennel oil",
+      "record_count": 48,
+      "tier": "5.3",
+      "matched_with": "Fennel",
+      "drugbank_id": "DB15615",
+      "method": "token 'Fennel' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Dill Oil",
+      "indian_norm": "dill oil",
+      "record_count": 48,
+      "tier": "5.3",
+      "matched_with": "Dill",
+      "drugbank_id": "DB10673",
+      "method": "token 'Dill' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Chlorpheniramine Maleate",
+      "indian_norm": "chlorpheniramine maleate",
+      "record_count": 42,
+      "tier": "5.3",
+      "matched_with": "Chlorpheniramine",
+      "drugbank_id": "DB01114",
+      "method": "token 'Chlorpheniramine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Oseltamivir Phosphate",
+      "indian_norm": "oseltamivir phosphate",
+      "record_count": 39,
+      "tier": "5.3",
+      "matched_with": "Oseltamivir",
+      "drugbank_id": "DB00198",
+      "method": "token 'Oseltamivir' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Afatinib dimaleate",
+      "indian_norm": "afatinib dimaleate",
+      "record_count": 38,
+      "tier": "5.3",
+      "matched_with": "Afatinib",
+      "drugbank_id": "DB08916",
+      "method": "token 'Afatinib' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Haloperidol Decanoate",
+      "indian_norm": "haloperidol decanoate",
+      "record_count": 32,
+      "tier": "5.3",
+      "matched_with": "Haloperidol",
+      "drugbank_id": "DB00502",
+      "method": "token 'Haloperidol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Perindopril erbumine",
+      "indian_norm": "perindopril erbumine",
+      "record_count": 30,
+      "tier": "5.3",
+      "matched_with": "Perindopril",
+      "drugbank_id": "DB00790",
+      "method": "token 'Perindopril' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sodium Fusidate",
+      "indian_norm": "sodium fusidate",
+      "record_count": 25,
+      "tier": "5.3",
+      "matched_with": "Fusidate",
+      "drugbank_id": "DB02703",
+      "method": "token 'Fusidate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Sodium Cromoglycate",
+      "indian_norm": "sodium cromoglycate",
+      "record_count": 24,
+      "tier": "5.3",
+      "matched_with": "Cromoglycate",
+      "drugbank_id": "DB01003",
+      "method": "token 'Cromoglycate' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Calcium Polystyrene Sulphonate",
+      "indian_norm": "calcium polystyrene sulphonate",
+      "record_count": 23,
+      "tier": "5.3",
+      "matched_with": "Calcium",
+      "drugbank_id": "DB01373",
+      "method": "token 'Calcium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Chromium polynicotinate",
+      "indian_norm": "chromium polynicotinate",
+      "record_count": 21,
+      "tier": "5.3",
+      "matched_with": "Chromium",
+      "drugbank_id": "DB11136",
+      "method": "token 'Chromium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Magnesium Valproate",
+      "indian_norm": "magnesium valproate",
+      "record_count": 18,
+      "tier": "5.3",
+      "matched_with": "Magnesium",
+      "drugbank_id": "DB14513",
+      "method": "token 'Magnesium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Dextran 70",
+      "indian_norm": "dextran 70",
+      "record_count": 18,
+      "tier": "5.3",
+      "matched_with": "Dextran",
+      "drugbank_id": "DB09255",
+      "method": "token 'Dextran' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Potassium Magnesium",
+      "indian_norm": "potassium magnesium",
+      "record_count": 14,
+      "tier": "5.3",
+      "matched_with": "Potassium",
+      "drugbank_id": "DB14500",
+      "method": "token 'Potassium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Black Grape Seed Extract",
+      "indian_norm": "black grape seed extract",
+      "record_count": 11,
+      "tier": "5.3",
+      "matched_with": "Grape",
+      "drugbank_id": "DB10533",
+      "method": "token 'Grape' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Menadione Sodium Bisulfite",
+      "indian_norm": "menadione sodium bisulfite",
+      "record_count": 10,
+      "tier": "5.3",
+      "matched_with": "Menadione",
+      "drugbank_id": "DB00170",
+      "method": "token 'Menadione' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "S-Metoprolol",
+      "indian_norm": "s-metoprolol",
+      "record_count": 9,
+      "tier": "5.3",
+      "matched_with": "Metoprolol",
+      "drugbank_id": "DB00264",
+      "method": "token 'Metoprolol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Piroctone Olamine",
+      "indian_norm": "piroctone olamine",
+      "record_count": 8,
+      "tier": "5.3",
+      "matched_with": "Piroctone",
+      "drugbank_id": "DB15946",
+      "method": "token 'Piroctone' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Live Freeze Dried Lactic Acid Bacteria and Bifidobacteria",
+      "indian_norm": "live freeze dried lactic acid bacteria and bifidobacteria",
+      "record_count": 7,
+      "tier": "5.3",
+      "matched_with": "Bifidobacteria",
+      "drugbank_id": "DB18530",
+      "method": "token 'Bifidobacteria' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Zinc monomethionine",
+      "indian_norm": "zinc monomethionine",
+      "record_count": 7,
+      "tier": "5.3",
+      "matched_with": "Zinc",
+      "drugbank_id": "DB01593",
+      "method": "token 'Zinc' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Calcium Lactobionate",
+      "indian_norm": "calcium lactobionate",
+      "record_count": 6,
+      "tier": "5.3",
+      "matched_with": "Calcium",
+      "drugbank_id": "DB01373",
+      "method": "token 'Calcium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sodium Pyrrolidone Carboxylic Acid",
+      "indian_norm": "sodium pyrrolidone carboxylic acid",
+      "record_count": 6,
+      "tier": "5.3",
+      "matched_with": "Pyrrolidone",
+      "drugbank_id": "DB19152",
+      "method": "token 'Pyrrolidone' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Iron Polysaccharide Complex",
+      "indian_norm": "iron polysaccharide complex",
+      "record_count": 5,
+      "tier": "5.3",
+      "matched_with": "Iron",
+      "drugbank_id": "DB01592",
+      "method": "token 'Iron' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "L-Lysine Monohydrochloride",
+      "indian_norm": "l-lysine monohydrochloride",
+      "record_count": 4,
+      "tier": "5.3",
+      "matched_with": "Lysine",
+      "drugbank_id": "DB00123",
+      "method": "token 'Lysine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Xantinol Nicotinate",
+      "indian_norm": "xantinol nicotinate",
+      "record_count": 4,
+      "tier": "5.3",
+      "matched_with": "Xantinol",
+      "drugbank_id": "DB09092",
+      "method": "token 'Xantinol' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Pegylated Recombinant Human Erythropoietin",
+      "indian_norm": "pegylated recombinant human erythropoietin",
+      "record_count": 4,
+      "tier": "5.3",
+      "matched_with": "Erythropoietin",
+      "drugbank_id": "DB00016",
+      "method": "token 'Erythropoietin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Recombinant Human Erythropoietin Beta",
+      "indian_norm": "recombinant human erythropoietin beta",
+      "record_count": 4,
+      "tier": "5.3",
+      "matched_with": "Erythropoietin",
+      "drugbank_id": "DB00016",
+      "method": "token 'Erythropoietin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Edoxaban Tosylate",
+      "indian_norm": "edoxaban tosylate",
+      "record_count": 3,
+      "tier": "5.3",
+      "matched_with": "Edoxaban",
+      "drugbank_id": "DB09075",
+      "method": "token 'Edoxaban' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Iron Choline",
+      "indian_norm": "iron choline",
+      "record_count": 3,
+      "tier": "5.3",
+      "matched_with": "Iron",
+      "drugbank_id": "DB01592",
+      "method": "token 'Iron' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "S-Etodolac",
+      "indian_norm": "s-etodolac",
+      "record_count": 3,
+      "tier": "5.3",
+      "matched_with": "Etodolac",
+      "drugbank_id": "DB00749",
+      "method": "token 'Etodolac' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Paracetamol/Acetaminophen",
+      "indian_norm": "paracetamol/acetaminophen",
+      "record_count": 3,
+      "tier": "5.3",
+      "matched_with": "Paracetamol",
+      "drugbank_id": "DB00316",
+      "method": "token 'Paracetamol' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Choline fenofibrate",
+      "indian_norm": "choline fenofibrate",
+      "record_count": 3,
+      "tier": "5.3",
+      "matched_with": "Choline",
+      "drugbank_id": "DB00122",
+      "method": "token 'Choline' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Pyridoxal-5-phasphate",
+      "indian_norm": "pyridoxal-5-phasphate",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Pyridoxal",
+      "drugbank_id": "DB00147",
+      "method": "token 'Pyridoxal' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Triamcinolone hexacetonide",
+      "indian_norm": "triamcinolone hexacetonide",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Triamcinolone",
+      "drugbank_id": "DB00620",
+      "method": "token 'Triamcinolone' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Diclofenac diethylamine",
+      "indian_norm": "diclofenac diethylamine",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Diclofenac",
+      "drugbank_id": "DB00586",
+      "method": "token 'Diclofenac' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Human Prothrombin Complex",
+      "indian_norm": "human prothrombin complex",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Prothrombin",
+      "drugbank_id": "DB11311",
+      "method": "token 'Prothrombin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Methylcobalamin/Mecobalamin",
+      "indian_norm": "methylcobalamin/mecobalamin",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Methylcobalamin",
+      "drugbank_id": "DB03614",
+      "method": "token 'Methylcobalamin' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Choline Dihydrogen",
+      "indian_norm": "choline dihydrogen",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Choline",
+      "drugbank_id": "DB00122",
+      "method": "token 'Choline' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Tadalafil IP",
+      "indian_norm": "tadalafil ip",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Tadalafil",
+      "drugbank_id": "DB00820",
+      "method": "token 'Tadalafil' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Caraway Oil",
+      "indian_norm": "caraway oil",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Caraway",
+      "drugbank_id": "DB10671",
+      "method": "token 'Caraway' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Cardamom Oil",
+      "indian_norm": "cardamom oil",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Cardamom",
+      "drugbank_id": "DB16576",
+      "method": "token 'Cardamom' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Lidocaine/Lignocaine",
+      "indian_norm": "lidocaine/lignocaine",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Lidocaine",
+      "drugbank_id": "DB00281",
+      "method": "token 'Lidocaine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Iron Hydroxide Polymaltose",
+      "indian_norm": "iron hydroxide polymaltose",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Iron",
+      "drugbank_id": "DB01592",
+      "method": "token 'Iron' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Magnesium Bisglycinate",
+      "indian_norm": "magnesium bisglycinate",
+      "record_count": 2,
+      "tier": "5.3",
+      "matched_with": "Magnesium",
+      "drugbank_id": "DB14513",
+      "method": "token 'Magnesium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Dried Yeast",
+      "indian_norm": "dried yeast",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Yeast",
+      "drugbank_id": "DB11017",
+      "method": "token 'Yeast' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Acetyl L-Carnitine",
+      "indian_norm": "acetyl l-carnitine",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Carnitine",
+      "drugbank_id": "DB00583",
+      "method": "token 'Carnitine' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Calcium Hypophosphite",
+      "indian_norm": "calcium hypophosphite",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Calcium",
+      "drugbank_id": "DB01373",
+      "method": "token 'Calcium' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Liposomal Dithranol",
+      "indian_norm": "liposomal dithranol",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Dithranol",
+      "drugbank_id": "DB11157",
+      "method": "token 'Dithranol' \u2192 ingredient_synonyms"
+    },
+    {
+      "indian_name": "Belladonna dry extract",
+      "indian_norm": "belladonna dry extract",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Belladonna",
+      "drugbank_id": "DB13913",
+      "method": "token 'Belladonna' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Pegylated Liposomal Irinotecan",
+      "indian_norm": "pegylated liposomal irinotecan",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Irinotecan",
+      "drugbank_id": "DB00762",
+      "method": "token 'Irinotecan' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Vit D3 Cholecalciferol",
+      "indian_norm": "vit d3 cholecalciferol",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Cholecalciferol",
+      "drugbank_id": "DB00169",
+      "method": "token 'Cholecalciferol' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Permethrin Topical",
+      "indian_norm": "permethrin topical",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Permethrin",
+      "drugbank_id": "DB04930",
+      "method": "token 'Permethrin' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Meglumine Diatrizoate",
+      "indian_norm": "meglumine diatrizoate",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Meglumine",
+      "drugbank_id": "DB09415",
+      "method": "token 'Meglumine' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Cranberry Extract",
+      "indian_norm": "cranberry extract",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Cranberry",
+      "drugbank_id": "DB10631",
+      "method": "token 'Cranberry' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Bilberry Extract",
+      "indian_norm": "bilberry extract",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Bilberry",
+      "drugbank_id": "DB14235",
+      "method": "token 'Bilberry' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Sodium Diatrizoate",
+      "indian_norm": "sodium diatrizoate",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Diatrizoate",
+      "drugbank_id": "DB00271",
+      "method": "token 'Diatrizoate' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Dexamethasone Intravitreal Implant",
+      "indian_norm": "dexamethasone intravitreal implant",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Dexamethasone",
+      "drugbank_id": "DB01234",
+      "method": "token 'Dexamethasone' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Diltiazem Topical",
+      "indian_norm": "diltiazem topical",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Diltiazem",
+      "drugbank_id": "DB00343",
+      "method": "token 'Diltiazem' \u2192 ingredients.name"
+    },
+    {
+      "indian_name": "Light Kaolin",
+      "indian_norm": "light kaolin",
+      "record_count": 1,
+      "tier": "5.3",
+      "matched_with": "Kaolin",
+      "drugbank_id": "DB01575",
+      "method": "token 'Kaolin' \u2192 ingredients.name"
+    }
+  ],
+  "tier_5_4_medium_confidence": [
+    {
+      "indian_name": "Tazobactum",
+      "indian_norm": "tazobactum",
+      "record_count": 2273,
+      "tier": "5.4",
+      "matched_with": "tazobactamum",
+      "drugbank_id": "DB01606",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 91,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Vitamin K2-7",
+      "indian_norm": "vitamin k2-7",
+      "record_count": 259,
+      "tier": "5.4",
+      "matched_with": "vitamin k7",
+      "drugbank_id": "DB15664",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 91,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Chlorbutol",
+      "indian_norm": "chlorbutol",
+      "record_count": 143,
+      "tier": "5.4",
+      "matched_with": "chlorobutanol",
+      "drugbank_id": "DB11386",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 87,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Paradichlorobenzene",
+      "indian_norm": "paradichlorobenzene",
+      "record_count": 125,
+      "tier": "5.4",
+      "matched_with": "dichlorobenzene",
+      "drugbank_id": "DB14046",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 88,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Recombinant follicle stimulating hormone",
+      "indian_norm": "recombinant follicle stimulating hormone",
+      "record_count": 59,
+      "tier": "5.4",
+      "matched_with": "recombinant human follicle stimulating hormone beta",
+      "drugbank_id": "DB00066",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 88,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Levocloperastine",
+      "indian_norm": "levocloperastine",
+      "record_count": 42,
+      "tier": "5.4",
+      "matched_with": "cloperastine",
+      "drugbank_id": "DB09002",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 86,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "n-acetylcarnosine",
+      "indian_norm": "n-acetylcarnosine",
+      "record_count": 20,
+      "tier": "5.4",
+      "matched_with": "n-acetyltyrosine",
+      "drugbank_id": "DB11102",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 85,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "L Ascorbic acid",
+      "indian_norm": "l ascorbic acid",
+      "record_count": 15,
+      "tier": "5.4",
+      "matched_with": "ascorbic acid",
+      "drugbank_id": "DB00126",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 93,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Anti Rh D Immunoglobulin",
+      "indian_norm": "anti rh d immunoglobulin",
+      "record_count": 15,
+      "tier": "5.4",
+      "matched_with": "anti-d immunoglobulin",
+      "drugbank_id": "DB11597",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 89,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Disodium edetate",
+      "indian_norm": "disodium edetate",
+      "record_count": 11,
+      "tier": "5.4",
+      "matched_with": "sodium edetate",
+      "drugbank_id": "DB13404",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 93,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Alpha glycerylphosphorylcholine",
+      "indian_norm": "alpha glycerylphosphorylcholine",
+      "record_count": 10,
+      "tier": "5.4",
+      "matched_with": "alpha-glycerophosphorylcholine",
+      "drugbank_id": "DB04660",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 92,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Balofloxacin",
+      "indian_norm": "balofloxacin",
+      "record_count": 10,
+      "tier": "5.4",
+      "matched_with": "l-ofloxacin",
+      "drugbank_id": "DB01137",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 87,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Sodium aminosalicylate",
+      "indian_norm": "sodium aminosalicylate",
+      "record_count": 8,
+      "tier": "5.4",
+      "matched_with": "sodium aluminosilicate",
+      "drugbank_id": "DB15910",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 86,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Varicella Vaccine (live) attenuated",
+      "indian_norm": "varicella vaccine (live) attenuated",
+      "record_count": 5,
+      "tier": "5.4",
+      "matched_with": "varicella zoster vaccine (live/attenuated)",
+      "drugbank_id": "DB10318",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 86,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "sodium Perborate",
+      "indian_norm": "sodium perborate",
+      "record_count": 3,
+      "tier": "5.4",
+      "matched_with": "sodium borate",
+      "drugbank_id": "DB14505",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 90,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Iso Amyl 2-Cynoacrylate",
+      "indian_norm": "iso amyl 2-cynoacrylate",
+      "record_count": 2,
+      "tier": "5.4",
+      "matched_with": "isobutyl 2-cyanoacrylate",
+      "drugbank_id": "DB19727",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 85,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Human Rabies Immunoglobulin",
+      "indian_norm": "human rabies immunoglobulin",
+      "record_count": 2,
+      "tier": "5.4",
+      "matched_with": "rabies immunoglobulins",
+      "drugbank_id": "DB11603",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 86,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Omega-3 Marine Triglycerides",
+      "indian_norm": "omega-3 marine triglycerides",
+      "record_count": 2,
+      "tier": "5.4",
+      "matched_with": "omega-3 acid triglycerides",
+      "drugbank_id": "DB11133",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 89,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Co-trimoxazole",
+      "indian_norm": "co-trimoxazole",
+      "record_count": 2,
+      "tier": "5.4",
+      "matched_with": "clotrimazole",
+      "drugbank_id": "DB00257",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 85,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Recombinant folliclestimulating hormone",
+      "indian_norm": "recombinant folliclestimulating hormone",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "recombinant human follicle stimulating hormone beta",
+      "drugbank_id": "DB00066",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 87,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Human Antitetanus Immunoglobulin",
+      "indian_norm": "human antitetanus immunoglobulin",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "human anti-d immunoglobulin",
+      "drugbank_id": "DB11597",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 85,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Dioctyl sodium sulfosuccinate",
+      "indian_norm": "dioctyl sodium sulfosuccinate",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "dioctyl sulfosuccinate",
+      "drugbank_id": "DB11089",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 86,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Pazufloxazin",
+      "indian_norm": "pazufloxazin",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "pazufloxacin",
+      "drugbank_id": "DB11774",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 92,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Clinidipine",
+      "indian_norm": "clinidipine",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "cilnidipine",
+      "drugbank_id": "DB09232",
+      "method": "medium-confidence fuzzy (ingredients.name)",
+      "similarity": 91,
+      "note": "requires manual review"
+    },
+    {
+      "indian_name": "Yellow fever virus (live, attenuated)",
+      "indian_norm": "yellow fever virus (live, attenuated)",
+      "record_count": 1,
+      "tier": "5.4",
+      "matched_with": "yellow fever virus strain 17d (live, attenuated)",
+      "drugbank_id": "DB10805",
+      "method": "medium-confidence fuzzy (ingredient_synonyms)",
+      "similarity": 87,
+      "note": "requires manual review"
+    }
+  ],
+  "tier_5_5_partial_match": [
+    {
+      "indian_name": "Tricholine",
+      "indian_norm": "tricholine",
+      "record_count": 1511,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Divalproex",
+      "indian_norm": "divalproex",
+      "record_count": 812,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Cetrimide",
+      "indian_norm": "cetrimide",
+      "record_count": 318,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Lactic acid bacillus",
+      "indian_norm": "lactic acid bacillus",
+      "record_count": 268,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Alpha Ketoanalogue",
+      "indian_norm": "alpha ketoanalogue",
+      "record_count": 178,
+      "tier": "5.5",
+      "matched_with": "k",
+      "drugbank_id": "DB14500",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Cerebroprotein Hydrolysate",
+      "indian_norm": "cerebroprotein hydrolysate",
+      "record_count": 130,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Saccharomyces boulardii",
+      "indian_norm": "saccharomyces boulardii",
+      "record_count": 118,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "S-Adenosyl L-Methoinine Disulfate",
+      "indian_norm": "s-adenosyl l-methoinine disulfate",
+      "record_count": 77,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Insulin Isophane",
+      "indian_norm": "insulin isophane",
+      "record_count": 76,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Oxychloro Complex",
+      "indian_norm": "oxychloro complex",
+      "record_count": 72,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Fructo Oligosaccharide",
+      "indian_norm": "fructo oligosaccharide",
+      "record_count": 53,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Oleum Lini",
+      "indian_norm": "oleum lini",
+      "record_count": 50,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Diastase",
+      "indian_norm": "diastase",
+      "record_count": 41,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Flavoured Mentholated base",
+      "indian_norm": "flavoured mentholated base",
+      "record_count": 33,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Collagen Peptide",
+      "indian_norm": "collagen peptide",
+      "record_count": 33,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Proanthocyanidin",
+      "indian_norm": "proanthocyanidin",
+      "record_count": 31,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Calamine",
+      "indian_norm": "calamine",
+      "record_count": 28,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Bile constituents",
+      "indian_norm": "bile constituents",
+      "record_count": 23,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Fipronil",
+      "indian_norm": "fipronil",
+      "record_count": 22,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Mulberry extract",
+      "indian_norm": "mulberry extract",
+      "record_count": 21,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Bacillus mesentericus TO-A JPC",
+      "indian_norm": "bacillus mesentericus to-a jpc",
+      "record_count": 16,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Clostridium butryricum TO-A",
+      "indian_norm": "clostridium butryricum to-a",
+      "record_count": 16,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Streptococcus faecalis T-110 JPC",
+      "indian_norm": "streptococcus faecalis t-110 jpc",
+      "record_count": 16,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Methylpolysiloxane",
+      "indian_norm": "methylpolysiloxane",
+      "record_count": 15,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Deca Peptide",
+      "indian_norm": "deca peptide",
+      "record_count": 15,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Feracrylum",
+      "indian_norm": "feracrylum",
+      "record_count": 14,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Euphorbia Prostrata Extract",
+      "indian_norm": "euphorbia prostrata extract",
+      "record_count": 14,
+      "tier": "5.5",
+      "matched_with": "p",
+      "drugbank_id": "DB00172",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Haemophilus Type B Conjugate Vaccine",
+      "indian_norm": "haemophilus type b conjugate vaccine",
+      "record_count": 13,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Rabies vaccine, Human",
+      "indian_norm": "rabies vaccine, human",
+      "record_count": 12,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Mixed Carotene",
+      "indian_norm": "mixed carotene",
+      "record_count": 12,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated influenza vaccine",
+      "indian_norm": "inactivated influenza vaccine",
+      "record_count": 11,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Hemocoagulase",
+      "indian_norm": "hemocoagulase",
+      "record_count": 11,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Benzathine penicillin G",
+      "indian_norm": "benzathine penicillin g",
+      "record_count": 11,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Adrenochrome Monosemicarbazone",
+      "indian_norm": "adrenochrome monosemicarbazone",
+      "record_count": 10,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Purified Vi Polysaccharide Typhoid Vaccine",
+      "indian_norm": "purified vi polysaccharide typhoid vaccine",
+      "record_count": 9,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Pamabrom",
+      "indian_norm": "pamabrom",
+      "record_count": 8,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Propoxur",
+      "indian_norm": "propoxur",
+      "record_count": 8,
+      "tier": "5.5",
+      "matched_with": "p",
+      "drugbank_id": "DB00172",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Colloidal bismuth subcitrate",
+      "indian_norm": "colloidal bismuth subcitrate",
+      "record_count": 7,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Rosehip",
+      "indian_norm": "rosehip",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "p",
+      "drugbank_id": "DB00172",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Clostridium butryricum",
+      "indian_norm": "clostridium butryricum",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "L-Methyltetrahydrofolate Clacium",
+      "indian_norm": "l-methyltetrahydrofolate clacium",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Rubella vaccine (Live)",
+      "indian_norm": "rubella vaccine (live)",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Peptone",
+      "indian_norm": "peptone",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "p",
+      "drugbank_id": "DB00172",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Poliomyelitis Virus Type 2",
+      "indian_norm": "poliomyelitis virus type 2",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Streptococcus faecalis",
+      "indian_norm": "streptococcus faecalis",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Pneumococcal Polysaccharide Vaccine",
+      "indian_norm": "pneumococcal polysaccharide vaccine",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Bacillus mesentericus",
+      "indian_norm": "bacillus mesentericus",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Policosanol",
+      "indian_norm": "policosanol",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Meningococcal Vaccine (Group A, C, Y & W-135)",
+      "indian_norm": "meningococcal vaccine (group a, c, y & w-135)",
+      "record_count": 6,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Salmonella Typhi Vaccine",
+      "indian_norm": "salmonella typhi vaccine",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Quiniodochlor",
+      "indian_norm": "quiniodochlor",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "q",
+      "drugbank_id": "DB00130",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Electrolytes",
+      "indian_norm": "electrolytes",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Pneumococcal Polysaccharide Conjugate Vaccine",
+      "indian_norm": "pneumococcal polysaccharide conjugate vaccine",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Harpagoside",
+      "indian_norm": "harpagoside",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Allium Cepa",
+      "indian_norm": "allium cepa",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Freeze-dried Live Attenuated Hepatitis A Vaccine",
+      "indian_norm": "freeze-dried live attenuated hepatitis a vaccine",
+      "record_count": 5,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18) Vaccine, Recombinant",
+      "indian_norm": "human papillomavirus quadrivalent (types 6, 11, 16, and 18) vaccine, recombinant",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "q",
+      "drugbank_id": "DB00130",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Stabilized Oxychloro",
+      "indian_norm": "stabilized oxychloro",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Snake Venom Antiserum (Polyvalent)",
+      "indian_norm": "snake venom antiserum (polyvalent)",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Tribasic",
+      "indian_norm": "tribasic",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "as",
+      "drugbank_id": "DB09274",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Recombinant Human parathyroid hormone",
+      "indian_norm": "recombinant human parathyroid hormone",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated Japanese Encephalitis virus protein",
+      "indian_norm": "inactivated japanese encephalitis virus protein",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Placenta Extracts",
+      "indian_norm": "placenta extracts",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Uniflexin",
+      "indian_norm": "uniflexin",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Sodium Thiosulphate",
+      "indian_norm": "sodium thiosulphate",
+      "record_count": 4,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Standard Russels Viper Venom (Vipera russelli)",
+      "indian_norm": "standard russels viper venom (vipera russelli)",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated Hepatitis A Vaccine",
+      "indian_norm": "inactivated hepatitis a vaccine",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated Rabies Vaccine (Animals)",
+      "indian_norm": "inactivated rabies vaccine (animals)",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Carbohydrate",
+      "indian_norm": "carbohydrate",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Sodium Tauroglycocholate",
+      "indian_norm": "sodium tauroglycocholate",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Extractum Cepae-Cepalin",
+      "indian_norm": "extractum cepae-cepalin",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Combined Feline Panleukopenia, Calicivirus & Rhinotracheitis Vaccine",
+      "indian_norm": "combined feline panleukopenia, calicivirus & rhinotracheitis vaccine",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Clostridium botulinum type A toxin-haemagglutinin complex",
+      "indian_norm": "clostridium botulinum type a toxin-haemagglutinin complex",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Triticum Vulgare extract",
+      "indian_norm": "triticum vulgare extract",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Micronised Purified Flavonoid Fraction",
+      "indian_norm": "micronised purified flavonoid fraction",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Ringer's",
+      "indian_norm": "ringer's",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "ng",
+      "drugbank_id": "DB00727",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Standard Cobra Venom (Naja naja)",
+      "indian_norm": "standard cobra venom (naja naja)",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Standard common krait Venom (Bangarus caeruleus)",
+      "indian_norm": "standard common krait venom (bangarus caeruleus)",
+      "record_count": 3,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "ANTI-PSORIATIC",
+      "indian_norm": "anti-psoriatic",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "p",
+      "drugbank_id": "DB00172",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Polio Vaccine",
+      "indian_norm": "polio vaccine",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Centbucridine",
+      "indian_norm": "centbucridine",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Aflapin",
+      "indian_norm": "aflapin",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Piper Nigrum",
+      "indian_norm": "piper nigrum",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Adapting Electrolyte Solutions",
+      "indian_norm": "adapting electrolyte solutions",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated Polio Vaccine",
+      "indian_norm": "inactivated polio vaccine",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Rabies Human Monoclonal Antibody (rDNA)",
+      "indian_norm": "rabies human monoclonal antibody (rdna)",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Flumethrin",
+      "indian_norm": "flumethrin",
+      "record_count": 2,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Low Dextrans ( 50000 Daltons)",
+      "indian_norm": "low dextrans ( 50000 daltons)",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Pneumococcal 13 valent Conjugate Vaccine",
+      "indian_norm": "pneumococcal 13 valent conjugate vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Bacillus Calmette-Guerin strain",
+      "indian_norm": "bacillus calmette-guerin strain",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Live Attenuated Varicella-Zoster Virus",
+      "indian_norm": "live attenuated varicella-zoster virus",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Sulphonated Surfactant Blend",
+      "indian_norm": "sulphonated surfactant blend",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Canine Parainfluenza & Bordetella Bronchiseptica Vaccine",
+      "indian_norm": "canine parainfluenza & bordetella bronchiseptica vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Recombinant Human Luteinizing hormone",
+      "indian_norm": "recombinant human luteinizing hormone",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Messenger ribonucleic acid (mRNA) (nucleoside modified)",
+      "indian_norm": "messenger ribonucleic acid (mrna) (nucleoside modified)",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Diphtheria Immune Globulin",
+      "indian_norm": "diphtheria immune globulin",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Multivitamin",
+      "indian_norm": "multivitamin",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Lactobacillus jensenii",
+      "indian_norm": "lactobacillus jensenii",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Closantel",
+      "indian_norm": "closantel",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "l",
+      "drugbank_id": "DB00149",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Protodioscin",
+      "indian_norm": "protodioscin",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Nartograstim",
+      "indian_norm": "nartograstim",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Almagate",
+      "indian_norm": "almagate",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Type 2 Collagen",
+      "indian_norm": "type 2 collagen",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Tripotassium Dicitrato Bismuthate",
+      "indian_norm": "tripotassium dicitrato bismuthate",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "acetomenadione",
+      "indian_norm": "acetomenadione",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Vaccine",
+      "indian_norm": "vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "cc",
+      "drugbank_id": "DB00169",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "ChAdOx1 nCoV-19 Corona Virus Vaccine (Recombinant)",
+      "indian_norm": "chadox1 ncov-19 corona virus vaccine (recombinant)",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Bismuth Ammonium",
+      "indian_norm": "bismuth ammonium",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Human adenovirus vector vaccine",
+      "indian_norm": "human adenovirus vector vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Vi Capsular Polysaccharide Of Salmonella Typhi",
+      "indian_norm": "vi capsular polysaccharide of salmonella typhi",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "DHA Rich Algal Oil",
+      "indian_norm": "dha rich algal oil",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Whole Virion, Inactivated Corona Virus Vaccine",
+      "indian_norm": "whole virion, inactivated corona virus vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Ichthyol Pale",
+      "indian_norm": "ichthyol pale",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "y",
+      "drugbank_id": "DB00135",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Kalmegh Dry Extract",
+      "indian_norm": "kalmegh dry extract",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Meningococcal (Group A & C) Polysaccharide Vaccine",
+      "indian_norm": "meningococcal (group a & c) polysaccharide vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Combined Canine Distemper & Canine Parvovirus Vaccine",
+      "indian_norm": "combined canine distemper & canine parvovirus vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Ichtyolammonium",
+      "indian_norm": "ichtyolammonium",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "ORAL CORTICOSTEROIDS, PLAIN",
+      "indian_norm": "oral corticosteroids, plain",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "d",
+      "drugbank_id": "DB00128",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Human Papillomavirus 9-Valent (Types 6,11,16,18,31,33,45,52 and 58) Vaccine, Recombinant",
+      "indian_norm": "human papillomavirus 9-valent (types 6,11,16,18,31,33,45,52 and 58) vaccine, recombinant",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Hormone Recombinant Human Luteinizing hormone/Lutropin alfa",
+      "indian_norm": "hormone recombinant human luteinizing hormone/lutropin alfa",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Gastroprokinetics Plain",
+      "indian_norm": "gastroprokinetics plain",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "k",
+      "drugbank_id": "DB14500",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Herpes Zoster / Shingles Vaccine (Recombinant, Adjuvanted)",
+      "indian_norm": "herpes zoster / shingles vaccine (recombinant, adjuvanted)",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "m",
+      "drugbank_id": "DB00134",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Inactivated influenza vaccine (Quadrivalent)",
+      "indian_norm": "inactivated influenza vaccine (quadrivalent)",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    },
+    {
+      "indian_name": "Combined Canine Distemper, Hepatitis, Parvovirus & Parainfluenza Vaccine",
+      "indian_norm": "combined canine distemper, hepatitis, parvovirus & parainfluenza vaccine",
+      "record_count": 1,
+      "tier": "5.5",
+      "matched_with": "f",
+      "drugbank_id": "DB00120",
+      "method": "partial/substring match (ingredient_synonyms)",
+      "similarity": 100
+    }
+  ],
+  "no_match": [
+    {
+      "indian_name": "Univestin",
+      "record_count": 4
+    }
+  ]
+}

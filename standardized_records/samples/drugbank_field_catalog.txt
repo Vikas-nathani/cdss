@@ -1,0 +1,33 @@
+====================================
+DRUGBANK SCHEMA FIELD CATALOG
+====================================
+Total Fields : 19
+Max Depth    : 3 levels
+Records used : 19,842
+
+TOP-LEVEL FIELDS (11):
+  - classification_description
+  - drug_interactions
+  - drugbank_id
+  - food_interactions
+  - general_function
+  - indication
+  - name
+  - pharmacodynamics
+  - reactions
+  - synonyms
+  - unii
+
+DRUG_INTERACTIONS SECTION (3 fields):
+  - drug_interactions.description
+  - drug_interactions.drugbank_id
+  - drug_interactions.name
+
+FOOD_INTERACTIONS SECTION (1 fields):
+  - food_interactions.text
+
+REACTIONS SECTION (4 fields):
+  - reactions.enzymes
+  - reactions.left_element
+  - reactions.right_element
+  - reactions.sequence

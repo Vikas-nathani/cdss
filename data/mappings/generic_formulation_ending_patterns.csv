@@ -1,0 +1,201 @@
+dosage_forms,generic_formulation,ending_pattern,occurrences
+INHALATION GAS,oxygen 99 % Gas for Inhalation,"{""for ""}",699
+Oral Tablet,inert ingredients 1 MG,"{""1 ""}",269
+Oral Capsule,gabapentin 300 MG,"{""300 ""}",198
+Oral Tablet,ibuprofen 800 MG,"{""800 ""}",197
+Oral Tablet,cyclobenzaprine hydrochloride 10 MG,"{""10 ""}",170
+Oral Tablet,ciprofloxacin 500 MG,"{""500 ""}",168
+Oral Tablet,ibuprofen 600 MG,"{""600 ""}",167
+Oral Capsule,gabapentin 100 MG,"{""100 ""}",162
+Oral Tablet,atorvastatin 40 MG,"{""40 ""}",159
+Oral Tablet,atorvastatin 20 MG,"{""20 ""}",149
+Oral Capsule,cephalexin 500 MG,"{""500 ""}",147
+Oral Tablet,metformin hydrochloride 1000 MG,"{""1000 ""}",147
+Oral Tablet,naproxen 500 MG,"{""500 ""}",146
+Delayed Release Oral Capsule,omeprazole 20 MG,"{""20 ""}",144
+Oral Capsule,celecoxib 200 MG,"{""200 ""}",143
+Oral Tablet,metformin hydrochloride 500 MG,"{""500 ""}",142
+INHALATION GAS,nitrogen 99 % Gas for Inhalation,"{""for ""}",141
+Oral Tablet,methocarbamol 500 MG,"{""500 ""}",138
+Oral Tablet,prednisone 20 MG,"{""20 ""}",138
+Oral Tablet,methocarbamol 750 MG,"{""750 ""}",135
+Oral Tablet,prednisone 5 MG,"{""5 ""}",135
+Oral Tablet,atorvastatin 10 MG,"{""10 ""}",133
+Oral Tablet,prednisone 10 MG,"{""10 ""}",127
+Oral Tablet,amoxicillin 875 MG / clavulanate 125 MG,"{""125 ""}",126
+Oral Tablet,gabapentin 600 MG,"{""600 ""}",126
+Oral Tablet,sulfamethoxazole 800 MG / trimethoprim 160 MG,"{""160 ""}",123
+Oral Tablet,ibuprofen 400 MG,"{""400 ""}",122
+Oral Capsule,amoxicillin 500 MG,"{""500 ""}",120
+Oral Tablet,gabapentin 800 MG,"{""800 ""}",119
+Oral Tablet,hydroxyzine hydrochloride 25 MG,"{""25 ""}",117
+Oral Tablet,azithromycin 250 MG,"{""250 ""}",116
+Oral Tablet,hydrochlorothiazide 25 MG,"{""25 ""}",116
+Delayed Release Oral Tablet,pantoprazole 40 MG,"{""40 ""}",115
+GASTRO-RESISTANT TABLET,pantoprazole 40 MG Delayed Release Oral Tablet,"{""Oral ""}",115
+Oral Capsule,gabapentin 400 MG,"{""400 ""}",115
+Oral Tablet,amlodipine 10 MG,"{""10 ""}",115
+Oral Tablet,atorvastatin 80 MG,"{""80 ""}",115
+"TABLET, DELAYED RELEASE (OBS 06-25-01)",pantoprazole 40 MG Delayed Release Oral Tablet,"{""Oral ""}",115
+Oral Tablet,sertraline 50 MG,"{""50 ""}",114
+Oral Tablet,metronidazole 500 MG,"{""500 ""}",110
+Oral Tablet,tramadol hydrochloride 50 MG,"{""50 ""}",110
+Oral Capsule,benzonatate 100 MG,"{""100 ""}",109
+Oral Tablet,acetaminophen 325 MG / hydrocodone bitartrate 5 MG,"{""5 ""}",109
+Oral Tablet,metoprolol tartrate 50 MG,"{""50 ""}",109
+Oral Tablet,baclofen 10 MG,"{""10 ""}",107
+Oral Tablet,famotidine 20 MG,"{""20 ""}",107
+Oral Tablet,amlodipine 5 MG,"{""5 ""}",106
+Extended Release Oral Tablet,24 HR bupropion hydrochloride 150 MG,"{""150 ""}",105
+"TABLET, EXTENDED RELEASE",24 HR bupropion hydrochloride 150 MG Extended Release Oral Tablet,"{""Oral ""}",105
+Extended Release Oral Tablet,24 HR metformin hydrochloride 500 MG,"{""500 ""}",104
+Oral Tablet,doxycycline hyclate 100 MG,"{""100 ""}",104
+Oral Tablet,meloxicam 15 MG,"{""15 ""}",104
+"TABLET, EXTENDED RELEASE",24 HR metformin hydrochloride 500 MG Extended Release Oral Tablet,"{""Oral ""}",104
+Oral Tablet,losartan potassium 50 MG,"{""50 ""}",103
+Oral Capsule,doxycycline hyclate 100 MG,"{""100 ""}",102
+Oral Capsule,fluoxetine 20 MG,"{""20 ""}",102
+Oral Tablet,acyclovir 400 MG,"{""400 ""}",102
+Oral Tablet,carisoprodol 350 MG,"{""350 ""}",102
+Oral Tablet,sertraline 100 MG,"{""100 ""}",102
+Oral Capsule,tamsulosin hydrochloride 0.4 MG,"{""4 ""}",101
+Oral Tablet,baclofen 20 MG,"{""20 ""}",101
+Extended Release Oral Tablet,24 HR metoprolol succinate 50 MG,"{""50 ""}",99
+Oral Tablet,lisinopril 20 MG,"{""20 ""}",99
+"TABLET, EXTENDED RELEASE",24 HR metoprolol succinate 50 MG Extended Release Oral Tablet,"{""Oral ""}",99
+Oral Tablet,allopurinol 100 MG,"{""100 ""}",98
+Oral Tablet,allopurinol 300 MG,"{""300 ""}",98
+Oral Capsule,pregabalin 75 MG,"{""75 ""}",96
+Oral Tablet,ciprofloxacin 250 MG,"{""250 ""}",96
+Oral Tablet,meloxicam 7.5 MG,"{""5 ""}",96
+Oral Tablet,clopidogrel 75 MG,"{""75 ""}",95
+Oral Tablet,metoprolol tartrate 25 MG,"{""25 ""}",95
+Topical Ointment,lidocaine 0.05 MG/MG,{NULL},95
+Medicated Pad,isopropyl alcohol 0.7 ML/ML,{NULL},94
+ORAL GEL,sodium fluoride 0.02 MG/MG Oral Gel,"{""Oral ""}",94
+Oral Capsule,benzonatate 200 MG,"{""200 ""}",94
+Oral Gel,sodium fluoride 0.02 MG/MG,{NULL},94
+Oral Tablet,cyclobenzaprine hydrochloride 5 MG,"{""5 ""}",94
+Oral Tablet,lisinopril 10 MG,"{""10 ""}",94
+Oral Tablet,rosuvastatin calcium 10 MG,"{""10 ""}",94
+Extended Release Oral Tablet,24 HR bupropion hydrochloride 300 MG,"{""300 ""}",93
+"TABLET, EXTENDED RELEASE",24 HR bupropion hydrochloride 300 MG Extended Release Oral Tablet,"{""Oral ""}",93
+Delayed Release Oral Tablet,diclofenac sodium 75 MG,"{""75 ""}",92
+GASTRO-RESISTANT TABLET,diclofenac sodium 75 MG Delayed Release Oral Tablet,"{""Oral ""}",92
+Oral Tablet,atenolol 50 MG,"{""50 ""}",92
+Oral Tablet,azithromycin 500 MG,"{""500 ""}",92
+Oral Tablet,metformin hydrochloride 850 MG,"{""850 ""}",92
+"TABLET, DELAYED RELEASE (OBS 06-25-01)",diclofenac sodium 75 MG Delayed Release Oral Tablet,"{""Oral ""}",92
+Delayed Release Oral Capsule,duloxetine 30 MG,"{""30 ""}",91
+Extended Release Oral Tablet,24 HR metoprolol succinate 25 MG,"{""25 ""}",91
+Oral Capsule,pregabalin 50 MG,"{""50 ""}",91
+Oral Tablet,buspirone hydrochloride 10 MG,"{""10 ""}",91
+Oral Tablet,escitalopram 10 MG,"{""10 ""}",91
+Oral Tablet,furosemide 20 MG,"{""20 ""}",91
+Oral Tablet,losartan potassium 25 MG,"{""25 ""}",91
+"TABLET, EXTENDED RELEASE",24 HR metoprolol succinate 25 MG Extended Release Oral Tablet,"{""Oral ""}",91
+Oral Capsule,celecoxib 100 MG,"{""100 ""}",90
+Oral Tablet,clonidine hydrochloride 0.1 MG,"{""1 ""}",90
+Delayed Release Oral Capsule,duloxetine 60 MG,"{""60 ""}",89
+Oral Capsule,"nitrofurantoin, macrocrystals 25 MG / nitrofurantoin, monohydrate 75 MG","{""75 ""}",89
+Oral Tablet,promethazine hydrochloride 25 MG,"{""25 ""}",89
+Oral Tablet,spironolactone 25 MG,"{""25 ""}",89
+Oral Tablet,tizanidine 4 MG,"{""4 ""}",89
+Oral Tablet,acetaminophen 325 MG / hydrocodone bitartrate 10 MG,"{""10 ""}",88
+Oral Tablet,losartan potassium 100 MG,"{""100 ""}",88
+Oral Tablet,rosuvastatin calcium 20 MG,"{""20 ""}",88
+Oral Tablet,tadalafil 5 MG,"{""5 ""}",88
+Extended Release Oral Tablet,24 HR metoprolol succinate 100 MG,"{""100 ""}",87
+Oral Capsule,pregabalin 100 MG,"{""100 ""}",87
+Oral Tablet,topiramate 25 MG,"{""25 ""}",87
+"TABLET, EXTENDED RELEASE",24 HR metoprolol succinate 100 MG Extended Release Oral Tablet,"{""Oral ""}",87
+Oral Tablet,furosemide 40 MG,"{""40 ""}",86
+Topical Cream,triamcinolone acetonide 1 MG/ML,{NULL},86
+Oral Tablet,dicyclomine hydrochloride 20 MG,"{""20 ""}",85
+Oral Tablet,escitalopram 20 MG,"{""20 ""}",85
+Oral Tablet,tadalafil 20 MG,"{""20 ""}",85
+Delayed Release Oral Capsule,omeprazole 40 MG,"{""40 ""}",84
+Oral Tablet,metaxalone 800 MG,"{""800 ""}",84
+"CAPSULE, EXTENDED RELEASE",24 HR venlafaxine 75 MG Extended Release Oral Capsule,"{""Oral ""}",83
+Extended Release Oral Capsule,24 HR venlafaxine 75 MG,"{""75 ""}",83
+Oral Capsule,pregabalin 150 MG,"{""150 ""}",83
+Oral Tablet,amitriptyline hydrochloride 25 MG,"{""25 ""}",83
+Oral Tablet,buspirone hydrochloride 15 MG,"{""15 ""}",83
+Oral Tablet,montelukast 10 MG,"{""10 ""}",83
+Oral Tablet,acetaminophen 300 MG / codeine phosphate 30 MG,"{""30 ""}",82
+Oral Tablet,folic acid 1 MG,"{""1 ""}",82
+Oral Tablet,levetiracetam 500 MG,"{""500 ""}",82
+Oral Tablet,sildenafil 20 MG,"{""20 ""}",82
+Oral Capsule,hydroxyzine pamoate 25 MG,"{""25 ""}",81
+Oral Tablet,sertraline 25 MG,"{""25 ""}",81
+Oral Tablet,topiramate 50 MG,"{""50 ""}",81
+Oral Tablet,pravastatin sodium 40 MG,"{""40 ""}",80
+Oral Tablet,simvastatin 20 MG,"{""20 ""}",80
+Oral Tablet,levothyroxine sodium 0.05 MG,"{""05 ""}",79
+Oral Tablet,lisinopril 5 MG,"{""5 ""}",79
+Oral Tablet,lorazepam 1 MG,"{""1 ""}",79
+Medicated Patch,lidocaine 0.05 MG/MG,{NULL},78
+Oral Tablet,ondansetron 4 MG,"{""4 ""}",78
+Delayed Release Oral Tablet,pantoprazole 20 MG,"{""20 ""}",77
+GASTRO-RESISTANT TABLET,pantoprazole 20 MG Delayed Release Oral Tablet,"{""Oral ""}",77
+Oral Tablet,acetaminophen 325 MG / oxycodone hydrochloride 5 MG,"{""5 ""}",77
+Oral Tablet,atenolol 25 MG,"{""25 ""}",77
+Oral Tablet,pravastatin sodium 20 MG,"{""20 ""}",77
+"TABLET, DELAYED RELEASE (OBS 06-25-01)",pantoprazole 20 MG Delayed Release Oral Tablet,"{""Oral ""}",77
+Oral Tablet,acyclovir 800 MG,"{""800 ""}",76
+Oral Tablet,gemfibrozil 600 MG,"{""600 ""}",76
+Oral Tablet,levothyroxine sodium 0.075 MG,"{""075 ""}",76
+Oral Tablet,metoprolol tartrate 100 MG,"{""100 ""}",76
+Oral Tablet,simvastatin 40 MG,"{""40 ""}",76
+Oral Tablet,valacyclovir 500 MG,"{""500 ""}",76
+Oral Tablet,zolpidem tartrate 10 MG,"{""10 ""}",76
+Oral Tablet,zolpidem tartrate 5 MG,"{""5 ""}",76
+Oral Capsule,dicyclomine hydrochloride 10 MG,"{""10 ""}",75
+Oral Capsule,fluoxetine 10 MG,"{""10 ""}",75
+Oral Tablet,ketorolac tromethamine 10 MG,"{""10 ""}",75
+Oral Tablet,valacyclovir 1000 MG,"{""1000 ""}",75
+Oral Capsule,cephalexin 250 MG,"{""250 ""}",74
+Oral Tablet,fluconazole 150 MG,"{""150 ""}",74
+Oral Tablet,glipizide 5 MG,"{""5 ""}",74
+Oral Tablet,topiramate 100 MG,"{""100 ""}",74
+Oral Tablet,trazodone hydrochloride 50 MG,"{""50 ""}",74
+INHALATION GAS,oxygen 99.5 % Gas for Inhalation,"{""for ""}",73
+Oral Tablet,buspirone hydrochloride 5 MG,"{""5 ""}",73
+Oral Tablet,famotidine 40 MG,"{""40 ""}",73
+Oral Tablet,meclizine hydrochloride 25 MG,"{""25 ""}",73
+Oral Tablet,rosuvastatin calcium 5 MG,"{""5 ""}",73
+Disintegrating Oral Tablet,ondansetron 4 MG,"{""4 ""}",72
+Extended Release Oral Tablet,12 HR bupropion hydrochloride 150 MG,"{""150 ""}",72
+Oral Tablet,acetaminophen 325 MG / hydrocodone bitartrate 7.5 MG,"{""5 ""}",72
+Oral Tablet,clonazepam 0.5 MG,"{""5 ""}",72
+Oral Tablet,levothyroxine sodium 0.1 MG,"{""1 ""}",72
+Oral Tablet,lisinopril 40 MG,"{""40 ""}",72
+Oral Tablet,rosuvastatin calcium 40 MG,"{""40 ""}",72
+"TABLET, EXTENDED RELEASE",12 HR bupropion hydrochloride 150 MG Extended Release Oral Tablet,"{""Oral ""}",72
+"TABLET,DISINTEGRATING",ondansetron 4 MG Disintegrating Oral Tablet,"{""Oral ""}",72
+Disintegrating Oral Tablet,ondansetron 8 MG,"{""8 ""}",71
+"TABLET,DISINTEGRATING",ondansetron 8 MG Disintegrating Oral Tablet,"{""Oral ""}",71
+CUTANEOUS SOLUTION,diclofenac sodium 15 MG/ML Topical Solution,"{""Topical ""}",70
+Extended Release Oral Tablet,potassium chloride 10 MEQ,"{""10 ""}",70
+Oral Tablet,glipizide 10 MG,"{""10 ""}",70
+Oral Tablet,levothyroxine sodium 0.088 MG,"{""088 ""}",70
+"TABLET, EXTENDED RELEASE",potassium chloride 10 MEQ Extended Release Oral Tablet,"{""Oral ""}",70
+Topical Solution,diclofenac sodium 15 MG/ML,{NULL},70
+Oral Capsule,clindamycin 150 MG,"{""150 ""}",69
+Oral Tablet,acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG,"{""40 ""}",69
+Oral Tablet,levofloxacin 500 MG,"{""500 ""}",69
+Oral Tablet,ondansetron 8 MG,"{""8 ""}",69
+Oral Tablet,paroxetine hydrochloride 20 MG,"{""20 ""}",69
+Oral Tablet,trazodone hydrochloride 100 MG,"{""100 ""}",69
+Delayed Release Oral Capsule,esomeprazole 40 MG,"{""40 ""}",68
+Oral Tablet,chlorthalidone 25 MG,"{""25 ""}",68
+Oral Tablet,naproxen 375 MG,"{""375 ""}",68
+"CAPSULE, EXTENDED RELEASE",24 HR venlafaxine 150 MG Extended Release Oral Capsule,"{""Oral ""}",67
+"CAPSULE, EXTENDED RELEASE",24 HR venlafaxine 37.5 MG Extended Release Oral Capsule,"{""Oral ""}",67
+Extended Release Oral Capsule,24 HR venlafaxine 150 MG,"{""150 ""}",67
+Extended Release Oral Capsule,24 HR venlafaxine 37.5 MG,"{""5 ""}",67
+Oral Capsule,clindamycin 300 MG,"{""300 ""}",67
+Oral Tablet,clonazepam 1 MG,"{""1 ""}",67
+Oral Tablet,diazepam 5 MG,"{""5 ""}",67
+Oral Tablet,mirtazapine 15 MG,"{""15 ""}",67
+Delayed Release Oral Capsule,duloxetine 20 MG,"{""20 ""}",66
